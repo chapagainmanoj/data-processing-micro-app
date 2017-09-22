@@ -3,4 +3,5 @@ __pycache__/
 *.egg
 .egg/
 test.xlsx
+*lock.*
 env/
