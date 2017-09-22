@@ -26,11 +26,10 @@ def get_dropdown(filename):
 @auth_basic(check_auth)
 def index():
     dropdown = get_dropdown(INFO_PATH)
-    return template('index', menu=dropdown)
+    return template('templates/index', menu=dropdown)
 
 @route('/', method='POST')
 def process():
-    dropdown = get_dropdown(INFO_PATH)
     response = None
     script_id = request.forms.get('scripts')
     if script_id:
@@ -46,7 +45,7 @@ def process():
                         result = subprocess.run(['python', 'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
                         response = result.stdout.decode('utf-8').splitlines()
 
-        return template('result',response = response);
+        return template('templates/result',response = response);
 
 
 if __name__ == '__main__':
