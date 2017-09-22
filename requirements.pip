@@ -1,0 +1,6 @@
+bottle==0.12.13
+click==6.7
+Jinja2==2.9.6
+MarkupSafe==1.0
+Werkzeug==0.12.2
+XlsxWriter==1.0.0

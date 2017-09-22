@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title": "KOL Ranking for Scientific Literature (Web of Science)",
+        "params": "http://abc.com/test.csv",
+        "cmd": "script1.sh"
+    },
+    {   "id":2,
+        "title": "KOL Ranking for News & Blogs",
+        "params": "http://abc.com/test.csv",
+        "cmd": "script1.py"
+    }
+]
