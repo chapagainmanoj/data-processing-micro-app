@@ -11,7 +11,7 @@ RUN apt-get -y update \
     && apt-get -y install nodejs \
     && pip install --no-cache-dir -U gunicorn==19.7.1 gevent==1.2.1
 
-COPY deploy/webapp-service/scripts/*.sh /usr/local/bin/
+COPY deploy/quid-app-service/scripts/*.sh /usr/local/bin/
 COPY requirements.pip /tmp/requirements.txt
 
 RUN pip install --no-cache-dir -U -r /tmp/requirements.txt \
