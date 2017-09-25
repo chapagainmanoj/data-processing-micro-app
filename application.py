@@ -49,9 +49,7 @@ def process():
                         result = subprocess.run(['python', 'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
                         # response = result.stdout.decode('utf-8')
                         return open('output/out1.xlsx', 'rb').read()
-                        # stream = io.open("output/out1.xlsx", "rb")
-                        # buffered_reader = io.BufferedReader(stream)
-                        # return buffered_reader
+
 
 
 if __name__ == '__main__':
