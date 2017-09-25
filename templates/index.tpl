@@ -4,7 +4,7 @@
     <meta name="author" content="Quid">
     <meta name="description" content="">
     <meta name="generator" content="HubSpot">
-    <title>Manual Newsletter Sign Up</title>
+    <title>Task Runner</title>
     <link rel="shortcut icon" href="http://go.quid.com/hubfs/Favicon-1.png?t=1505946174087">
 
 
@@ -97,7 +97,7 @@
         </div> <!-- #Header -->
 
         <div id="Mast" class="clearfix">
-          <h1>Quid Task Runner</h1>
+          <h1>Task Runner</h1>
           <hr>
             <form class="" action="/" method="post" target="_blank">
               <div class="select-style">
