@@ -5,3 +5,4 @@ __pycache__/
 test.xlsx
 *lock.*
 env/
+.idea/*

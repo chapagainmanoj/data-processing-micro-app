@@ -1,0 +1,36 @@
+{
+  "prd":{
+    "container": null,
+    "hostname": null,
+    "image": "quay.io/grepsr/quid-app-service",
+    "dockerParams": {
+    },
+    "volumes": [
+      "/home/ubuntu/.deployments/quid:/home/grepsr/quid-app-service"
+    ],
+    "env": {
+      "APP_NAME": "quid",
+      "SERVICE_NAME": "quid-app-service"
+    },
+    "ports": [
+      "8889:8080"
+    ],
+    "network": "BRIDGE",
+    "cpu": 0.1,
+    "memory": 512,
+    "hostAttributes": {"role": "web"}
+  },
+
+  "dev":{
+    "inherits": "prd",
+    "env": {
+      "APP_NAME": "quid",
+      "SERVICE_NAME": "quid-app-service"
+    },
+    "hostAttributes": {"role": "dev"}
+  },
+
+  "tst":{
+    "inherits": "prd"
+  }
+}

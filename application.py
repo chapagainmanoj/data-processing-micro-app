@@ -3,6 +3,7 @@ import json
 import subprocess
 import sys
 import io
+import bottle
 from bottle import route, run, template, auth_basic,request, response
 
 INFO_PATH = 'data.json'
@@ -55,3 +56,6 @@ def process():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
     run(host='0.0.0.0', port=port, debug=True)
+
+
+application = bottle.default_app()
