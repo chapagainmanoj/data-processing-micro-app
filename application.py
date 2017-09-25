@@ -53,4 +53,4 @@ if __name__ == '__main__':
     run(host='0.0.0.0', port=port, debug=True)
 
 
-app = bottle.default_app()
+application = bottle.default_app()

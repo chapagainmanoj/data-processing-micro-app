@@ -10,14 +10,14 @@
     ],
     "env": {
       "APP_NAME": "quid",
-      "SERVICE_NAME": "quid-app-service",
+      "SERVICE_NAME": "quid-app-service"
     },
     "ports": [
-      "8080:8080"
+      "8889:8080"
     ],
     "network": "BRIDGE",
     "cpu": 0.1,
-    "memory": 1024,
+    "memory": 512,
     "hostAttributes": {"role": "web"}
   },
 
