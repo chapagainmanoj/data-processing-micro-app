@@ -6,7 +6,7 @@
     "dockerParams": {
     },
     "volumes": [
-      "/home/ubuntu/.deployments/altos-webapp:/home/grepsr/webapp-service"
+      "/home/ubuntu/.deployments/quid:/home/grepsr/quid-app-service"
     ],
     "env": {
       "APP_NAME": "quid",
