@@ -1,7 +1,9 @@
 import os
 import json
 import subprocess
-from bottle import route, run, template, auth_basic,request
+import sys
+import io
+from bottle import route, run, template, auth_basic,request, response
 
 INFO_PATH = 'data.json'
 
@@ -30,7 +32,9 @@ def index():
 
 @route('/', method='POST')
 def process():
-    response = None
+    # response = None
+    response.headers['Content-Type'] = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    response.headers['Content-Disposition'] = 'attachment; filename="out1.xlsx"'
     script_id = request.forms.get('scripts')
     if script_id:
         with open(INFO_PATH) as data_file:
@@ -40,12 +44,14 @@ def process():
                     filename, file_extension = os.path.splitext(script["cmd"])
                     if file_extension=='.sh':
                         result = subprocess.run(['./'+'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
-                        response = result.stdout.decode('utf-8').splitlines()
+                        # response = result.stdout.decode('utf-8')
                     elif file_extension=='.py':
                         result = subprocess.run(['python', 'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
-                        response = result.stdout.decode('utf-8').splitlines()
-
-        return template('templates/result',response = response);
+                        # response = result.stdout.decode('utf-8')
+                        return open('output/out1.xlsx', 'rb').read()
+                        # stream = io.open("output/out1.xlsx", "rb")
+                        # buffered_reader = io.BufferedReader(stream)
+                        # return buffered_reader
 
 
 if __name__ == '__main__':
