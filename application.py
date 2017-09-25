@@ -1,6 +1,7 @@
 import os
 import json
 import subprocess
+import bottle
 from bottle import route, run, template, auth_basic,request
 
 INFO_PATH = 'data.json'
