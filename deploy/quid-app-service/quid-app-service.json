@@ -1,0 +1,36 @@
+{
+  "prd":{
+    "container": null,
+    "hostname": null,
+    "image": "quay.io/grepsr/quid-app-service",
+    "dockerParams": {
+    },
+    "volumes": [
+      "/home/ubuntu/.deployments/altos-webapp:/home/grepsr/webapp-service"
+    ],
+    "env": {
+      "APP_NAME": "quid",
+      "SERVICE_NAME": "quid-app-service",
+    },
+    "ports": [
+      "8080:8080"
+    ],
+    "network": "BRIDGE",
+    "cpu": 0.1,
+    "memory": 1024,
+    "hostAttributes": {"role": "web"}
+  },
+
+  "dev":{
+    "inherits": "prd",
+    "env": {
+      "APP_NAME": "quid",
+      "SERVICE_NAME": "quid-app-service"
+    },
+    "hostAttributes": {"role": "dev"}
+  },
+
+  "tst":{
+    "inherits": "prd"
+  }
+}
