@@ -197,7 +197,7 @@ input[type=radio]:checked ~ label{
         <div id="Mast" class="clearfix">
           <h1>Task Runner</h1>
           <hr>
-            <form class="" action="/" method="post">
+            <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
                 %for item in menu:
                 <div class="quid-item">

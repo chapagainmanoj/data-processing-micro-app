@@ -7,7 +7,8 @@
         "output_description":"Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. ",
         "input": "quid_KOL_webofscience_input.csv",
         "output": "quid_KOL_webofscience_output_test.xlsx",
-        "script": "first.py"
+        "script": "first.py",
+        "input_ext":".csv"
     },
     {   "id":2,
         "title": "KOL Ranking for News & Blogs",
@@ -16,6 +17,7 @@
         "output_description":"Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence.",
         "input": "quid_KOL_news_input.csv",
         "output": "quid_KOL_webofscience_output_test.xlsx",
-        "script": "second.py"
+        "script": "second.py",
+        "input_ext":".csv"
     }
 ]

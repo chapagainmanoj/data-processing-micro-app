@@ -2,10 +2,7 @@ import xlsxwriter
 import xlrd
 import csv
 
-
-
-
-
+print('first')
 # input file handle
 input_file = './input/quid_KOL_webofscience_input.csv'
 filename = './output/out1.xlsx'
