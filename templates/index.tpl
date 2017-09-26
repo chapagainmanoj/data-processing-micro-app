@@ -69,6 +69,10 @@
   color: white;
   font-family: 'Roboto', sans-serif !important;
 }
+.quid-wrap h3{
+  margin: 0px;
+  padding: 10px 0px;
+}
 .quid-wrap .quid-item{
   background: #333;
   padding: 15px 15px 10px;
