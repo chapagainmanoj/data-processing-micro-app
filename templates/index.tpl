@@ -75,10 +75,13 @@
   margin-bottom: 10px;
 }
 .quid-wrap .quid-item:hover{
-  background: #222;
+  background: #444;
+  cursor: pointer;
 }
 .quid-wrap .quid-item.active{
-  background: #444;
+  background: #222;
+  cursor: default;
+  border: solid 1px #444;
 }
 .quid-wrap .quid-item h4{
   font-family: 'Roboto', sans-serif;
@@ -121,14 +124,24 @@
           <hr>
             <form class="" action="/" method="post" target="_blank">
               <div class="quid-wrap">
-                %for item in menu:
-                <div class="quid-item" id="{{item['id']}}">
-                  <h4>{{item['title']}}</h4>
-                  <p>{{item['description']}}</p>
-                  <p><strong>Input:</strong> {{item['input']}} <strong>Sample:</strong> {{item['input_sample_url']}}</p>
-                  <p><strong>Output:</strong> {{item['output']}} <strong>Sample:</strong> {{item['output_sample_url']}}</p>
+                <div class="quid-item">
+                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
+                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
+                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
+                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
                 </div>
-                %end
+                <div class="quid-item">
+                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
+                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
+                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
+                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
+                </div>
+                <div class="quid-item active">
+                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
+                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
+                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
+                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
+                </div>
               </div>
               <input class="process-btn" type="submit" value="Process">
             </form>
