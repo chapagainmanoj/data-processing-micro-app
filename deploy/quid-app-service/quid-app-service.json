@@ -17,8 +17,8 @@
     ],
     "network": "BRIDGE",
     "cpu": 0.1,
-    "memory": 512,
-    "hostAttributes": {"role": "web"}
+    "memory": 256,
+    "hostAttributes": {"name": "cff01"}
   },
 
   "dev":{
