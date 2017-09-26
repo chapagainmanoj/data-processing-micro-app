@@ -172,6 +172,17 @@ input[type=radio]:checked ~ .check::before{
 input[type=radio]:checked ~ label{
   color: #0DFF92;
 }
+.file-upload{
+  background: #444;
+  display: inline-block;
+  width: 100%;
+}
+.inputfile{
+  display: inline-block;
+  width: 100%;
+  padding: 20px 30px;
+  border: dotted 2px #666;
+}
 </style>
 
 
