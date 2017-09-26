@@ -65,7 +65,12 @@ def get_formula(header, row, type=None):
 wb_read = xlrd.open_workbook(template_file)
 sheets = wb_read.sheets()
 for sheet in sheets:
-    if sheet.name =="Output":
+    if sheet.name == "Weights":
+        ws = workbook.add_worksheet("Weights")
+        for row in range(sheet.nrows):
+            for col in range(sheet.ncols):
+                ws.write(row,col,sheet.cell(row,col).value)
+    elif sheet.name =="Output":
         worksheet2 = workbook.add_worksheet("Output")
         for row in range(2):
             for col in range(sheet.ncols):
@@ -90,7 +95,7 @@ for sheet in sheets:
                     formula = get_formula(header,r+3,'per')
                     cell = xlsxwriter.utility.xl_rowcol_to_cell(r+2,max_col)
                     worksheet2.write_formula(cell, formula)
-                    
+
             worksheet2.write_formula(r+2,max_col+1,get_formula('Total Score',r+3))
             worksheet2.write_formula(r+2,max_col+2,get_formula('Overall Rank',r+3))
 workbook.close()

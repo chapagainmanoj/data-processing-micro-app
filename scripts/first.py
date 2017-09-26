@@ -78,7 +78,12 @@ table_names = ['Names','Count of Auther\'s Name','Avg. of Betweenness Centrality
 wb_read = xlrd.open_workbook(template_file)
 sheets = wb_read.sheets()
 for sheet in sheets:
-    if sheet.name =="Output":
+    if sheet.name == "Weights":
+        ws = workbook.add_worksheet("Weights")
+        for row in range(sheet.nrows):
+            for col in range(sheet.ncols):
+                ws.write(row,col,sheet.cell(row,col).value)
+    elif sheet.name =="Output":
         worksheet2 = workbook.add_worksheet("Output")
         for row in range(2):
             for col in range(sheet.ncols):
