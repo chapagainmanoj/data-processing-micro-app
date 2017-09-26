@@ -2,7 +2,20 @@
     {
         "id": 1,
         "title": "KOL Ranking for Scientific Literature (Web of Science)",
-        "params": "http://abc.com/test.csv",
-        "cmd": "first.py"
+        "description":"Rank most influential researchers & opinion leaders in the scientific community",
+        "input_description":"CSV export from a Web of Science network from Quid Opus",
+        "output_description":"Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. ",
+        "input": "quid_KOL_webofscience_input.csv",
+        "output": "quid_KOL_webofscience_output_test.xlsx",
+        "script": "first.py"
+    },
+    {   "id":2,
+        "title": "KOL Ranking for News & Blogs",
+        "description":"Rank most influential opinion leaders mentioned in the media",
+        "input_description":"CSV export from a Quid news & blogs network",
+        "output_description":"Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence.",
+        "input": "quid_KOL_news_input.csv",
+        "output": "quid_KOL_webofscience_output_test.xlsx",
+        "script": "second.py"
     }
 ]

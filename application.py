@@ -17,18 +17,15 @@ def check_auth(user,pw):
         return True
     return False
 
-def get_dropdown(filename):
-    dropdown = []
+def get_info(filename):
     with open(filename) as data_file:
         data = json.load(data_file)
-        for script in data:
-            dropdown.append({'id':script['id'],'title':script['title']})
-    return dropdown
+    return data
 
 @route('/', method='GET')
 @auth_basic(check_auth)
 def index():
-    dropdown = get_dropdown(INFO_PATH)
+    dropdown = get_info(INFO_PATH)
     return template('templates/index', menu=dropdown)
 
 @route('/', method='POST')
@@ -37,6 +34,12 @@ def process():
     response.headers['Content-Type'] = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     response.headers['Content-Disposition'] = 'attachment; filename="out1.xlsx"'
     script_id = request.forms.get('scripts')
+    name = request.forms.name
+    input_csv = request.files.data
+
+    print(name)
+    print(input_csv)
+    print(request.forms.get('scripts'))
     if script_id:
         with open(INFO_PATH) as data_file:
             data = json.load(data_file)

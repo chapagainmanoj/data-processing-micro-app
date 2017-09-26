@@ -122,32 +122,28 @@
         <div id="Mast" class="clearfix">
           <h1>Task Runner</h1>
           <hr>
-            <form class="" action="/" method="post" target="_blank">
+            <form class="" action="/" method="post">
               <div class="quid-wrap">
+                %for item in menu:
                 <div class="quid-item">
-                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
-                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
-                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
-                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
+                  <h4>{{item['title']}}</h4>
+                  <p>{{item['description']}}</p>
+                  <input type="hidden" value={{item['id']}} id={{item['id']}}/>
+                  <p><strong>Input:</strong>{{item['input_description']}}<strong>Upload: </strong></p>
+                  <input type="file" name="data"/>
+                  <p><strong>Output:</strong> {{item['output_description']}}<strong>Download: </strong></p>
                 </div>
-                <div class="quid-item">
-                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
-                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
-                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
-                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
-                </div>
-                <div class="quid-item active">
-                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
-                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
-                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
-                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
-                </div>
+                %end
               </div>
               <input class="process-btn" type="submit" value="Process">
             </form>
         </div> <!-- #Mast -->
     </div> <!-- .header-container -->
     <script type="text/javascript">
+    $(".quid-item").on("click", function() {
+      $(".quid-item").removeClass("active");
+      $(this).addClass("active");
+    });
       $(document).ready(function() {
         setTimeout(function() {
           $('li.hs-form-checkbox').each(function() {
