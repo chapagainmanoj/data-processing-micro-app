@@ -3,18 +3,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Quid">
     <meta name="description" content="">
-    <meta name="generator" content="HubSpot">
     <title>Task Runner</title>
     <link rel="shortcut icon" href="http://go.quid.com/hubfs/Favicon-1.png?t=1505946174087">
 
-
-    <script src="https://static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
+    <script src="//static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
     <script type="text/javascript">hsjQuery = window['jQuery']</script>
-    <link href="https://static.hsstatic.net/content_shared_assets/static-1.4047/css/public_common.css" rel="stylesheet">
-    <meta property="og:description" content="">
-    <meta property="og:title" content="Manual Newsletter Sign Up">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:title" content="Manual Newsletter Sign Up">
+    <link href="//static.hsstatic.net/content_shared_assets/static-1.4047/css/public_common.css" rel="stylesheet">
 
 <!-- /Added by GoogleAnalytics integration -->
 
@@ -24,13 +18,10 @@
     <script src="https://static.hsstatic.net/content_shared_assets/static-1.4047/js/css3-mediaqueries.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<meta property="og:url" content="http://go.quid.com/bcg-newsletter-sign-up">
 <link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="http://go.quid.com/hs-fs/hub/759285/hub_generated/template_assets/1479146847334/custom/page/web_page_basic/landing-page-redesign-2016.min.css">
+<link rel="stylesheet" href="landing-page-redesign-2016.min.css">
 
 
     <!-- The style tag has been deprecated. Attached stylesheets are included in the required_head_tags page variable. -->
@@ -38,8 +29,8 @@
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
 <![endif]-->
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 <style>
 .process-btn{
   padding: 10px 50px;
@@ -197,42 +188,9 @@
 </div><!--end footer wrapper -->
 
 
-<script type="text/javascript" src="https://static.hsstatic.net/content_shared_assets/static-1.4047/js/public_common.js"></script>
+<script type="text/javascript" src="//static.hsstatic.net/content_shared_assets/static-1.4047/js/public_common.js"></script>
 
-
-<!-- Start of HubSpot Analytics Code -->
-<script type="text/javascript">
-var _hsq = _hsq || [];
-_hsq.push(["setContentType", "landing-page"]);
-_hsq.push(["setCanonicalUrl", "http:\/\/go.quid.com\/bcg-newsletter-sign-up"]);
-_hsq.push(["setPageId", "5253337811"]);
-_hsq.push(["setContentMetadata", {
-    "contentPageId": 5253337811,
-    "legacyPageId": "5253337811",
-    "contentGroupId": null,
-    "abTestId": null,
-    "languageVariantId": 5253337811,
-    "languageCode": null
-}]);
-_hsq.push(["setTargetedContentMetadata", []]);
-</script>
-
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/759285.js"></script>
-<!-- End of HubSpot Analytics Code -->
-
-
-<script type="text/javascript">
-var hsVars = {
-    ticks: 1506055456092,
-    page_id: 5253337811,
-    content_group_id: 0,
-    portal_id: 759285,
-    app_hs_base_url: "https://app.hubspot.com",
-    language: "en",
-    analytics_page_type: "landing-page"
-}
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 <script type="text/javascript">
     $("select").select2({
       minimumResultsForSearch: Infinity
