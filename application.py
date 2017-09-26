@@ -3,6 +3,7 @@ import json
 import subprocess
 import sys
 import io
+import stat
 import bottle
 from bottle import route, run, template, auth_basic,request, response
 
@@ -34,21 +35,27 @@ def process():
     response.headers['Content-Disposition'] = 'attachment; filename="out1.xlsx"'
     script_id = request.forms.selector
     input_csv = request.forms.data
-    #upload = request.files.get('data')
-    print(request.files.__dict__)
+    upload = request.files.get('data')
 
-    upload_path = '/tmp/'+input_csv
-
-    input_csv.save(upload_path)
-    print("saved")
+    upload_path = '/tmp/'
+    try:
+        upload.save(upload_path)
+    # except IOError:
+    #     os.rename(upload_path+input_csv,upload_path+input_csv+'.old')
+    except:
+        pass
     if script_id:
         with open(INFO_PATH) as data_file:
             data = json.load(data_file)
             for script in data:
                 if int(script['id']) == int(script_id):
                     filename, file_extension = os.path.splitext(script["script"])
-                    result = subprocess.run([filename,script['input']],stdout=subprocess.PIPE)
+
+                    st = os.stat('scripts/'+script['script'])
+                    os.chmod('scripts/'+script['script'], st.st_mode | stat.S_IEXEC)
+                    result = subprocess.run(['./scripts/'+script['script'],script['input']],stdout=subprocess.PIPE)
                     output_file = result.stdout.decode('utf-8').rstrip()
+                    print(output_file)
                     return open('output/out1.xlsx', 'rb').read()
 
 

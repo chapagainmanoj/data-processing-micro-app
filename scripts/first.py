@@ -4,8 +4,11 @@ import csv
 
 print('first')
 # input file handle
-input_file = './input/quid_KOL_webofscience_input.csv'
-filename = './output/out1.xlsx'
+
+print(argv[0])
+print(argv[1])
+input_file = '/tmp/quid_KOL_webofscience_input.csv'
+filename = '/tmp/out1.xlsx'
 template_file = './output/template.xlsx'
 # Populate contents of 'Raw data' tab (copy/paste from input file)
 workbook = xlsxwriter.Workbook(filename,{'constant_memory':True})
