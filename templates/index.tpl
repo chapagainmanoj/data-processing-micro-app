@@ -4,15 +4,11 @@
     <meta name="author" content="Quid">
     <meta name="description" content="">
     <title>Task Runner</title>
-
+    <link rel="shortcut icon" href="http://go.quid.com/hubfs/Favicon-1.png?t=1505946174087">
 
     <script src="//static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
     <script type="text/javascript">hsjQuery = window['jQuery']</script>
     <link href="//static.hsstatic.net/content_shared_assets/static-1.4047/css/public_common.css" rel="stylesheet">
-    <meta property="og:description" content="">
-    <meta property="og:title" content="Manual Newsletter Sign Up">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:title" content="Manual Newsletter Sign Up">
 
 <!-- /Added by GoogleAnalytics integration -->
 
@@ -25,7 +21,7 @@
 <link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="//go.quid.com/hs-fs/hub/759285/hub_generated/template_assets/1479146847334/custom/page/web_page_basic/landing-page-redesign-2016.min.css">
+<link rel="stylesheet" href="landing-page-redesign-2016.min.css">
 
 
     <!-- The style tag has been deprecated. Attached stylesheets are included in the required_head_tags page variable. -->
@@ -192,20 +188,8 @@
 </div><!--end footer wrapper -->
 
 
-<script type="text/javascript" src="https://static.hsstatic.net/content_shared_assets/static-1.4047/js/public_common.js"></script>
+<script type="text/javascript" src="//static.hsstatic.net/content_shared_assets/static-1.4047/js/public_common.js"></script>
 
-
-<script type="text/javascript">
-var hsVars = {
-    ticks: 1506055456092,
-    page_id: 5253337811,
-    content_group_id: 0,
-    portal_id: 759285,
-    app_hs_base_url: "https://app.hubspot.com",
-    language: "en",
-    analytics_page_type: "landing-page"
-}
-</script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 <script type="text/javascript">
     $("select").select2({
