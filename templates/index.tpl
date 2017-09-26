@@ -97,6 +97,81 @@
 .quid-wrap .quid-item p a{
   color: white;
 }
+
+/*Check*/
+
+.quid-item{
+  color: #AAAAAA;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.quid-item input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.quid-item label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  padding: 0px 0px 0px 50px;
+  margin: 10px auto;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+.quid-item:hover label{
+  color: #FFFFFF;
+}
+
+.quid-item .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+}
+
+.quid-item:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+.quid-item .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  top: 3px;
+  left: 3px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
 </style>
 
 
@@ -125,6 +200,17 @@
             <form class="" action="/" method="post" target="_blank">
               <div class="quid-wrap">
                 <div class="quid-item">
+                    <input type="radio" id="f-option" name="selector">
+                    <label for="f-option">
+                      <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
+                      <p>Rank most influential researchers & opinion leaders in the scientific community</p>
+                      <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
+                      <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
+                    </label>
+                    
+                    <div class="check"></div>
+                </div>
+                <div class="quid-item">
                   <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
                   <p>Rank most influential researchers & opinion leaders in the scientific community</p>
                   <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
@@ -136,13 +222,6 @@
                   <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
                   <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
                 </div>
-                <div class="quid-item active">
-                  <h4>KOL Ranking for Scientific Literature (Web of Science)</h4>
-                  <p>Rank most influential researchers & opinion leaders in the scientific community</p>
-                  <p><strong>Input:</strong> CSV export from a Web of Science network from Quid Opus <strong>Sample: </strong></p>
-                  <p><strong>Output:</strong> Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence. <strong>Sample: </strong></p>
-                </div>
-              </div>
               <input class="process-btn" type="submit" value="Process">
             </form>
         </div> <!-- #Mast -->
