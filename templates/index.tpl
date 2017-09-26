@@ -172,6 +172,17 @@ input[type=radio]:checked ~ .check::before{
 input[type=radio]:checked ~ label{
   color: #0DFF92;
 }
+.file-upload{
+  background: #444;
+  display: inline-block;
+  width: 100%;
+}
+.inputfile{
+  display: inline-block;
+  width: 100%;
+  padding: 20px 30px;
+  border: dotted 2px #666;
+}
 </style>
 
 
@@ -199,6 +210,7 @@ input[type=radio]:checked ~ label{
           <hr>
             <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
+                <h3>Step 1</h3>
                 %for item in menu:
                 <div class="quid-item">
                     <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
@@ -211,7 +223,12 @@ input[type=radio]:checked ~ label{
                     <div class="check"></div>
                 </div>
                 %end
-                <input type="file" name="data" required/>
+                <div class="second-option">
+                  <h3>Step 2</h3>
+                  <div class="file-upload">
+                    <input type="file" name="data" id="file" class="inputfile" required="" />
+                  </div>
+                </div>
               <input class="process-btn" type="submit" value="Process">
 
             </form>
