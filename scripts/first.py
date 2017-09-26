@@ -1,7 +1,7 @@
 import xlsxwriter
 import xlrd
 import csv
-
+import re
 
 
 
@@ -19,6 +19,11 @@ with open(input_file,'rt', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile)
     for r, row in enumerate(reader):
         for c, col in enumerate(row):
+            if col.isdigit():
+                col = int(col)
+            else:
+                if re.match('^\-?[0-9]+\.?[0-9]+$', col):
+                    col = float(col)
             worksheet.write(r,c,col)
             higest_col = c
             if(xlsxwriter.utility.xl_col_to_name(c)=='AR'):
