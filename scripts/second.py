@@ -1,13 +1,15 @@
+#!/usr/bin/env python
 import xlsxwriter
 import csv
 import re
 import xlrd
 
+from sys import argv
 
-
-# input file handle
-input_file = './input/quid_KOL_news_input.csv'
-filename = './output/out2.xlsx'
+print(argv[0])
+print(argv[1])
+input_file = '/tmp/'+argv[1]
+filename = '/tmp/output.xlsx'
 template_file = './output/template2.xlsx'
 
 table_names = ['Names','Count of Mentions','Avg. of Betweenness Centrality','Avg. of Inter-Cluster Connectivity','Sum of Social Engagement','Sum of Published Count']
@@ -20,6 +22,10 @@ with open(input_file,'rt', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile)
     for r, row in enumerate(reader):
         for c, col in enumerate(row):
+            if col.isdigit():
+                col = int(col)
+            elif re.match('^-?[0-9]+\.[0-9]+$', col):
+                col = float(col)
             worksheet.write(r,c,col)
             higest_col = c
             if(xlsxwriter.utility.xl_col_to_name(c)=='S'):

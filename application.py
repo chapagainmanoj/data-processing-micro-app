@@ -7,6 +7,7 @@ import stat
 import bottle
 from bottle import route, run, template, auth_basic,request, response
 
+
 INFO_PATH = 'data.json'
 
 
@@ -39,9 +40,15 @@ def process():
 
     upload_path = '/tmp/'
     try:
+        os.remove('/tmp/'+input_csv)
+    except OSError:
+        pass
+    try:
+        os.remove('/tmp/output.xlsx')
+    except OSError:
+        pass
+    try:
         upload.save(upload_path)
-    # except IOError:
-    #     os.rename(upload_path+input_csv,upload_path+input_csv+'.old')
     except:
         pass
     if script_id:
@@ -53,10 +60,10 @@ def process():
 
                     st = os.stat('scripts/'+script['script'])
                     os.chmod('scripts/'+script['script'], st.st_mode | stat.S_IEXEC)
-                    result = subprocess.run(['./scripts/'+script['script'],script['input']],stdout=subprocess.PIPE)
+                    result = subprocess.run(['scripts/'+script['script'],script['input']],stdout=subprocess.PIPE)
                     output_file = result.stdout.decode('utf-8').rstrip()
                     print(output_file)
-                    return open('output/out1.xlsx', 'rb').read()
+                    return open('/tmp/output.xlsx','rb').read()
 
 
 
