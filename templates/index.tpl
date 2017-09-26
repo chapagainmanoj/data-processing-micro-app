@@ -65,6 +65,35 @@
   height: 48px;
   right: 10px;
 }
+.quid-wrap{
+  color: white;
+  font-family: 'Roboto', sans-serif !important;
+}
+.quid-wrap .quid-item{
+  background: #333;
+  padding: 15px 15px 10px;
+  margin-bottom: 10px;
+}
+.quid-wrap .quid-item:hover{
+  background: #222;
+}
+.quid-wrap .quid-item.active{
+  background: #444;
+}
+.quid-wrap .quid-item h4{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+.quid-wrap .quid-item p{
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 18px !important;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.quid-wrap .quid-item p a{
+  color: white;
+}
 </style>
 
 
@@ -91,12 +120,15 @@
           <h1>Task Runner</h1>
           <hr>
             <form class="" action="/" method="post" target="_blank">
-              <div class="select-style">
-                <select name="scripts" >
-                  %for item in menu:
-                  <option value={{item['id']}}>{{item['title']}}</option>
-                  %end
-                </select>
+              <div class="quid-wrap">
+                %for item in menu:
+                <div class="quid-item" id="{{item['id']}}">
+                  <h4>{{item['title']}}</h4>
+                  <p>{{item['description']}}</p>
+                  <p><strong>Input:</strong> {{item['input']}} <strong>Sample:</strong> {{item['input_sample_url']}}</p>
+                  <p><strong>Output:</strong> {{item['output']}} <strong>Sample:</strong> {{item['output_sample_url']}}</p>
+                </div>
+                %end
               </div>
               <input class="process-btn" type="submit" value="Process">
             </form>
