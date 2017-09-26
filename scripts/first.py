@@ -39,15 +39,15 @@ auther_name.discard('AF')
 def get_formula(header, row, type=None):
     if type=='abs':
         if (header == 'Count of Auther\'s Name'):
-            return 'COUNTIF($\'Raw data\'.AR:AR,"*"&$Output.A%d&"*")'% (row)
+            return '=COUNTIF(\'Raw data\'!AR:AR,"*"&Output!A%d&"*")'% (row)
         elif (header == 'Avg. of Betweenness Centrality'):
-            return 'AVERAGEIFS($\'Raw data\'.K:K,$\'Raw data\'.AR:AR, "*" & $Output.A%d &"*")' %(row)
+            return '=AVERAGEIFS(\'Raw data\'!K:K,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")' %(row)
         elif (header == 'Avg. of Inter-Cluster Connectivity'):
-            return 'AVERAGEIFS($\'Raw data\'.W:W,$\'Raw data\'.AR:AR, "*" & $Output.A%d &"*")'% (row)
+            return '=AVERAGEIFS(\'Raw data\'!W:W,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")'% (row)
         elif (header == 'Sum of Cited by'):
-            return 'SUMIFS($\'Raw data\'.BX:BX,$\'Raw data\'.AR:AR,"*" & $Output.A%d & "*")'% (row)
+            return '=SUMIFS(\'Raw data\'!BX:BX,\'Raw data\'!AR:AR,"*" & Output!A%d & "*")'% (row)
         elif (header == 'Sum of Connections'):
-            return 'SUMIFS($\'Raw data\'.CI:CI,$\'Raw data\'.AR:AR,"*" & $Output.A%d & "*")'% (row)
+            return '=SUMIFS(\'Raw data\'!CI:CI,\'Raw data\'!AR:AR,"*" & Output!A%d & "*")'% (row)
         else:
             return None
     elif type=='per':
@@ -65,7 +65,7 @@ def get_formula(header, row, type=None):
             return None
     else:
         if header == 'Total Score':
-            return '=(G%d*$Weights.$B$2) + (H%d*$Weights.$B$3)+(I%d*$Weights.$B$4)+(J%d*$Weights.$B$5)+ (K%d*$Weights.$B$6)' %(row,row,row,row,row)
+            return '=(G%d*Weights!$B$2) + (H%d*Weights!$B$3)+(I%d*Weights!$B$4)+(J%d*Weights!$B$5)+ (K%d*Weights!$B$6)' %(row,row,row,row,row)
         elif header == 'Overall Rank':
             return '=RANK(L%d,L:L)' %(row)
 
