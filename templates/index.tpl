@@ -97,6 +97,81 @@
 .quid-wrap .quid-item p a{
   color: white;
 }
+
+/*Check*/
+
+.quid-item{
+  color: #AAAAAA;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.quid-item input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.quid-item label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  padding: 0px 0px 0px 50px;
+  margin: 10px auto;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+.quid-item:hover label{
+  color: #FFFFFF;
+}
+
+.quid-item .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+}
+
+.quid-item:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+.quid-item .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  top: 3px;
+  left: 3px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
 </style>
 
 
@@ -126,24 +201,23 @@
               <div class="quid-wrap">
                 %for item in menu:
                 <div class="quid-item">
-                  <h4>{{item['title']}}</h4>
-                  <p>{{item['description']}}</p>
-                  <input type="hidden" value={{item['id']}} id={{item['id']}}/>
-                  <p><strong>Input:</strong>{{item['input_description']}}<strong>Upload: </strong></p>
-                  <input type="file" name="data"/>
-                  <p><strong>Output:</strong> {{item['output_description']}}<strong>Download: </strong></p>
+                    <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
+                    <label for={{item['id']}}>
+                      <h4>{{item['title']}}</h4>
+                      <p>{{item['description']}}</p>
+                      <p><strong>Input:</strong> {{item['input_description']}} <strong>Upload: </strong></p>
+                      <p><strong>Output:</strong> {{item['output_description']}} <strong>Sample: </strong></p>
+                    </label>
+                    <div class="check"></div>
                 </div>
                 %end
-              </div>
+                <input type="file" name="data" required/>
               <input class="process-btn" type="submit" value="Process">
+
             </form>
         </div> <!-- #Mast -->
     </div> <!-- .header-container -->
     <script type="text/javascript">
-    $(".quid-item").on("click", function() {
-      $(".quid-item").removeClass("active");
-      $(this).addClass("active");
-    });
       $(document).ready(function() {
         setTimeout(function() {
           $('li.hs-form-checkbox').each(function() {

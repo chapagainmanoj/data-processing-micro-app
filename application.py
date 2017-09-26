@@ -33,24 +33,24 @@ def process():
     # response = None
     response.headers['Content-Type'] = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     response.headers['Content-Disposition'] = 'attachment; filename="out1.xlsx"'
-    script_id = request.forms.get('scripts')
-    name = request.forms.name
-    input_csv = request.files.data
+    script_id = request.forms.selector
+    name = request.forms.selector
+    input_csv = request.files.data[0]
 
     print(name)
     print(input_csv)
-    print(request.forms.get('scripts'))
+    print(request.forms.__dict__)
     if script_id:
         with open(INFO_PATH) as data_file:
             data = json.load(data_file)
             for script in data:
                 if int(script['id']) == int(script_id):
-                    filename, file_extension = os.path.splitext(script["cmd"])
+                    filename, file_extension = os.path.splitext(script["script"])
                     if file_extension=='.sh':
-                        result = subprocess.run(['./'+'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
+                        result = subprocess.run(['./'+'scripts/'+ script['script'],script['params']],stdout=subprocess.PIPE)
                         # response = result.stdout.decode('utf-8')
                     elif file_extension=='.py':
-                        result = subprocess.run(['python', 'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
+                        result = subprocess.run(['python', 'scripts/'+ script['script'],script['params']],stdout=subprocess.PIPE)
                         # response = result.stdout.decode('utf-8')
                         return open('output/out1.xlsx', 'rb').read()
 
