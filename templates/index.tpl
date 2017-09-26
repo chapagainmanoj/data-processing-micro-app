@@ -199,6 +199,7 @@ input[type=radio]:checked ~ label{
           <hr>
             <form class="" action="/" method="post">
               <div class="quid-wrap">
+                <h3>Step 1</h3>
                 %for item in menu:
                 <div class="quid-item">
                     <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
@@ -211,7 +212,12 @@ input[type=radio]:checked ~ label{
                     <div class="check"></div>
                 </div>
                 %end
-                <input type="file" name="data" required/>
+                <div class="second-option">
+                  <h3>Step 2</h3>
+                  <div class="file-upload">
+                    <input type="file" name="data" id="file" class="inputfile" required="" />
+                  </div>
+                </div>
               <input class="process-btn" type="submit" value="Process">
 
             </form>
