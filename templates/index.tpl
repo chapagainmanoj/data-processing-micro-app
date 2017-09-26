@@ -21,6 +21,9 @@
 <link href="//cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141902003/hubspot_default/shared/responsive/layout.min.css" rel="stylesheet">
 
 
+<link rel="stylesheet" href="{{ get_url('static', path='landing-page-redesign-2016.min.css') }}">
+
+
     <!-- The style tag has been deprecated. Attached stylesheets are included in the required_head_tags page variable. -->
     <!--[if lte IE 8]>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
