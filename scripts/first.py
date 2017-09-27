@@ -17,14 +17,12 @@ auther_name = set()
 with open(input_file,'rt', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile)
     for r, row in enumerate(reader):
+        for c, col in enumerate(row):
             if col.isdigit():
                 col = int(col)
-                worksheet.write_number(r,c,col)
             elif re.match('^-?[0-9]+\.[0-9]+$', col):
                 col = float(col)
-                worksheet.write_number(r,c,col)
-            else:
-                worksheet.write(r,c,col)
+            worksheet.write(r,c,col)
             higest_col = c
             if(xlsxwriter.utility.xl_col_to_name(c)=='AR'):
                 auther_name |= set([author.strip() for author in col.split(';')])
@@ -53,10 +51,8 @@ def get_formula(header, row, type=None):
             return '=SUMIFS(\'Raw data\'!BX:BX,\'Raw data\'!AR:AR,"*" & Output!A%d & "*")'% (row)
         elif (header == 'Sum of Connections'):
             return '=SUMIFS(\'Raw data\'!CI:CI,\'Raw data\'!AR:AR,"*" & Output!A%d & "*")'% (row)
-        elif (header == 'Avg. of Flow'):
-            return '=AVERAGEIFS(\'Raw data\'!U:U,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")'% (row)
         else:
-            return ''
+            return None
     elif type=='per':
         if (header == 'Count of Auther\'s Name'):
             return 'PERCENTRANK(B:B,B%d)'% (row)
@@ -69,7 +65,7 @@ def get_formula(header, row, type=None):
         elif (header == 'Sum of Connections'):
             return 'PERCENTRANK(F:F,F%d)'% (row)
         else:
-            return ''
+            return None
     else:
         if header == 'Total Score':
             return '=(G%d*Weights!$B$2) + (H%d*Weights!$B$3)+(I%d*Weights!$B$4)+(J%d*Weights!$B$5)+ (K%d*Weights!$B$6)' %(row,row,row,row,row)
@@ -77,17 +73,8 @@ def get_formula(header, row, type=None):
             return '=RANK(L%d,L:L)' %(row)
 
 
-# Names	Count of  Author's Name	Avg. of Flow	Avg. of Inter-Cluster Connectivity
-# Sum of Cited by
-# Sum of Connections	Count of  Author's Name
-# Avg. of Betweenness Centrality	Avg. of Inter-Cluster Connectivity
-# Sum of Cited by	Sum of Connections	Total Score	Overall Rank
 
-
-abs_header = ['Name','Count of Auther\'s Name','Avg. of Flow', \
-'Avg. of Inter-Cluster Connectivity','Sum of Cited by','Sum of Connections'\
-]
-per_header = ['Count of Auther\'s Name','Avg. of Betweenness Centrality', \
+table_names = ['Names','Count of Auther\'s Name','Avg. of Betweenness Centrality', \
 'Avg. of Inter-Cluster Connectivity','Sum of Cited by','Sum of Connections'\
 ]
 
@@ -108,7 +95,7 @@ for sheet in sheets:
                 #len_table_names = 13
         for r,val in enumerate(auther_name):
             max_col = 0
-            for c,header in enumerate(abs_header):
+            for c,header in enumerate(table_names):
                 if c == 0:
                     worksheet2.write_string(r+2,c,val)
                 else:
@@ -116,7 +103,10 @@ for sheet in sheets:
                     cell = xlsxwriter.utility.xl_rowcol_to_cell(r+2,c)
                     worksheet2.write_formula(cell, formula)
                     max_col = c
-            for c,header in enumerate(per_header):
+            for c,header in enumerate(table_names):
+                if c == 0:
+                    pass
+                else:
                     max_col += 1
                     formula = get_formula(header,r+3,'per')
                     cell = xlsxwriter.utility.xl_rowcol_to_cell(r+2,max_col)
