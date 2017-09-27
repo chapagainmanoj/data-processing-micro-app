@@ -5,11 +5,12 @@ import re
 import csv
 from sys import argv
 
-input_file = '/tmp/'+argv[1]
-filename = '/tmp/output.xlsx'
-template_file = './output/template.xlsx'
+input_file = argv[1]
+output_file = argv[2]
+template_file = argv[3]
+
 # Populate contents of 'Raw data' tab (copy/paste from input file)
-workbook = xlsxwriter.Workbook(filename,{'constant_memory':True})
+workbook = xlsxwriter.Workbook(output_file, {'constant_memory': True})
 worksheet = workbook.add_worksheet("Raw data")
 higest_col = None
 auther_name = set()
@@ -113,4 +114,3 @@ for sheet in sheets:
             worksheet2.write_formula(r+2,max_col+1,get_formula('Total Score',r+3))
             worksheet2.write_formula(r+2,max_col+2,get_formula('Overall Rank',r+3))
 workbook.close()
-print(filename)
