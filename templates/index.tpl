@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Quid">
     <meta name="description" content="">
-    <title>Task Runner</title>
+    <title>Quid Labs</title>
     <link rel="shortcut icon" href="http://go.quid.com/hubfs/Favicon-1.png?t=1505946174087">
 
     <script src="//static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
@@ -210,7 +210,7 @@ input[type=radio]:checked ~ label{
         </div> <!-- #Header -->
 
         <div id="Mast" class="clearfix">
-          <h1>Task Runner</h1>
+          <h1>Quid Labs</h1>
           <hr>
             <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
@@ -310,8 +310,8 @@ input[type=radio]:checked ~ label{
 </li>
 </ul>
 </div>
-<p class="footer__copy-right">Â© 2016 Quid All Rights Reserved.</p>
-<p class="footer__trademark">Â© 2016 Quid is a registered trademark of Quid, Inc.</p>
+<p class="footer__copy-right">© 2016 Quid All Rights Reserved.</p>
+<p class="footer__trademark">© 2016 Quid is a registered trademark of Quid, Inc.</p>
 </footer>
 <!-- footer end -->
 </div> <!-- .footer-container --></span>
