@@ -41,9 +41,9 @@ def get_formula(header, row, type=None):
         if (header == 'Count of Mentions'):
             return '=COUNTIF(\'Raw data\'!S:S, "*" & A%d & "*")'%(row)
         elif (header == 'Avg. of Flow'):
-            return '=AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AT:AT)' %(row)
+            return '=IFERROR(AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AT:AT),0)' %(row)
         elif (header == 'Avg. of Inter-Cluster Connectivity'):
-            return '=AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AX:AX)'%(row)
+            return '=IFERROR(AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AX:AX),0)'%(row)
         elif (header == 'Sum of Social Engagement'):
             return '=SUMIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!I:I)' %(row)
         elif (header == 'Sum of Published Count'):
@@ -71,7 +71,7 @@ def get_formula(header, row, type=None):
             return ''
     else:
         if header == 'Total Score':
-            return '=(H%d*Weights?$B$2) + (I%d*Weights!$B$3)+(J%d*Weights!$B$4)+(K%d*Weights!$B$5)+ (L%d*Weights!$B$6)+(M%d*Weights!$B$7)' %(row,row,row,row,row,row)
+            return '=((H%d*Weights!$B$2) + (I%d*Weights!$B$3)+(J%d*Weights!$B$4)+(K%d*Weights!$B$5)+ (L%d*Weights!$B$6)+(M%d*Weights!$B$7))' %(row,row,row,row,row,row)
         elif header == 'Overall Rank':
             return '=RANK(N%d,N:N)' %(row)
 
