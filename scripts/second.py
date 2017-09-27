@@ -6,15 +6,14 @@ import xlrd
 
 from sys import argv
 
-print(argv[0])
-print(argv[1])
-input_file = '/tmp/'+argv[1]
-filename = '/tmp/output.xlsx'
-template_file = './output/template2.xlsx'
+input_file = argv[1]
+output_file = argv[2]
+template_file = argv[3]
 
-table_names = ['Names','Count of Mentions','Avg. of Betweenness Centrality','Avg. of Inter-Cluster Connectivity','Sum of Social Engagement','Sum of Published Count']
+table_names = ['Names','Count of Mentions','Avg. of Betweenness Centrality','Avg. of Inter-Cluster Connectivity',
+               'Sum of Social Engagement','Sum of Published Count']
 # Populate contents of 'Raw data' tab (copy/paste from input file)
-workbook = xlsxwriter.Workbook(filename,{'constant_memory':True})
+workbook = xlsxwriter.Workbook(output_file, {'constant_memory':True})
 worksheet = workbook.add_worksheet("Raw data")
 higest_col = None
 people_name = set()
