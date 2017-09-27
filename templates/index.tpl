@@ -310,8 +310,8 @@ input[type=radio]:checked ~ label{
 </li>
 </ul>
 </div>
-<p class="footer__copy-right">� 2016 Quid All Rights Reserved.</p>
-<p class="footer__trademark">� 2016 Quid is a registered trademark of Quid, Inc.</p>
+<p class="footer__copy-right">&copy; 2017 Quid All Rights Reserved.</p>
+<p class="footer__trademark">&copy; 2017 Quid is a registered trademark of Quid, Inc.</p>
 </footer>
 <!-- footer end -->
 </div> <!-- .footer-container --></span>
