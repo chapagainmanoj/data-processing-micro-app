@@ -105,6 +105,8 @@ for sheet in sheets:
 
                 #len_table_names = 13
         for r,val in enumerate(people_name):
+            if bool(val and val.strip()) == False:
+                continue
             max_col = 0
             for c,header in enumerate(table_names):
                 if c == 0:
