@@ -18,7 +18,7 @@
         "output_description":"Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence",
         "input_example": "quid_KOL_news_input.csv",
         "output_template": "output_templates/template_2.xlsx",
-        "output_filename": "quid_KOL_webofscience_output.xlsx",
+        "output_filename": "quid_KOL_rankings_news_output.xlsx",
         "script": "second.py",
         "input_ext":"csv"
     }
