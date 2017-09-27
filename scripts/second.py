@@ -47,6 +47,7 @@ with open(input_file,'rt', encoding='utf-8') as csvfile:
                 people_name |= set([people.strip() for people in result.split(';')])
 
 people_name.discard('People (Any Mention)')
+people_name.discard('')
 
 def get_formula(header, row, type=None):
     if  type=='abs':
