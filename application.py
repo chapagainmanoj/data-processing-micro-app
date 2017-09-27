@@ -9,6 +9,7 @@ from bottle import route, run, template, auth_basic, request, response
 
 INFO_PATH = 'data.json'
 DIR_SCRIPTS = 'scripts'
+OUTPUT_TEMPLATES = 'output_templates'
 
 
 def check_auth(user, pw):
@@ -38,6 +39,7 @@ def process():
     script_id = request.forms.selector
     upload = request.files.get('data')
 
+    # random files
     tmp = tempfile.NamedTemporaryFile(suffix='.csv')
     input_filename = tmp.name
     tmp.close()
@@ -62,7 +64,8 @@ def process():
 
                     st = os.stat(script_path)
                     os.chmod(script_path, st.st_mode | stat.S_IEXEC)
-                    subprocess.run([script_path, input_filename, output_filename, script['output_template']],
+                    subprocess.run([script_path, input_filename, output_filename,
+                                    "{}/{}".format(OUTPUT_TEMPLATES,script['output_template'])],
                                    stdout=subprocess.PIPE)
 
                     with open(output_filename, 'rb') as fp:
