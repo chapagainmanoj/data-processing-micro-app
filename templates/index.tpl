@@ -221,8 +221,10 @@ input[type=radio]:checked ~ label{
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
                       <p>{{item['description']}}</p>
-                      <p><strong>Input:</strong> {{item['input_description']}} <strong>Upload: </strong></p>
-                      <p><strong>Output:</strong> {{item['output_description']}} <strong>Sample: </strong></p>
+                      <p><strong>Input:</strong> {{item['input_description']}}</p>
+                      <!--<p><strong>Upload: </strong></p>-->
+                      <p><strong>Output:</strong> {{item['output_description']}}</p>
+                      <!--<p><strong>Sample: </strong></p>-->
                     </label>
                     <div class="check"></div>
                 </div>
