@@ -214,7 +214,7 @@ input[type=radio]:checked ~ label{
           <hr>
             <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
-                <h3>Step 1</h3>
+                <h3>Step 1: Choose Script</h3>
                 %for item in menu:
                 <div class="quid-item">
                     <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
@@ -228,7 +228,7 @@ input[type=radio]:checked ~ label{
                 </div>
                 %end
                 <div class="second-option">
-                  <h3>Step 2</h3>
+                  <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
                     <input type="file" name="data" id="file" class="inputfile" required="" />
                   </div>
@@ -310,8 +310,8 @@ input[type=radio]:checked ~ label{
 </li>
 </ul>
 </div>
-<p class="footer__copy-right">© 2016 Quid All Rights Reserved.</p>
-<p class="footer__trademark">© 2016 Quid is a registered trademark of Quid, Inc.</p>
+<p class="footer__copy-right">ï¿½ 2016 Quid All Rights Reserved.</p>
+<p class="footer__trademark">ï¿½ 2016 Quid is a registered trademark of Quid, Inc.</p>
 </footer>
 <!-- footer end -->
 </div> <!-- .footer-container --></span>
