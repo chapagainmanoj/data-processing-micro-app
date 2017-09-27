@@ -3,12 +3,24 @@ import xlsxwriter
 import csv
 import re
 import xlrd
-
+import sys
 from sys import argv
 
 input_file = argv[1]
 output_file = argv[2]
 template_file = argv[3]
+
+maxInt = sys.maxsize
+decrement = True
+
+# for OverflowError
+while decrement:
+    decrement = False
+    try:
+        csv.field_size_limit(maxInt)
+    except OverflowError:
+        maxInt = int(maxInt/10)
+        decrement = True
 
 table_names = ['Names','Count of Mentions','Avg. of Flow','Avg. of Inter-Cluster Connectivity',
                'Sum of Social Engagement','Sum of Published Count','Source Rank']

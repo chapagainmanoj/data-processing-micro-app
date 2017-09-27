@@ -4,10 +4,23 @@ import xlrd
 import re
 import csv
 from sys import argv
+import sys
 
 input_file = argv[1]
 output_file = argv[2]
 template_file = argv[3]
+
+maxInt = sys.maxsize
+decrement = True
+
+# for OverflowError
+while decrement:
+    decrement = False
+    try:
+        csv.field_size_limit(maxInt)
+    except OverflowError:
+        maxInt = int(maxInt/10)
+        decrement = True
 
 # Populate contents of 'Raw data' tab (copy/paste from input file)
 workbook = xlsxwriter.Workbook(output_file, {'constant_memory': True})
@@ -44,9 +57,9 @@ def get_formula(header, row, type=None):
         if (header == 'Count of Auther\'s Name'):
             return '=COUNTIF(\'Raw data\'!AR:AR,"*"&Output!A%d&"*")'% (row)
         elif (header == 'Avg. of Betweenness Centrality'):
-            return '=AVERAGEIFS(\'Raw data\'!K:K,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")' %(row)
+            return '=IFERROR(AVERAGEIFS(\'Raw data\'!K:K,\'Raw data\'!AR:AR, "*" & Output!A%d &"*"),0)' %(row)
         elif (header == 'Avg. of Inter-Cluster Connectivity'):
-            return '=AVERAGEIFS(\'Raw data\'!W:W,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")'% (row)
+            return '=IFERROR(AVERAGEIFS(\'Raw data\'!W:W,\'Raw data\'!AR:AR, "*" & Output!A%d &"*"),0)'% (row)
         elif (header == 'Sum of Cited by'):
             return '=SUMIFS(\'Raw data\'!BX:BX,\'Raw data\'!AR:AR,"*" & Output!A%d & "*")'% (row)
         elif (header == 'Sum of Connections'):
