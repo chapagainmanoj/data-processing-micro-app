@@ -48,6 +48,7 @@ with open(input_file,'rt', encoding='utf-8') as csvfile:
 
 #:
 auther_name.discard('AF')
+auther_name.discard('')
 # Split out all the authors separated by semi colons in column AR of 'Raw data' tab (name of the column is 'AF') into separate rows, and paste that de-duplicated list into column A of 'Output' tab
 
 # Ensure all formulas in columns B through M of 'Output' tab extend all the way to the last row
