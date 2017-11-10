@@ -1,15 +1,16 @@
 [
     {
         "id": 1,
-        "title": "KOL Ranking for Scientific Literature (Web of Science)",
+        "title": "Ranking for Scientific Literature (Web of Science)",
         "description":"Rank most influential researchers & opinion leaders in the scientific community",
         "input_description":"CSV export from Quid Opus network of Web of Science data",
         "output_description":"Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence",
         "input_example": "quid_KOL_webofscience_input.csv",
         "output_template": "quid_KOL_webofscience_output_UPDATE.xlsx",
-        "output_filename": "quid_KOL_webofscience_output.xlsx",
+        "output_filename": "quid_webofscience_output.xlsx",
         "script": "first.py",
-        "input_ext":"csv"
+        "input_ext":"csv",
+        "download_option":"yes"
     },
     {   "id":2,
         "title": "KOL Ranking for News & Blogs",
@@ -17,9 +18,46 @@
         "input_description":"CSV export from a Quid news & blogs network",
         "output_description":"Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence",
         "input_example": "quid_KOL_news_input.csv",
-        "output_template": "quid_KOL_news_output_UPDATE.xlsx",
+        "output_template": "template.xlsx",
         "output_filename": "quid_KOL_rankings_news_output.xlsx",
         "script": "second.py",
-        "input_ext":"csv"
+        "input_ext":"csv",
+        "download_option":"yes"
+    },
+    {   "id":3,
+        "title": "Regeneration Wizard",
+        "description":"Extract ​​a ​​list ​​of ​​keywords ​​from ​​a ​​Quid​​ network ​​to ​​easily ​​determine which​​ words​​ to​​ “blacklist” ​​or​​ “boost",
+        "input_description":"CSV​​ export ​​from​​ Quid​​ network",
+        "output_description":"Regeneration​ ​Wizard​​ Excel",
+        "input_example": "quid_KOL_news_input.csv",
+        "output_template": "template.xlsx",
+        "output_filename": "quid_KOL_rankings_news_output.xlsx",
+        "script": "second.py",
+        "input_ext":"csv",
+        "download_option":"yes"
+    },
+    {   "id":4,
+        "title": "Cluster​​ Tightness​​ &​​ Cluster​​ Adjacency​​ Scores",
+        "description":"​​​<b>‘Cluster​​ Tightness’</b> ​​​calculates ​​how​​ ‘tight’​​ (focused ​​on​​ one​​ topic)​ ​or ‘dispersed’​​ (focused​​ on​ ​multiple​​ topics) ​​a​​ cluster ​​is.<br>‘Tightness’​​ score​​ =​​# ​​of ​​intra-cluster​​ links ​​/​​# ​​of​​ nodes​ ​in ​​that ​​cluster​​​ <br><b>‘Cluster​​ Adjacency’​​​</b> calculates​​ the ​​strength​​ of​ ​similarity ​​across​​ all​​ combinations of ​​cluster ​​pairs‘<br> Adjacency’​​ score ​​=​​#​​ of ​​actual​​ inter-cluster  ​​links​​/​​#​​of ​​possible​​ inter-cluster ​​links",
+        "input_description":"<b>Input 1</b>: CSV​​ export ​​from​​ Quid​​ network <br> <b>Input 2</b>: JSON file from Quid network",
+        "output_description":"Zip file containing up to 6 CSVs",
+        "input_example": "quid_KOL_news_input.csv",
+        "output_template": "template.xlsx",
+        "output_filename": "quid_cluster_tightness_and_adjacency_output.xlsx",
+        "script": "second.py",
+        "input_ext":"csv",
+        "download_option":"no"
+    },
+    {   "id":5,
+        "title": "Ranking​​ Hot ​​Startups ​​& ​​Clusters",
+        "description":"Excel​​ tool ​​that ​​ranks​​ “hot” companies​​ or​​ clusters ​​based​​ on ​​a combination​​ of​ ​funding​​ metrics ​​and​​ network ​​metrics",
+        "input_description":"<b>Input 1</b>: CSV​​ export ​​from​​ Quid​​ companies network <br> <b>Input 2</b>: Target Event Report",
+        "output_description":"Regeneration​ ​Wizard​​ Excel",
+        "input_example": "quid_KOL_news_input.csv",
+        "output_template": "template.xlsx",
+        "output_filename": "quid_hot_startup_cluster_rankings_news_output.xlsx",
+        "script": "second.py",
+        "input_ext":"csv",
+        "download_option":"no"
     }
 ]

@@ -210,7 +210,7 @@ input[type=radio]:checked ~ label{
         </div> <!-- #Header -->
 
         <div id="Mast" class="clearfix">
-          <h1>Quid Labs</h1>
+          <h1>QUID LABS</h1>
           <hr>
             <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
@@ -220,8 +220,8 @@ input[type=radio]:checked ~ label{
                     <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
-                      <p>{{item['description']}}</p>
-                      <p><strong>Input:</strong> {{item['input_description']}}</p>
+                      <p>{{!item['description']}}</p>
+                      <p><strong>Input:</strong> {{!item['input_description']}}</p>
                       <!--<p><strong>Upload: </strong></p>-->
                       <p><strong>Output:</strong> {{item['output_description']}}</p>
                       <!--<p><strong>Sample: </strong></p>-->
@@ -232,7 +232,16 @@ input[type=radio]:checked ~ label{
                 <div class="second-option">
                   <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
-                    <input type="file" name="data" id="file" class="inputfile" required="" />
+                    <label> Input 2
+                    <input type="file" name="data" id="file1" class="inputfile" placeholder="Input 1" required="" />
+                  </label>
+                    <label> Input 1
+                    <input type="file" name="data" id="file2" class="inputfile" />
+                    </label>
+                    <!--
+                    <input type="file" id="files" class="hidden"/><label for="files">Select Input File 1</label>
+                                        <input type="file" id="files" class="hidden"/><label for="files">Select Input File 2</label>
+                    !-->
                   </div>
                 </div>
               <input class="process-btn" type="submit" value="Process">

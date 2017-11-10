@@ -1,0 +1,942 @@
+Note: Certain data and content provided by S&P Capital IQ
+
+Event ID,Target Company ID,Target Name,Event Type,Date of Funding Event,Quarter of Funding Event,Year of Funding Event,Funding in USD,Target HQ (Country),Target HQ (State),Target HQ (City)
+1804126,502457a7-85e4-53ef-5629-cc9c4c910915,ADPM Drones,Private Investment,2016-12-20,4,2016,114586,,,
+e440a4e,ad7c7a35-c23c-744d-af63-6316fe89ac91,Sky-Drones,Private Investment,2017-02-28,1,2017,Undisclosed,Russia,,Moscow
+013095b,ebe2790d-5461-2d31-439a-4fc9827814ae,NearSat,Private Investment,2017-01-01,1,2017,Undisclosed,Australia,,Sydney
+4a2fa06,28628300-cc15-bbf3-f416-a7285ac498d8,Pitohui,Private Investment,2016-08-23,3,2016,Undisclosed,,,
+1f1bbad,37a84b0b72dde740680d8971bad39f81,Mountain Drones,Private Investment,2015-01-05,1,2015,30000,United States,Colorado,Vail
+cb7daea,a1b7eb3d058d40859f9d6149be0c0e61,"Azur Drones, SAS",Private Investment,2016-07-07,3,2016,1106501,France,Ile-de-France,Paris
+c3f64f2,a1b7eb3d058d40859f9d6149be0c0e61,"Azur Drones, SAS",Private Investment,2016-12-13,4,2016,3727370,France,Ile-de-France,Paris
+925f42a,a1b7eb3d058d40859f9d6149be0c0e61,"Azur Drones, SAS",Private Investment,2017-02-08,1,2017,2140182,France,Ile-de-France,Paris
+8094d36,eb3fdbdb-beaf-5641-84dc-3339061fb89b,PGN Drone Technologies,Private Investment,2015-10-01,4,2015,10000,United States,California,Irvine
+34129b2,a23b97abe44beb2fda08daed1464564a,"Teal Drones, Inc.",Private Investment,2016-10-12,4,2016,3000000,United States,Utah,Salt Lake City
+c139969,865c24a8-0d2e-8876-5360-7b61dd9f5c2d,Airlitix,Private Investment,2017-06-07,2,2017,77000,United States,California,San Jose
+de33948,d0289cbb-6f59-bf99-a6b6-5a9bde92dda1,NAR,Private Investment,2016-08-20,3,2016,Undisclosed,Lebanon,,Beirut
+7fd55dc,d0289cbb-6f59-bf99-a6b6-5a9bde92dda1,NAR,Private Investment,2015-09-22,3,2015,Undisclosed,Lebanon,,Beirut
+bb5a0b8,0831059b-d330-590e-46d5-a03d5d78a636,SafeSkies Systems,Private Investment,2017-03-01,1,2017,Undisclosed,United States,California,San Francisco
+efcbc25,8e5bba90-74a8-5a95-0507-32197830801e,Loreto Innovation,Private Investment,2015-06-01,2,2015,10000,United States,Wisconsin,Milwaukee
+9ad3f12,8e5bba90-74a8-5a95-0507-32197830801e,Loreto Innovation,Private Investment,2015-09-01,3,2015,10000,United States,Wisconsin,Milwaukee
+a51eedb,625772cf-136d-b8b7-455e-0296eed45485,Sky Sense,Private Investment,2015-01-01,1,2015,Undisclosed,,,
+5412a82,4a20d230-afab-5a1b-5829-8b809bbb1c68,Octopull,Private Investment,2017-04-03,2,2017,Undisclosed,Chile,,Santiago
+f022cd0,4a20d230-afab-5a1b-5829-8b809bbb1c68,Octopull,Private Investment,2016-09-30,3,2016,212200,Chile,,Santiago
+ec9cbf5,504dddc5-8b82-582e-fa0a-08b99e6cb034,Skybag,Private Investment,2014-05-27,2,2014,436477,France,,Paris
+176238e,504dddc5-8b82-582e-fa0a-08b99e6cb034,Skybag,Merger/Acquisition,2016-06-04,2,2016,2482398,France,,Paris
+7eb6246,a11c4423-a955-cf77-6bbe-8e2e92603429,DGIM CO,Private Investment,2016-02-01,1,2016,100000,Hong Kong,,Hong Kong
+15e5d3f,c281cd9c-5350-cb67-0154-62b77e229a2d,Smart Drone,Private Investment,2015-04-01,2,2015,8997,Mexico,,Mexico City
+d1b6aca,c281cd9c-5350-cb67-0154-62b77e229a2d,Smart Drone,Private Investment,2014-09-01,3,2014,20228,Mexico,,Mexico City
+9c51cc6,e6324869e27a944fd2a48b24fdd1c978,Canard Drones SL,Private Investment,2017-03-06,1,2017,Undisclosed,Spain,Madrid,Mostoles
+0af66e9,e6324869e27a944fd2a48b24fdd1c978,Canard Drones SL,Private Investment,2016-03-10,1,2016,16748,Spain,Madrid,Mostoles
+4b838bd,68736fe7-29cc-dc68-fc8f-f21b886e4fb6,Broadcastdrone.tv Inc.,Private Investment,2014-06-12,2,2014,350000,Switzerland,,Geneva
+c2661d3,304717af-f68f-6dd6-cc0a-6075b72b8257,Urban Drones,Private Investment,2015-03-04,1,2015,303429,United States,Florida,Coral Springs
+ce88a8a,1689b9ce-6932-76c7-d932-a27c6728d531,Altitude Angel,Private Investment,2016-03-30,1,2016,Undisclosed,United Kingdom,,Reading
+9dc327a,1689b9ce-6932-76c7-d932-a27c6728d531,Altitude Angel,Private Investment,2015-08-20,3,2015,380000,United Kingdom,,Reading
+5998a41,1689b9ce-6932-76c7-d932-a27c6728d531,Altitude Angel,Private Investment,2015-06-01,2,2015,Undisclosed,United Kingdom,,Reading
+5067fc4,6d55a13e-499d-1ad7-2144-dcae43b0da89,Flyspan,Private Investment,2016-08-01,3,2016,Undisclosed,United States,California,Irvine
+924953c,0f435766-4670-d0a6-6933-1a6a52b5e252,Hydrone Aerospace,Private Investment,2016-05-03,2,2016,15000000,,,
+48ce206,11366fc0-6629-4bc9-22da-ee2248e45cb7,Flyte Technologies,Private Investment,2017-01-10,1,2017,Undisclosed,United Kingdom,,Belfast
+85e6fcc,83313cc1-85ba-0c60-d5af-f9f08ff8e726,Xeniapp Inc,Private Investment,2017-08-08,3,2017,Undisclosed,,,
+722a4dd,e42dc0dc-96f9-c135-3c2f-32c92012675d,NavStik Autonomous Systems,Private Investment,2015-01-01,1,2015,Undisclosed,India,,Pune
+3dccdd8,cf92346b-0e5d-c5c5-f4cd-81a84eb68e99,Aerial Applications,Private Investment,2016-07-01,3,2016,Undisclosed,United States,Pennsylvania,Newtown
+fa64483,4e03360c-c483-6d6e-15ce-49574fd3918a,Event 38 Unmanned Systems,Private Investment,2012-11-21,4,2012,40000,United States,Ohio,Akron
+55f8b91,ebab7c72-6feb-6861-9938-5cf751724a41,Dronefly,Merger/Acquisition,2017-01-15,1,2017,Undisclosed,United States,California,Canoga Park
+c17c748,e1100cce-5590-56fc-e7bd-4aeef8090f52,Seasmart,Private Investment,2016-11-02,4,2016,425725,Norway,,Bergen
+ba26f42,9c42c3ff-400f-3350-e9f5-e107d20f91bc,Skysense,Private Investment,2015-06-05,2,2015,120000,Germany,,Berlin
+c8e4017,33908901-7b7c-149b-feba-d63e43a6ac9c,Droneshare.club by Sulcisdrone,Private Investment,2016-04-05,2,2016,56870,Italy,,Quartu Sant'elena
+7225c28,c5782b48bf2b74b3d1ed7978d2984e2c,Fathom Drones Inc,Private Investment,2017-09-25,3,2017,1069992,United States,Michigan,Grand Rapids
+6f91215,a5ef1fdf-5c94-9c4c-1c14-6909a2c8552d,Ebotic,Private Investment,2015-05-29,2,2015,Undisclosed,,,
+df1c686,a5ef1fdf-5c94-9c4c-1c14-6909a2c8552d,Ebotic,Private Investment,2015-09-18,3,2015,Undisclosed,,,
+39c856a,a6bb04bc-9f04-831e-b49f-a7954de37b67,Uavia,Private Investment,2016-10-20,4,2016,Undisclosed,France,,Évry
+f48b972,d630b3b7-eb78-08e3-fd11-6cfcd39a4eb2,Poladrone,Private Investment,2017-02-28,1,2017,Undisclosed,Malaysia,,Selangor
+88903eb,56e3bfb3-3a75-56c3-01e8-39f110a7efc3,GolfBirdie,Private Investment,2016-11-07,4,2016,Undisclosed,,,
+6e659ed,1bdea043-4e0f-56a7-84b1-b801f798e45a,NVdrones,Private Investment,2014-05-01,2,2014,50000,United States,California,Pasadena
+9167146,1bdea043-4e0f-56a7-84b1-b801f798e45a,NVdrones,Private Investment,2014-05-01,2,2014,25000,United States,California,Pasadena
+0b0c340,1bdea043-4e0f-56a7-84b1-b801f798e45a,NVdrones,Private Investment,2016-05-16,2,2016,200000,United States,California,Pasadena
+9543b21,b7bb0451a1c6c4da328bd372c598c822,"500 Feet Drones, LLC",Merger/Acquisition,2017-03-16,1,2017,Undisclosed,United States,Connecticut,Hartford
+7e07308,631fa4a662e5e752dfcefc763e78eccc,VolAero UAV & Drones Holdings Corp.,Private Investment,2017-06-28,2,2017,500000,United States,Florida,Miami Beach
+b625984,631fa4a662e5e752dfcefc763e78eccc,VolAero UAV & Drones Holdings Corp.,Private Investment,2017-09-27,3,2017,400000,United States,Florida,Miami Beach
+241fac2,a2995070-d08a-f25d-3f2f-50de3af69c89,DroneCast,Private Investment,2014-09-10,3,2014,1000000,United States,Pennsylvania,Philadelphia
+1e5540f,064c9f63-753e-40d5-0c19-44d0d8a181da,Walkerchair GmbH i.G.,Private Investment,2016-11-11,4,2016,Undisclosed,Germany,,Biberach An Der Riß
+f18d5e7,92982001-2d9e-9493-61c9-90665f595370,Feromone Robotics,Private Investment,2016-10-01,4,2016,Undisclosed,,,
+d02e6d4,1d6b45ab-9b2e-936a-96e6-c00d37f6f4d9,Orbotics,Private Investment,2014-11-23,4,2014,2000,United States,California,San Francisco
+ec5a388,efe3db86-527c-db23-71f9-0f949fe7732a,XGene,Private Investment,2016-09-28,3,2016,10000000,China,,Taiwan
+736a07d,0f789d88-1b7a-8099-db14-7cd56837f2e9,DroneGrid,Private Investment,2016-07-13,3,2016,Undisclosed,Belgium,,Leuven
+61645bf,3acb08ef-c168-1032-c0a3-7bac7c16c7fa,Marvelmind Robotics,Private Investment,2017-02-02,1,2017,88000,United States,California,Sunnyvale
+5caefb6,091cc6e6b0c359cfbeea57938cde6636,"Buzzware, Inc.",Private Investment,2016-03-21,1,2016,60000,United States,Maryland,Hagerstown
+349b831,ad3a980b692c7fe03ee9c75b694e12ae,"Converge Industries, Co.",Private Investment,2016-02-18,1,2016,20000,United States,Colorado,Boulder
+9ecce10,ad3a980b692c7fe03ee9c75b694e12ae,"Converge Industries, Co.",Private Investment,2016-05-16,2,2016,100000,United States,Colorado,Boulder
+8e53ebf,ad3a980b692c7fe03ee9c75b694e12ae,"Converge Industries, Co.",Private Investment,2016-08-19,3,2016,900000,United States,Colorado,Boulder
+5ee9a8b,e1c59708ade9caa2b64cb579b97fd077,Skyways,Private Investment,2017-06-30,2,2017,120000,United States,Texas,Austin
+a23687e,c44292c2-c629-557a-5d32-fde11f84ae48,vHive,Private Investment,2017-04-12,2,2017,2000000,Israel,,Herzliya
+00a7b0c,1e3d978b-bfe0-4ed9-8e4f-cfaa0728248a,Tachyon Oil and Gas,Private Investment,2017-10-01,4,2017,Undisclosed,United States,Texas,Spring
+24792a8,7c1f3c16-1af8-9923-c8c2-243bbf946482,Up Sonder LLC,Private Investment,2016-04-29,2,2016,250000,United States,California,Los Angeles
+3425769,a13dab11-04f7-1efc-f785-9006ca58566d,HardDrones,Private Investment,2014-06-01,2,2014,40000,Chile,,Providencia
+8a7fb95,f4a98112-0f3a-d5bd-430f-2c753fd2164e,DSLRPros,Merger/Acquisition,2015-11-30,4,2015,Undisclosed,United States,California,West Hills
+a2c966b,de54ad64-3b1b-43fe-f703-4eed02eebb0a,DroneLancer,Private Investment,2015-12-18,4,2015,Undisclosed,Australia,,Sydney
+4ce5617,1ecd8b1f-8a39-26b9-1692-f44c7f864719,"Aerdos, Inc.",Private Investment,2015-12-11,4,2015,330000,United States,Florida,Ormond Beach
+10996ea,7afbb5de-e15b-ec27-936f-7516a257e62d,Strayos,Private Investment,2017-02-15,1,2017,350000,United States,Missouri,Saint Louis
+7274bd4,4e6dce26-be9c-597b-a4bc-589cfb9e8e26,Propeller Aero,Private Investment,2016-09-27,3,2016,3100000,Australia,,
+8704601,4e6dce26-be9c-597b-a4bc-589cfb9e8e26,Propeller Aero,Private Investment,2015-10-02,4,2015,738958,Australia,,
+f43fd91,4e6dce26-be9c-597b-a4bc-589cfb9e8e26,Propeller Aero,Private Investment,2015-02-26,1,2015,39184,Australia,,
+3db72de,1e0108d1-05f5-87d3-c8ba-bf80d0c33430,Drone Labs,Private Investment,2015-09-20,3,2015,Undisclosed,United States,Texas,Manor
+757a025,9c9d1cde-56b7-4510-f35e-a1c1d3058751,DroneUA,Private Investment,2017-06-07,2,2017,Undisclosed,Ukraine,,Kyiv
+268dc46,19d05ac6-334b-3dfd-1ca4-426b9ed4072c,Drone Squad,Private Investment,2016-01-01,1,2016,160000,United States,California,Los Angeles
+79fc2b5,be60f00d-51b1-1563-7de6-cdfe93c4709a,Horus Aircraft,Private Investment,2017-03-31,1,2017,955758,Brazil,,Florianópolis
+8ba0fef,be60f00d-51b1-1563-7de6-cdfe93c4709a,Horus Aircraft,Private Investment,2015-11-01,4,2015,Undisclosed,Brazil,,Florianópolis
+b950232,d2b76647-d34d-424b-c477-193458d0eb48,Nimble Aircraft,Private Investment,2014-01-01,1,2014,180000,United States,Illinois,Lincolnshire
+a1f369b,26bf5ed1fd3469d3f8ab89dbe819ed58,Dronomy,Private Investment,2015-09-09,3,2015,1500000,Israel,,
+d484084,26bf5ed1fd3469d3f8ab89dbe819ed58,Dronomy,Private Investment,2016-12-08,4,2016,Undisclosed,Israel,,
+17b71b5,8fadf2303179e33f2f2954967885cb8d,ApolloShield,Private Investment,2016-06-30,2,2016,120000,United States,California,Palo Alto
+5ef6b3f,9559e1d15eb5435cf5db9d4132e1e97a,Uvify Inc,Private Investment,2016-01-29,1,2016,4000000,United States,California,San Francisco
+e7e3333,9559e1d15eb5435cf5db9d4132e1e97a,Uvify Inc,Private Investment,2015-09-02,3,2015,1010000,United States,California,San Francisco
+58dc8eb,914dd5b3-5c25-30a7-5024-2df876a8c3b3,Turncircles,Private Investment,2015-07-11,3,2015,16691,France,,Toulouse
+6971831,ab276ec6-fcb8-a6d8-d458-7d49b4907375,Phoenix Filming,Private Investment,2016-04-04,2,2016,250000,United States,,
+146352d,f4829569-5294-6008-e732-61d4d338b10d,Neat Brands LLC,Private Investment,2015-02-15,1,2015,2000000,United States,California,
+fdfb3ff,d81386d9-4767-c158-a98f-926046546a42,SkyAds,Private Investment,2016-08-31,3,2016,Undisclosed,United States,Arizona,Tempe
+fb18a62,064e65970b6c07e1c171502cdbf8aac4,Verge Inc.,Private Investment,2017-05-25,2,2017,Undisclosed,United States,Pennsylvania,Philadelphia
+48a6911,d8f99f43-d79e-f169-b58a-5f2ab09193e7,Planck Aerosystems,Private Investment,2016-05-13,2,2016,Undisclosed,United States,California,San Diego
+86a3a5e,c7725c2a1c310afe06044c70622324f1,Drone Volt SA,Private Investment,2016-12-08,4,2016,Undisclosed,France,Ile-de-France,Villepinte
+68676be,c7725c2a1c310afe06044c70622324f1,Drone Volt SA,Private Investment,2015-11-17,4,2015,Undisclosed,France,Ile-de-France,Villepinte
+0181370,ef438002-a8bf-f302-bf48-7abc7f482a10,Extreme Fliers,Private Investment,2016-04-11,2,2016,3386657,United Kingdom,,London
+7f90488,ef438002-a8bf-f302-bf48-7abc7f482a10,Extreme Fliers,Private Investment,2015-06-28,2,2015,740000,United Kingdom,,London
+349677a,23acae0593484ec7ea77c358eec3bf55,Vision Cortex Ltd.,Private Investment,2016-12-31,4,2016,Undisclosed,Israel,,Tel Aviv
+209f0f5,23acae0593484ec7ea77c358eec3bf55,Vision Cortex Ltd.,Private Investment,2015-07-30,3,2015,1000000,Israel,,Tel Aviv
+c440a71,9acd0c45c560050dedcd6c26d48d57a7,"ZEROTECH (Beijing) Intelligence Technology Co., Ltd.",Private Investment,2016-09-30,3,2016,21600000,China,,Beijing
+98e977f,7695bd05-34f9-52ed-ce66-ef4c3bad5ec4,FlockCover,Private Investment,2016-11-02,4,2016,Undisclosed,United Kingdom,,London
+437a168,7695bd05-34f9-52ed-ce66-ef4c3bad5ec4,FlockCover,Private Investment,2016-12-21,4,2016,123565,United Kingdom,,London
+459fafa,7695bd05-34f9-52ed-ce66-ef4c3bad5ec4,FlockCover,Private Investment,2016-12-14,4,2016,507674,United Kingdom,,London
+3cfd850,f9088139-294d-144b-f670-925e34cb4b5c,Robolink,Private Investment,2015-05-11,2,2015,53000,United States,California,San Diego
+e18b49b,f9088139-294d-144b-f670-925e34cb4b5c,Robolink,Private Investment,2016-03-06,1,2016,206000,United States,California,San Diego
+cf7f104,f9088139-294d-144b-f670-925e34cb4b5c,Robolink,Private Investment,2016-09-29,3,2016,Undisclosed,United States,California,San Diego
+d22b674,c65de2bd-7cf0-d3ea-0321-da82bc1ddb73,Aerial Power Ltd,Private Investment,2015-11-02,4,2015,Undisclosed,United Kingdom,,London
+f5517fd,c65de2bd-7cf0-d3ea-0321-da82bc1ddb73,Aerial Power Ltd,Private Investment,2013-11-20,4,2013,40000,United Kingdom,,London
+146da98,a3adc8ab695c3903ac2568c171340b64,"AheadX (Beijing) Co., Ltd.",Private Investment,2015-08-03,3,2015,Undisclosed,China,,Beijing
+3cb9857,44a80add-b39c-b393-db13-f9b0a641843d,Simtoo,Private Investment,2015-09-01,3,2015,3135466,China,,Shenzhen
+35861d2,44a80add-b39c-b393-db13-f9b0a641843d,Simtoo,Private Investment,2016-10-26,4,2016,10626004,China,,Shenzhen
+a291add,f71a2641-9595-f651-e0b7-fab7ac5e722e,Drone Box,Private Investment,2014-10-01,4,2014,39240,Singapore,,Singapore
+6e70059,40fcf9fdcd9b5d27252d87b19e757822,DanDrone Shop ApS,Merger/Acquisition,2017-05-22,2,2017,Undisclosed,Denmark,Capital Region of Denmark,Valby
+0cbd26e,deffd01d-5831-6b4d-6cd3-8174c5a20934,Ascent AeroSystems,Private Investment,2015-06-15,2,2015,406000,United States,Connecticut,Newtown
+490c7b1,deffd01d-5831-6b4d-6cd3-8174c5a20934,Ascent AeroSystems,Private Investment,2017-03-15,1,2017,600000,United States,Connecticut,Newtown
+9ffe787,0b8c31e06f2f75a8b04e0e64585d9283,Unifly nv,Private Investment,2016-11-21,4,2016,5306729,Belgium,Antwerp,Antwerp
+9ab631d,84604eac31441472ba69e823dab8a4d8,DroneShield Limited,Public Offering,2016-06-20,2,2016,5222517,Australia,New South Wales,Lane Cove West
+4da8eb5,84604eac31441472ba69e823dab8a4d8,DroneShield Limited,Private Investment,2015-03-31,1,2015,150000,Australia,New South Wales,Lane Cove West
+3fa677d,84604eac31441472ba69e823dab8a4d8,DroneShield Limited,Private Investment,2017-06-28,2,2017,Undisclosed,Australia,New South Wales,Lane Cove West
+39f5e5b,84604eac31441472ba69e823dab8a4d8,DroneShield Limited,Private Investment,2015-09-29,3,2015,950000,Australia,New South Wales,Lane Cove West
+57e7f61,84604eac31441472ba69e823dab8a4d8,DroneShield Limited,Private Investment,2017-10-27,4,2017,Undisclosed,Australia,New South Wales,Lane Cove West
+5842bb3,de3ef1d5-3a49-403e-cfd8-28bb7ddc238c,Vantage Vertical,Merger/Acquisition,2016-11-21,4,2016,Undisclosed,United States,New Jersey,Morristown
+e99fbdb,e0b449d1-ac80-2a98-2616-d18ea2aa94fb,Tridain,Private Investment,2015-01-14,1,2015,50000,United States,Texas,The Woodlands
+5ed361c,7bab71004fe13ce7c30d78bad4d375ad,"AerBots, Inc.",Private Investment,2016-05-20,2,2016,20000,United States,Michigan,Lansing
+e733b40,5142c276c1d70b8626d3f2a456ed4972,"Cerbair, SAS",Private Investment,2016-09-26,3,2016,563603,France,Ile-de-France,Boulogne-Billancourt
+6540bd9,5c2ef4ed-d4b1-4fa7-9318-167bb2a655b2,BioCarbon Engineering,Private Investment,2015-11-02,4,2015,Undisclosed,United Kingdom,,Oxford
+97a0f0c,01ea5c8d-a1f0-704c-e921-c569b8b48081,Intelescope Solutions,Private Investment,2015-03-05,1,2015,8300000,United States,Connecticut,Stamford
+c4f9da7,3f956c5d-7d76-3c28-d7c9-3595db8489f9,99DRONES,Private Investment,2015-01-23,1,2015,Undisclosed,Netherlands,,Amersfoort
+1e4d002,825e43e4-370b-841b-8811-01428dce4a29,Optiplane drone systems,Private Investment,2015-08-17,3,2015,Undisclosed,Russia,,
+19036a6,825e43e4-370b-841b-8811-01428dce4a29,Optiplane drone systems,Private Investment,2015-07-10,3,2015,Undisclosed,Russia,,
+01aa960,de99ae90-5696-5e92-fdf9-50f9dbcf64ed,Head 58 Technologies,Private Investment,2015-01-14,1,2015,50000,United States,Texas,Houston
+4b963b7,24e22e2c-0547-28fc-4eb8-cb0bba96af50,Aerial Sports League,Private Investment,2015-02-13,1,2015,Undisclosed,United States,California,San Francisco
+33aaf35,b947005fc24b4bb529c00eda218720f2,"Skydio, Inc.",Private Investment,2015-01-15,1,2015,3000000,United States,California,Menlo Park
+bb8cad1,bff8a381ae11feb83011d9c20b23794c,Zipline Inc.,Private Investment,2016-04-04,2,2016,18000000,United States,California,San Francisco
+3b13780,bff8a381ae11feb83011d9c20b23794c,Zipline Inc.,Private Investment,2016-11-09,4,2016,25000000,United States,California,San Francisco
+1393d10,bff8a381ae11feb83011d9c20b23794c,Zipline Inc.,Private Investment,2012-12-31,4,2012,Undisclosed,United States,California,San Francisco
+f781549,9cd69b0e-beff-3e82-da6b-01c061d2e926,DroneTerminus,Private Investment,2017-08-09,3,2017,Undisclosed,United States,Florida,Boca Raton
+4b2ff1d,83f4975f-464f-0292-4cab-337c68d28426,DroneAi,Private Investment,2016-12-01,4,2016,Undisclosed,United States,California,Santa Monica
+0164be8,83f4975f-464f-0292-4cab-337c68d28426,DroneAi,Private Investment,2017-04-04,2,2017,2000000,United States,California,Santa Monica
+2a53844,c2a264c9a00d29d09055f5a52fd2dafa,"Aptonomy, Inc.",Private Investment,2016-06-30,2,2016,120000,United States,California,San Francisco
+74dcc66,d67895b9510244815dc00ce2b9238c3d,"WhiteFox Defense Technologies, Inc.",Private Investment,2017-06-05,2,2017,750000,United States,California,San Luis Obispo
+4acdd8e,6a7033b66bcbb334de3120f3b308a1ec,UAS Drone Corp.,Private Investment,2015-04-01,2,2015,300000,United States,Florida,Palm Beach
+156639d,7bafad95020c811ec83e826b582eb505,iDrone LLC,Private Investment,2015-12-08,4,2015,2800000,United States,Utah,Salt Lake City
+4fe0e62,207f880da1be2620a39e1067cfdecff4,"Green Sustainability Partners, LLC",Merger/Acquisition,2016-04-05,2,2016,Undisclosed,United States,Florida,Spring Hill
+53ba833,d27d08b2-c719-9216-533d-dd71e362b185,Wingtra,Private Investment,2016-01-15,1,2016,3100000,Switzerland,,Zurich
+bdcb70b,6ee49a5482c556eed0fa687e5c8d9d9a,HiveUAV Pty Ltd,Private Investment,2015-01-20,1,2015,24531,Australia,New South Wales,Sydney
+570156b,09e58739d5e0d1e2268999088ce5e5e2,Drone Delivery Canada Corp.,Private Investment,2017-02-06,1,2017,Undisclosed,Canada,Ontario,Vaughan
+2c6340a,d95f009582d660453e0751500f0f2984,Queen B Robotics Inc.,Private Investment,2016-01-26,1,2016,20000,United States,California,Berkeley
+cf2289e,7e7597d8-18d7-f1b0-95d9-c933877c621f,Embention,Private Investment,2016-12-21,4,2016,Undisclosed,Spain,,Alicante
+d531b98,4d93068dac213e236db7a13d8405c512,"DroneSeed, Inc.",Private Investment,2016-02-22,1,2016,20000,United States,Oregon,Beaverton
+5ccb79d,12fa1ce0ae310c958cc0a483b60c0aef,"Prodrone Co., Ltd.",Private Investment,2016-12-05,4,2016,Undisclosed,Japan,Aichi,Nagoya-shi
+ce8dec1,12fa1ce0ae310c958cc0a483b60c0aef,"Prodrone Co., Ltd.",Private Investment,2016-09-05,3,2016,967446,Japan,Aichi,Nagoya-shi
+4f774e4,6b89585b-e05c-f615-a623-b584cd9bebf3,Betterview,Private Investment,2015-01-01,1,2015,Undisclosed,United States,California,San Francisco
+70fba8d,6b89585b-e05c-f615-a623-b584cd9bebf3,Betterview,Private Investment,2016-02-23,1,2016,1550000,United States,California,San Francisco
+eaf369e,6b89585b-e05c-f615-a623-b584cd9bebf3,Betterview,Private Investment,2017-09-05,3,2017,2000000,United States,California,San Francisco
+2a07366,6b89585b-e05c-f615-a623-b584cd9bebf3,Betterview,Private Investment,2016-08-01,3,2016,Undisclosed,United States,California,San Francisco
+437103e,48026bba-d3c1-3473-38a8-48ad5a1ee5a9,Everbots,Private Investment,2014-12-30,4,2014,150000,Mexico,,Mexico City
+68b94d7,48026bba-d3c1-3473-38a8-48ad5a1ee5a9,Everbots,Private Investment,2015-02-20,1,2015,200000,Mexico,,Mexico City
+56e204f,b71938a35061c670a153d161c441c645,"AeroCine Ventures, Inc.",Private Investment,2016-09-02,3,2016,4595000,United States,New York,Brooklyn
+fd10786,2fb038351074284a17718b7df6dc57f2,"Fuvex Agro, S.L.",Private Investment,2015-12-07,4,2015,21688,Spain,Navarre,Tudela
+f8d9cc0,131eb9d20e81e61f854624485332f736,Hivemapper Inc.,Private Investment,2015-11-05,4,2015,3000000,United States,California,Palo Alto
+ffd2358,7f972aea-b4f5-0cb7-b0f4-52ff5492f627,FluroSat,Private Investment,2017-03-17,1,2017,30651,Australia,,Sydney
+12f4d46,98a37cec-f3d7-5864-7c12-35e4c89b4837,AirDroids,Private Investment,2014-03-17,1,2014,929212,United States,Indiana,Indianapolis
+1f2d662,a11a0acc17c5c8b8a518ab43e83a2c12,Dedrone GmbH,Private Investment,2017-02-13,1,2017,15000000,Germany,Hessen,Kassel
+84c99c4,a11a0acc17c5c8b8a518ab43e83a2c12,Dedrone GmbH,Private Investment,2017-01-11,1,2017,Undisclosed,Germany,Hessen,Kassel
+0356aec,a11a0acc17c5c8b8a518ab43e83a2c12,Dedrone GmbH,Private Investment,2015-04-28,2,2015,2961013,Germany,Hessen,Kassel
+b41732c,a11a0acc17c5c8b8a518ab43e83a2c12,Dedrone GmbH,Private Investment,2016-05-10,2,2016,10000000,Germany,Hessen,Kassel
+31d92d1,d1777a70-9edd-eca6-19e7-d41640cd7ddf,ONAGOfly,Private Investment,2016-01-27,1,2016,2141178,United States,California,Brea
+73033e2,9ef6b8a7e797d6e197db33552c625603,Animusoft Corporation,Private Investment,2017-07-21,3,2017,1000000,United States,Florida,Doral
+cfd6128,edd0880105b1b37b73efc08b6a603356,Delta Drone SA,Private Investment,2017-02-27,1,2017,Undisclosed,France,Rhône-Alpes,Dardilly
+39737f3,edd0880105b1b37b73efc08b6a603356,Delta Drone SA,Private Investment,2015-06-29,2,2015,Undisclosed,France,Rhône-Alpes,Dardilly
+2d0134e,edd0880105b1b37b73efc08b6a603356,Delta Drone SA,Public Offering,2013-06-27,2,2013,3839896,France,Rhône-Alpes,Dardilly
+44329ff,edd0880105b1b37b73efc08b6a603356,Delta Drone SA,Private Investment,2015-02-24,1,2015,Undisclosed,France,Rhône-Alpes,Dardilly
+cd764e1,edd0880105b1b37b73efc08b6a603356,Delta Drone SA,Private Investment,2016-06-03,2,2016,Undisclosed,France,Rhône-Alpes,Dardilly
+b4024f9,edd0880105b1b37b73efc08b6a603356,Delta Drone SA,Private Investment,2013-11-19,4,2013,Undisclosed,France,Rhône-Alpes,Dardilly
+577ce34,d0955c12-98b3-7643-fa83-04d1143f4720,IDRONECT,Private Investment,2016-03-01,1,2016,Undisclosed,Belgium,,Erembodegem
+c8e8d97,aedf59be-a761-5906-693d-16bf852b95c2,Descendent Studios,Private Investment,2015-04-10,2,2015,600000,United States,Texas,Austin
+24a5cdd,49362f384373b040bc591fc7c8a9ca3e,"Sentera, LLC",Private Investment,2015-10-01,4,2015,5000000,United States,Minnesota,Minneapolis
+3ec8f5b,439ceae1eb40391e9a12ad2a6dae4e30,FlyNex GmbH,Private Investment,2017-08-10,3,2017,Undisclosed,Germany,Hamburg,Hamburg
+cbf08f2,f96f22721f4b7762485c8505ecaaf625,"EHang, Inc.",Private Investment,2014-12-30,4,2014,10000000,United States,California,San Carlos
+cfb15bd,f96f22721f4b7762485c8505ecaaf625,"EHang, Inc.",Private Investment,2015-08-24,3,2015,42000000,United States,California,San Carlos
+c9da90b,663ad4ae07f0ed38d0caad58cdc521b6,FLIGHTS INC.,Private Investment,2016-06-06,2,2016,Undisclosed,Japan,,Tokyo
+6f46193,989e0b87-f5c3-5b46-da0f-0bc26206735c,GPSdome,Private Investment,2016-11-01,4,2016,Undisclosed,Israel,,Caesarea
+6cabe0c,989e0b87-f5c3-5b46-da0f-0bc26206735c,GPSdome,Private Investment,2017-06-22,2,2017,600000,Israel,,Caesarea
+1892909,989e0b87-f5c3-5b46-da0f-0bc26206735c,GPSdome,Private Investment,2017-06-10,2,2017,500000,Israel,,Caesarea
+7904c51,ab7c6690b404700389116ae7313030c3,Flyver OOD,Private Investment,2014-06-25,2,2014,262450,Bulgaria,,
+560fd88,337e18c1a7811c12bda786a2d1ea717c,Sunbirds SAS,Private Investment,2016-12-02,4,2016,533618,France,Midi-Pyrénées,Ramonville-St-Agne
+1faad60,1b72976a-17da-9573-b414-04338a8fd039,PIXEVIA,Private Investment,2017-01-01,1,2017,Undisclosed,,,
+0606d94,dde487dcdc67e5e4188cd0861dfbdada,Botlink,Private Investment,2015-02-19,1,2015,500000,United States,North Dakota,Fargo
+9fb5293,dde487dcdc67e5e4188cd0861dfbdada,Botlink,Private Investment,2015-09-03,3,2015,Undisclosed,United States,North Dakota,Fargo
+bb05ff2,69c2797d2c0fa999ddf6965e51818d89,Drona Aviation Pvt. Ltd.,Private Investment,2016-11-04,4,2016,Undisclosed,India,Maharashtra,Mumbai
+bafda3e,a75960f6ce89db55c566a3a5b7a5d1d3,Dotterel Technologies Limited,Private Investment,2017-07-17,3,2017,120000,New Zealand,,Auckland
+072c332,6e3080e8-8383-1c6d-d1ac-d12f4fb128d2,Skyrobotic,Private Investment,2013-12-23,4,2013,752472,Italy,,Terni
+3cc5153,f4010c2b52a75526b24f28e7a7d76a30,High Endurance Multipurpose Aerial Vehicle S.L.,Private Investment,2016-11-30,4,2016,3171247,Spain,Catalonia,Barcelona
+2a305f4,f4010c2b52a75526b24f28e7a7d76a30,High Endurance Multipurpose Aerial Vehicle S.L.,Private Investment,2014-11-07,4,2014,561272,Spain,Catalonia,Barcelona
+00a43f5,cdc87891f51a6826bd2a561878cc90f4,"SkySafe, Inc.",Private Investment,2015-12-29,4,2015,150000,United States,California,San Diego
+659a408,cdc87891f51a6826bd2a561878cc90f4,"SkySafe, Inc.",Private Investment,2017-07-07,3,2017,11500000,United States,California,San Diego
+368d46b,cdc87891f51a6826bd2a561878cc90f4,"SkySafe, Inc.",Private Investment,2015-11-11,4,2015,20000,United States,California,San Diego
+2a4b657,cdc87891f51a6826bd2a561878cc90f4,"SkySafe, Inc.",Private Investment,2016-04-05,2,2016,3350000,United States,California,San Diego
+3eb9076,5e9d61606e36edca78a0e0c8548a7505,"Flytrex Aviation, Ltd.",Private Investment,2017-01-03,1,2017,3000000,Israel,,Tel Aviv
+bb97951,f73cf94c174c2cb420f40bd268e660a8,"Skysense, Inc.",Private Investment,2015-05-26,2,2015,20000,Germany,Berlin,Berlin
+37ae192,1ee850db197b5df20d0565acf4a7ba2b,ARBE Robotics Ltd.,Private Investment,2017-04-23,2,2017,2500000,Israel,,Tel Aviv
+3c7ad64,32ad97726c1e7795dc6f543b7b708d5a,Flyright Technologies Ltd.,Private Investment,2015-09-08,3,2015,21893,Ireland,Co. Dublin,Lusk
+7ad6787,32ad97726c1e7795dc6f543b7b708d5a,Flyright Technologies Ltd.,Private Investment,2015-12-16,4,2015,32839,Ireland,Co. Dublin,Lusk
+ad41774,ea6b3761-ddc6-867f-ac07-a7b693751eac,XCo,Private Investment,2015-01-01,1,2015,675000,Canada,British Columbia,Kelowna
+aef925c,ea6b3761-ddc6-867f-ac07-a7b693751eac,XCo,Private Investment,2016-07-02,3,2016,Undisclosed,Canada,British Columbia,Kelowna
+74f8ce4,b9fe8f1782705c951ae428b1452549dd,"Measure UAS, Inc.",Private Investment,2016-12-30,4,2016,15000115,United States,District Of Columbia,Washington
+c756131,b9fe8f1782705c951ae428b1452549dd,"Measure UAS, Inc.",Private Investment,2015-09-30,3,2015,Undisclosed,United States,District Of Columbia,Washington
+89bc039,1d774a06bda985d9cf0cbcb73cf3c528,ATLAS Dynamics LTD,Private Investment,2017-07-31,3,2017,8000000,Latvia,,Riga
+bdb3216,cf7eeee23037e07ae248d18cfd0cb1e5,"CLUE, Inc.",Private Investment,2015-02-28,1,2015,Undisclosed,Japan,,Tokyo
+5e9e28a,db2f621444ba4de62a0ae600b0074b37,Vimana,Private Investment,2016-05-23,2,2016,149445,Russia,,
+a4b62ad,5a4ac20df7be90606ab96d117e92627a,Acutronic Robotics,Merger/Acquisition,2016-10-31,4,2016,Undisclosed,Spain,Basque Country,Vitoria-Gasteiz
+c45f1b4,5a4ac20df7be90606ab96d117e92627a,Acutronic Robotics,Private Investment,2015-05-11,2,2015,223052,Spain,Basque Country,Vitoria-Gasteiz
+2fe4cbe,5a4ac20df7be90606ab96d117e92627a,Acutronic Robotics,Private Investment,2017-09-01,3,2017,Undisclosed,Spain,Basque Country,Vitoria-Gasteiz
+04f668a,27a87c99d93ed24d1787e72b92bb9112,"American Robotics, Inc.",Private Investment,2017-01-19,1,2017,1100000,United States,Massachusetts,Boston
+e659694,854c2012b1cb1b97b65b0d199386371d,Iris Automation Inc.,Private Investment,2017-01-18,1,2017,1500000,United States,California,San Francisco
+e52e216,854c2012b1cb1b97b65b0d199386371d,Iris Automation Inc.,Private Investment,2016-06-30,2,2016,120000,United States,California,San Francisco
+e8d8211,b4cf779e2ededf7684fb84ac27734adc,CRON Systems Pvt. Ltd.,Private Investment,2017-10-09,4,2017,1500000,India,Delhi,New Delhi
+9485c0d,b4cf779e2ededf7684fb84ac27734adc,CRON Systems Pvt. Ltd.,Private Investment,2017-07-17,3,2017,120000,India,Delhi,New Delhi
+572f6c0,b4cf779e2ededf7684fb84ac27734adc,CRON Systems Pvt. Ltd.,Private Investment,2017-01-23,1,2017,Undisclosed,India,Delhi,New Delhi
+9989027,f85bfea702e60f18ef808433eccab186,ucair GmbH,Private Investment,2017-03-30,1,2017,1072846,Germany,Berlin,Berlin
+2880161,3f25f16a58c0be342f6f05595dc5a981,Augmented Pixels Inc.,Private Investment,2016-02-02,1,2016,1500000,United States,California,Palo Alto
+ddb1b1d,3f25f16a58c0be342f6f05595dc5a981,Augmented Pixels Inc.,Private Investment,2015-03-05,1,2015,1000058,United States,California,Palo Alto
+9a2a104,3f25f16a58c0be342f6f05595dc5a981,Augmented Pixels Inc.,Private Investment,2013-02-15,1,2013,300000,United States,California,Palo Alto
+950dc05,3f25f16a58c0be342f6f05595dc5a981,Augmented Pixels Inc.,Private Investment,2014-04-15,2,2014,1000000,United States,California,Palo Alto
+906d732,6c7d654e85d1dfd77d0e4c852f06c9be,"Airnest, Ltd.",Private Investment,2015-07-24,3,2015,Undisclosed,United States,Pennsylvania,
+d157b4d,427e1a73ad0284118fd4b60911c13bf8,Citadel Defense Company Inc.,Private Investment,2017-08-02,3,2017,11999995,United States,California,National City
+86da07b,427e1a73ad0284118fd4b60911c13bf8,Citadel Defense Company Inc.,Private Investment,2016-11-10,4,2016,Undisclosed,United States,California,National City
+934dcb1,f261be8ccd2bb42790d010bda097683e,Deveron UAS Corp.,Private Investment,2016-03-24,1,2016,Undisclosed,Canada,Ontario,Toronto
+c68a426,f261be8ccd2bb42790d010bda097683e,Deveron UAS Corp.,Public Offering,2012-11-23,4,2012,756018,Canada,Ontario,Toronto
+0ef4844,f261be8ccd2bb42790d010bda097683e,Deveron UAS Corp.,Private Investment,2017-03-29,1,2017,Undisclosed,Canada,Ontario,Toronto
+bde8577,fa17edc247058587678e5469b50a8a4f,"Drone Racing League, Inc.",Private Investment,2015-08-25,3,2015,2000009,United States,New York,New York
+c492582,fa17edc247058587678e5469b50a8a4f,"Drone Racing League, Inc.",Private Investment,2017-03-17,1,2017,12950030,United States,New York,New York
+10a97e4,fa17edc247058587678e5469b50a8a4f,"Drone Racing League, Inc.",Private Investment,2017-06-12,2,2017,20000000,United States,New York,New York
+11507af,fa17edc247058587678e5469b50a8a4f,"Drone Racing League, Inc.",Private Investment,2015-08-12,3,2015,1000000,United States,New York,New York
+8d7627a,fa17edc247058587678e5469b50a8a4f,"Drone Racing League, Inc.",Private Investment,2016-09-14,3,2016,12000000,United States,New York,New York
+608d703,fa17edc247058587678e5469b50a8a4f,"Drone Racing League, Inc.",Private Investment,2016-01-08,1,2016,9353249,United States,New York,New York
+c36e4c0,5a4dd833-3188-8402-2dd5-e55d5e82da98,Passel,Private Investment,2016-12-06,4,2016,60000,Australia,,Frankston
+031c085,236d3894b6e390ce403a49ca88364ae9,"Clobotics Co., Ltd.",Private Investment,2017-06-26,2,2017,Undisclosed,China,,Shanghai
+e9d65df,b997bee0-a017-e90e-b10e-7134f70fab80,ANT-GLOBAL SERVICES,Private Investment,2016-01-07,1,2016,Undisclosed,United States,Massachusetts,Boston
+ce94a2c,fb3578631b60c0fb5ee8b74c7dfdab82,"xCraft Enterprises, LLC",Private Investment,2016-03-16,1,2016,300000,United States,Idaho,Coeur d'Alene
+88ff9d0,fb3578631b60c0fb5ee8b74c7dfdab82,"xCraft Enterprises, LLC",Private Investment,2017-02-15,1,2017,200000,United States,Idaho,Coeur d'Alene
+4b545cc,fb3578631b60c0fb5ee8b74c7dfdab82,"xCraft Enterprises, LLC",Private Investment,2017-04-11,2,2017,1069999,United States,Idaho,Coeur d'Alene
+7edd942,19ebf2b98e1308de9cfac00c9c6ffeaa,Matternet Inc.,Private Investment,2016-07-22,3,2016,11481026,United States,California,Menlo Park
+7b4a235,ad9eda72-29a8-21ac-7ed4-eb1543257d5d,Sixdof Space,Private Investment,2017-04-05,2,2017,Undisclosed,Israel,,Jerusalem
+af6cfab,9ab1ff40-0200-cfb9-260b-9033e9f4b707,Epilog Imaging Systems,Private Investment,2016-12-01,4,2016,1500000,United States,California,San Diego
+79e903d,9ab1ff40-0200-cfb9-260b-9033e9f4b707,Epilog Imaging Systems,Private Investment,2016-02-01,1,2016,500000,United States,California,San Diego
+cb3adbf,2badbaa1-b4a9-77ce-ffe9-0b782ce1a5fc,Spacedat,Private Investment,2017-07-12,3,2017,Undisclosed,Peru,,Lima
+f317a73,2badbaa1-b4a9-77ce-ffe9-0b782ce1a5fc,Spacedat,Private Investment,2017-01-31,1,2017,80000,Peru,,Lima
+67f841c,dc2a3ef4a40406b2d1fcb9d7b29d7b75,"V-cube Robotics Japan, Inc.",Private Investment,2016-05-31,2,2016,Undisclosed,Japan,,Tokyo
+976580e,54cfcac00139d0fb9f4124ba46b32768,Kespry Inc.,Private Investment,2016-06-21,2,2016,16000000,United States,California,Menlo Park
+219984c,54cfcac00139d0fb9f4124ba46b32768,Kespry Inc.,Private Investment,2014-10-14,4,2014,12352614,United States,California,Menlo Park
+f3723e3,3dfe73f0900609d6b7e514d9e63a328f,Yuneec International Co. Ltd.,Private Investment,2015-08-26,3,2015,60000000,China,,Shanghai
+157a618,68766f6463b1124ec1264d69c8cc367f,Airobotics Ltd.,Private Investment,2017-09-07,3,2017,32500000,Israel,,Petah Tikva
+00bba3f,68766f6463b1124ec1264d69c8cc367f,Airobotics Ltd.,Private Investment,2016-06-21,2,2016,28500000,Israel,,Petah Tikva
+7d9b71a,f6d028ce-6a7b-e6d6-992a-f1b3424fa94f,AERIAL,Merger/Acquisition,2017-06-07,2,2017,Undisclosed,,,
+3b3640d,8c2203decd3d9e08cb5dcb9497d1ae0c,"enRoute Co., Ltd.",Private Investment,2016-06-30,2,2016,Undisclosed,Japan,Saitama,Fujimino
+ae4920e,2dfc5e5e93126920bafa40a496765f85,"Spiral Energy Tech., Inc.",Merger/Acquisition,2016-02-29,1,2016,Undisclosed,United States,New York,Massapequa
+adf67de,2dfc5e5e93126920bafa40a496765f85,"Spiral Energy Tech., Inc.",Merger/Acquisition,2014-10-01,4,2014,49500000,United States,New York,Massapequa
+b5471a0,a24f3c71283a27722c4389926be02f6b,Seraphim Inc.,Private Investment,2014-12-09,4,2014,30000,United States,California,San Diego
+38d3b95,3f566b03371cae86f0de1fc741d1494c,AeroDron SRL,Private Investment,2013-11-27,4,2013,543589,Italy,Parma,Parma
+79069cc,27007fc31c8e495bcde67ea0a389516a,"Saildrone, Inc.",Private Investment,2016-09-05,3,2016,14000000,United States,California,Alameda
+b4a8bb6,6f137d0a8e76a4aca2895f5a6de2eecb,"Vantage Robotics, LLC",Private Investment,2015-07-23,3,2015,50000,United States,California,San Francisco
+8123de1,6f137d0a8e76a4aca2895f5a6de2eecb,"Vantage Robotics, LLC",Private Investment,2016-03-07,1,2016,1500000,United States,California,San Francisco
+f9885df,6f137d0a8e76a4aca2895f5a6de2eecb,"Vantage Robotics, LLC",Private Investment,2017-03-02,1,2017,Undisclosed,United States,California,San Francisco
+b6acb1d,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2017-01-10,1,2017,Undisclosed,United States,Ohio,Loveland
+57f9119,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2013-12-31,4,2013,Undisclosed,United States,Ohio,Loveland
+908a9e0,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2013-12-11,4,2013,Undisclosed,United States,Ohio,Loveland
+2f52fde,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-07-07,3,2015,Undisclosed,United States,Ohio,Loveland
+e0a8e86,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-11-06,4,2015,Undisclosed,United States,Ohio,Loveland
+6bad5bf,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2014-11-24,4,2014,Undisclosed,United States,Ohio,Loveland
+ce4ffc9,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-06-30,2,2015,Undisclosed,United States,Ohio,Loveland
+c56a04d,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-09-10,3,2015,Undisclosed,United States,Ohio,Loveland
+09f0951,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-06-17,2,2015,Undisclosed,United States,Ohio,Loveland
+1bbdaf3,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2013-01-29,1,2013,Undisclosed,United States,Ohio,Loveland
+bf75d4e,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-07-13,3,2015,Undisclosed,United States,Ohio,Loveland
+c13a5c4,95ec660e5f7cfc7df227b33c8caf0db3,Workhorse Group Inc.,Private Investment,2015-02-26,1,2015,Undisclosed,United States,Ohio,Loveland
+e7a8ed1,a2675aa3c2a9ca0438e1b19a47dc4c7f,Ascenta (UK) Limited,Merger/Acquisition,2014-03-27,1,2014,20000000,United Kingdom,Somerset,Somerset
+73a0251,7e7f0028-f142-75eb-e644-6cb547afec47,SenseHawk,Private Investment,2016-03-05,1,2016,100000,India,,Bangalore
+3f6c4af,229a47e897ac374939ad9ccd4bb127da,"CrowdAI, Inc.",Private Investment,2017-01-05,1,2017,2000000,United States,California,Mountain View
+1a5d243,229a47e897ac374939ad9ccd4bb127da,"CrowdAI, Inc.",Private Investment,2016-06-30,2,2016,120000,United States,California,Mountain View
+d0f190e,d233f7d8-5684-de95-d6bc-a602674a365f,Arabia Weather,Private Investment,2014-12-10,4,2014,2000000,Jordan,,Amman
+8eda937,d233f7d8-5684-de95-d6bc-a602674a365f,Arabia Weather,Private Investment,2015-11-09,4,2015,5000000,Jordan,,Amman
+90d3780,4d2afd64238f238591b3c6ee44b3943d,"Agribotix, LLC",Private Investment,2014-12-15,4,2014,812500,United States,Colorado,Boulder
+f9dfc5e,404546cdd837a5c3fba6bc55aa481d9f,Drone Aviation Holding Corp.,Private Investment,2015-11-17,4,2015,Undisclosed,United States,Florida,Jacksonville
+e4658ca,404546cdd837a5c3fba6bc55aa481d9f,Drone Aviation Holding Corp.,Private Investment,2016-09-22,3,2016,Undisclosed,United States,Florida,Jacksonville
+195336a,404546cdd837a5c3fba6bc55aa481d9f,Drone Aviation Holding Corp.,Private Investment,2014-08-27,3,2014,Undisclosed,United States,Florida,Jacksonville
+f54ab28,404546cdd837a5c3fba6bc55aa481d9f,Drone Aviation Holding Corp.,Private Investment,2014-06-03,2,2014,Undisclosed,United States,Florida,Jacksonville
+3a6e740,404546cdd837a5c3fba6bc55aa481d9f,Drone Aviation Holding Corp.,Private Investment,2014-05-02,2,2014,650000,United States,Florida,Jacksonville
+ef0f2db,404546cdd837a5c3fba6bc55aa481d9f,Drone Aviation Holding Corp.,Private Investment,2015-06-02,2,2015,Undisclosed,United States,Florida,Jacksonville
+107b4fe,0bea0827d06e9f7b930618f9ba6e1c47,Fastout Int. AB (publ),Private Investment,2015-10-02,4,2015,1218563,Sweden,Stockholm County,Stockholm
+289be8d,0bea0827d06e9f7b930618f9ba6e1c47,Fastout Int. AB (publ),Public Offering,2015-12-15,4,2015,647375,Sweden,Stockholm County,Stockholm
+6fc0619,e2f9b431d06be271b959c108e6d730db,SwarmX Pte Ltd.,Private Investment,2016-07-01,3,2016,Undisclosed,Singapore,,Singapore
+3e35ed0,bd09df7a-aa7a-a6b9-4d6b-5a3a6fda2e65,Hopper Dynamics,Private Investment,2015-01-17,1,2015,1000,India,,New Delhi
+d9c8e85,c7762a53-a5c9-6e3c-4cdb-e28f59ccbd21,National ISR Services,Private Investment,2015-02-02,1,2015,Undisclosed,United States,New Mexico,Albuquerque
+e756f79,e5e7dee3dc06630d6bb0986e966112f2,"DreamHammer, Inc.",Private Investment,2013-07-23,3,2013,710000,United States,California,San Diego
+e52eda7,e5e7dee3dc06630d6bb0986e966112f2,"DreamHammer, Inc.",Private Investment,2017-10-13,4,2017,Undisclosed,United States,California,San Diego
+8ab6ca9,e5e7dee3dc06630d6bb0986e966112f2,"DreamHammer, Inc.",Private Investment,2014-09-05,3,2014,1500000,United States,California,San Diego
+6303d53,e5e7dee3dc06630d6bb0986e966112f2,"DreamHammer, Inc.",Private Investment,2015-08-28,3,2015,687500,United States,California,San Diego
+723e274,b9b8295d43a7dff1e9cdaba601634228,"Pixelplus. Co., Ltd.",Public Offering,2015-06-08,2,2015,21394176,South Korea,Gyeonggi-do,Suwon
+6a53529,a39cc05099b123fcf5a34361b24369d9,Vertical,Private Investment,2015-02-24,1,2015,500000,Canada,Ontario,Kitchener
+5696af8,a39cc05099b123fcf5a34361b24369d9,Vertical,Private Investment,2015-01-31,1,2015,120000,Canada,Ontario,Kitchener
+91fa877,750cbc47c26c8acf82f210773a33301d,Techni Drone SAS,Private Investment,2016-06-30,2,2016,1110556,France,Rhône-Alpes,Baix
+c5832aa,750cbc47c26c8acf82f210773a33301d,Techni Drone SAS,Merger/Acquisition,2017-02-23,1,2017,Undisclosed,France,Rhône-Alpes,Baix
+33472a9,7679554ef4b9a629e018a940593cd2e7,Vertitek Inc.,Merger/Acquisition,2015-03-31,1,2015,2250000,United States,Wyoming,Cheyenne
+0d23021,0a0f403f0377f623ddd77af48a98c4d1,Department 13 International Limited,Private Investment,2017-05-04,2,2017,Undisclosed,United States,Maryland,Columbia
+e46b550,623f987255d53368893931ab14d0a7d2,Deep Six Ventures Ltd,Private Investment,2017-02-21,1,2017,15813,United Kingdom,Greater London,Hayes
+e372f28,6e48fbf626159e244333989bf8c2d194,uAvionix Corporation,Private Investment,2016-04-27,2,2016,5000000,United States,California,Palo Alto
+1977ad3,c316bb00-6f71-e04b-617a-51414ff7699f,ALAS (Airspace Localization & Avoidance System),Private Investment,2016-04-06,2,2016,Undisclosed,Singapore,,Singapore
+d2947d4,af4dc383787f247134c5ce2776ec27f3,BB Stratus Ltd,Merger/Acquisition,2016-07-01,3,2016,Undisclosed,United Kingdom,North Yorkshire,Richmond
+c3474c8,927f30fa-d3f9-4b1c-de6e-006e60490696,LakeHawk Technologies,Private Investment,2014-08-01,3,2014,85000,United States,Nevada,Las Vegas
+2e12019,927f30fa-d3f9-4b1c-de6e-006e60490696,LakeHawk Technologies,Private Investment,2015-05-04,2,2015,Undisclosed,United States,Nevada,Las Vegas
+0733230,927f30fa-d3f9-4b1c-de6e-006e60490696,LakeHawk Technologies,Private Investment,2015-12-06,4,2015,33000,United States,Nevada,Las Vegas
+eaccfbe,5365c1b74aa61500bf7828495817c833,NexOptic Technology Corp.,Private Investment,2015-07-23,3,2015,Undisclosed,Canada,British Columbia,Vancouver
+3f6bbc2,5365c1b74aa61500bf7828495817c833,NexOptic Technology Corp.,Private Investment,2015-02-19,1,2015,Undisclosed,Canada,British Columbia,Vancouver
+ccbfd08,5365c1b74aa61500bf7828495817c833,NexOptic Technology Corp.,Private Investment,2017-08-04,3,2017,Undisclosed,Canada,British Columbia,Vancouver
+689785c,5365c1b74aa61500bf7828495817c833,NexOptic Technology Corp.,Private Investment,2016-06-03,2,2016,Undisclosed,Canada,British Columbia,Vancouver
+9b62165,2822a030f778f00b54cacfb19b1d1804,IOT Group Limited,Private Investment,2016-07-14,3,2016,Undisclosed,Australia,New South Wales,Sydney
+46591ed,2822a030f778f00b54cacfb19b1d1804,IOT Group Limited,Private Investment,2017-09-04,3,2017,Undisclosed,Australia,New South Wales,Sydney
+c3a8405,2822a030f778f00b54cacfb19b1d1804,IOT Group Limited,Private Investment,2017-10-18,4,2017,Undisclosed,Australia,New South Wales,Sydney
+35d9bce,2822a030f778f00b54cacfb19b1d1804,IOT Group Limited,Private Investment,2017-06-19,2,2017,Undisclosed,Australia,New South Wales,Sydney
+150d13e,cfb0e57ce9382b79f4dad2c219f18648,"BetterView Marketplace, Inc.",Private Investment,2015-11-19,4,2015,1550000,United States,California,San Francisco
+f1da31d,cfb0e57ce9382b79f4dad2c219f18648,"BetterView Marketplace, Inc.",Private Investment,2016-09-27,3,2016,Undisclosed,United States,California,San Francisco
+3c2702f,cfb0e57ce9382b79f4dad2c219f18648,"BetterView Marketplace, Inc.",Private Investment,2015-07-31,3,2015,125000,United States,California,San Francisco
+e70271e,900129605d697225f01516186534c6f1,Accelerated Dynamics Limited,Private Investment,2016-08-01,3,2016,Undisclosed,United Kingdom,Greater London,London
+455f4a4,0504015ae3b6baeae098fad7d24c2b29,"PreNav, Inc.",Private Investment,2015-08-26,3,2015,1200000,United States,California,San Carlos
+3609e04,0504015ae3b6baeae098fad7d24c2b29,"PreNav, Inc.",Private Investment,2016-04-26,2,2016,Undisclosed,United States,California,San Carlos
+ce11cdd,0504015ae3b6baeae098fad7d24c2b29,"PreNav, Inc.",Private Investment,2016-09-15,3,2016,Undisclosed,United States,California,San Carlos
+f5a2ff4,0504015ae3b6baeae098fad7d24c2b29,"PreNav, Inc.",Private Investment,2016-06-08,2,2016,6956234,United States,California,San Carlos
+29134ff,778c0610798d8239be68f004cffecd2d,"LIG Nex1 Co., Ltd.",Public Offering,2015-09-30,3,2015,442916630,South Korea,Gyeonggi-do,Yongin
+f45732a,f99aca66563089624873acc7bf1deb92,"IcARus, Inc.",Private Investment,2016-01-31,1,2016,Undisclosed,Japan,,
+83cc4aa,dd53996f50ae9fb2973e6b80bd0b614c,SkyFront,Private Investment,2015-05-26,2,2015,20000,United States,New Jersey,Hoboken
+f7655ae,9d5487b72d866b4fa543d039a62cfa88,Airdog SIA,Private Investment,2015-03-18,1,2015,2000000,Latvia,,Jelgava
+0d4ddaf,9d5487b72d866b4fa543d039a62cfa88,Airdog SIA,Private Investment,2016-08-26,3,2016,Undisclosed,Latvia,,Jelgava
+bb009b1,5368974c-f67a-d8a9-2fd3-169ef5ddb0f6,UAV-IQ Precision Agriculture,Private Investment,2017-05-14,2,2017,Undisclosed,United States,California,Los Angeles
+b24301b,a54dee3b3f2c84c14f424d25a6174d0b,Horus Aeronaves Ltda.,Private Investment,2017-03-31,1,2017,949427,Brazil,Santa Catarina,Florianópolis
+c8ca342,a54dee3b3f2c84c14f424d25a6174d0b,Horus Aeronaves Ltda.,Private Investment,2014-10-14,4,2014,258193,Brazil,Santa Catarina,Florianópolis
+798edb2,b7069b9fc8d4ea457e26e09c7b96908e,"Kittyhawk.io, Inc.",Private Investment,2017-06-30,2,2017,200000,United States,California,San Francisco
+66996c5,b7069b9fc8d4ea457e26e09c7b96908e,"Kittyhawk.io, Inc.",Private Investment,2017-03-06,1,2017,600000,United States,California,San Francisco
+1d69c25,b7069b9fc8d4ea457e26e09c7b96908e,"Kittyhawk.io, Inc.",Private Investment,2016-05-24,2,2016,500000,United States,California,San Francisco
+29394f6,b7069b9fc8d4ea457e26e09c7b96908e,"Kittyhawk.io, Inc.",Private Investment,2017-09-29,3,2017,200000,United States,California,San Francisco
+cdc862b,741ccdf80ac4cc17e753848f731daee5,"3D Robotics, Inc.",Private Investment,2017-04-27,2,2017,53000000,United States,California,Berkeley
+c45f9da,741ccdf80ac4cc17e753848f731daee5,"3D Robotics, Inc.",Private Investment,2016-05-21,2,2016,Undisclosed,United States,California,Berkeley
+ac320e1,741ccdf80ac4cc17e753848f731daee5,"3D Robotics, Inc.",Private Investment,2013-09-12,3,2013,30000000,United States,California,Berkeley
+cf3e59d,741ccdf80ac4cc17e753848f731daee5,"3D Robotics, Inc.",Private Investment,2012-11-02,4,2012,5070000,United States,California,Berkeley
+4d516e9,741ccdf80ac4cc17e753848f731daee5,"3D Robotics, Inc.",Private Investment,2014-09-08,3,2014,Undisclosed,United States,California,Berkeley
+d025dee,741ccdf80ac4cc17e753848f731daee5,"3D Robotics, Inc.",Private Investment,2015-02-11,1,2015,64078935,United States,California,Berkeley
+63d738b,4abe3e0eaae563218a1fa7e5ac12a72e,YellowScan SAS,Private Investment,2015-11-15,4,2015,429023,France,Languedoc-Roussillon,Montferrier-sur-Lez
+ead6e13,1e0fa9e819bf3f3be1ee6a6f984b433e,USD Global INC.,Private Investment,2015-05-01,2,2015,Undisclosed,United States,Delaware,Wilmington
+58587fe,0e81286f-4a80-cd58-d136-08dadf591676,Fx Lambda,Private Investment,2014-09-01,3,2014,500000,United States,Delaware,Wilmington
+e208595,0e81286f-4a80-cd58-d136-08dadf591676,Fx Lambda,Private Investment,2016-10-22,4,2016,1200000,United States,Delaware,Wilmington
+81adc5e,0e81286f-4a80-cd58-d136-08dadf591676,Fx Lambda,Private Investment,2016-03-15,1,2016,400000,United States,Delaware,Wilmington
+17b243b,76cdd15c08d08e145abda50c2aa105e9,"Smartvid.io, Inc.",Private Investment,2016-12-21,4,2016,Undisclosed,United States,Massachusetts,Cambridge
+eb4e50c,76cdd15c08d08e145abda50c2aa105e9,"Smartvid.io, Inc.",Private Investment,2017-06-30,2,2017,7000000,United States,Massachusetts,Cambridge
+af8a607,76cdd15c08d08e145abda50c2aa105e9,"Smartvid.io, Inc.",Private Investment,2015-07-17,3,2015,3435000,United States,Massachusetts,Cambridge
+65c5815,f16adc8732eb8df0453e8551c53f95cc,5D Robotics Inc.,Private Investment,2016-02-02,1,2016,5500000,United States,California,Carlsbad
+3814c57,7bbf4f4a243e585d5dd88243dbb2fc2f,"Drone Guarder, Inc.",Merger/Acquisition,2014-07-04,3,2014,83323,United Kingdom,Greater London,London
+7984da5,a5389456-11af-a2ee-bb1d-70d259dd11e0,"Luftronix, Inc.",Private Investment,2015-02-16,1,2015,Undisclosed,United States,New Jersey,Franklin Lakes
+3aa57ea,517479fbf71aa8cf187d74ecb8f1a971,Intuitive Aerial AB (publ),Public Offering,2015-01-09,1,2015,Undisclosed,Sweden,Östergötland County,Linköping
+0100e15,0503847dcac9a39e1c7c4259ea6ec37a,"AllWinner Technology Co., Ltd.",Public Offering,2015-05-08,2,2015,82011306,China,Guangdong Province,Zhuhai
+5fbef0e,0503847dcac9a39e1c7c4259ea6ec37a,"AllWinner Technology Co., Ltd.",Private Investment,2016-01-26,1,2016,Undisclosed,China,Guangdong Province,Zhuhai
+7c873c6,412b0b8fd1a2dfbb9f5987db048cdec7,"Xiamen Meiya Pico Information Co., Ltd.",Private Investment,2015-08-07,3,2015,Undisclosed,China,Fujian Province,Xiamen
+b850bd1,a7d12be806f88a7d96a8d7a859e7d175,Identified Technologies Corporation,Private Investment,2017-06-29,2,2017,Undisclosed,United States,Pennsylvania,Pittsburgh
+f86ace6,a7d12be806f88a7d96a8d7a859e7d175,Identified Technologies Corporation,Private Investment,2013-10-31,4,2013,Undisclosed,United States,Pennsylvania,Pittsburgh
+373d0c2,a7d12be806f88a7d96a8d7a859e7d175,Identified Technologies Corporation,Private Investment,2015-03-27,1,2015,3141415,United States,Pennsylvania,Pittsburgh
+2885cd0,64f3fa5d7e0ffb802fb939d76950a891,Unmanned Life,Private Investment,2016-01-25,1,2016,81217,United Kingdom,,
+ab9d9f0,8b54fdcfb11ddf7ff3312a525fce68de,"Valmie Resources, Inc.",Merger/Acquisition,2013-09-30,3,2013,128198,United States,Texas,Houston
+16bd25b,6091d94d25cd4f8aa681716b5409774e,NetraDyne Inc.,Private Investment,2016-05-31,2,2016,18122619,United States,California,San Diego
+b7b2520,46a448f4eb905e6787a55e1e3aa5a59e,Italeaf S.p.A.,Private Investment,2016-11-28,4,2016,Undisclosed,Italy,Terni,Narni
+c1ab19f,46a448f4eb905e6787a55e1e3aa5a59e,Italeaf S.p.A.,Private Investment,2017-05-02,2,2017,Undisclosed,Italy,Terni,Narni
+f279d6d,46a448f4eb905e6787a55e1e3aa5a59e,Italeaf S.p.A.,Private Investment,2014-12-30,4,2014,Undisclosed,Italy,Terni,Narni
+ef5b3b4,46a448f4eb905e6787a55e1e3aa5a59e,Italeaf S.p.A.,Public Offering,2014-08-29,3,2014,1459278,Italy,Terni,Narni
+d42a52a,a8028306cf117c882757f73393f900bf,Nanya Technology Corporation,Private Investment,2016-11-09,4,2016,Undisclosed,Taiwan,,Taoyuan City
+048fe45,9f4a89ec2fa5b8cb44c0fb83e007369e,"Enjoy Technology, Inc.",Private Investment,2015-07-29,3,2015,49999999,United States,California,Menlo Park
+672e44b,9f4a89ec2fa5b8cb44c0fb83e007369e,"Enjoy Technology, Inc.",Private Investment,2014-10-16,4,2014,26500000,United States,California,Menlo Park
+4d19218,9f4a89ec2fa5b8cb44c0fb83e007369e,"Enjoy Technology, Inc.",Private Investment,2014-10-23,4,2014,30000000,United States,California,Menlo Park
+2f781f3,d025d94509e92defd7ab6a2aabd4af95,"Infatics, Inc.",Private Investment,2016-08-24,3,2016,20000000,United States,California,San Francisco
+4f12ee1,d025d94509e92defd7ab6a2aabd4af95,"Infatics, Inc.",Private Investment,2014-09-19,3,2014,2000000,United States,California,San Francisco
+99a5727,d025d94509e92defd7ab6a2aabd4af95,"Infatics, Inc.",Private Investment,2013-02-28,1,2013,50000,United States,California,San Francisco
+2399474,d025d94509e92defd7ab6a2aabd4af95,"Infatics, Inc.",Private Investment,2015-03-31,1,2015,9000000,United States,California,San Francisco
+ea9965c,12f6d8eb25fe543f2ac9878cdefddfa0,"GoPro, Inc.",Public Offering,2014-06-25,2,2014,427200000,United States,California,San Mateo
+925e3c7,63f0739673d41f6d08845683ef0e0ba0,Unibap AB (publ),Public Offering,2017-03-26,1,2017,2611153,Sweden,Uppsala County,Uppsala
+efc96e0,63f0739673d41f6d08845683ef0e0ba0,Unibap AB (publ),Private Investment,2017-02-13,1,2017,1343298,Sweden,Uppsala County,Uppsala
+6f574cd,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2013-05-24,2,2013,Undisclosed,United States,Idaho,Boise
+eb26f9d,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2013-01-11,1,2013,Undisclosed,United States,Idaho,Boise
+0854e7e,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2016-07-18,3,2016,Undisclosed,United States,Idaho,Boise
+f6391e0,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2015-01-16,1,2015,400000,United States,Idaho,Boise
+205d8fb,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2016-02-06,1,2016,100000,United States,Idaho,Boise
+e8e8c9e,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2016-12-13,4,2016,Undisclosed,United States,Idaho,Boise
+05b59c6,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2013-09-30,3,2013,260000,United States,Idaho,Boise
+503de23,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2015-02-17,1,2015,135000,United States,Idaho,Boise
+9c63c54,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2015-04-20,2,2015,135000,United States,Idaho,Boise
+796f2bf,b5bc2fac62566a5a005809cd4d052dff,"PCS Edventures!.com, Inc.",Private Investment,2016-09-28,3,2016,Undisclosed,United States,Idaho,Boise
+f4840c1,56440936bb701a954156e51918237e21,Nightingale Security,Private Investment,2016-11-10,4,2016,Undisclosed,United States,California,San Francisco
+ce658bf,b77b4f9cb6a6d69d6c1d25b08eccd523,"Reconstruct, Inc.",Private Investment,2016-09-02,3,2016,850000,United States,Illinois,Champaign
+8d6f6eb,3e82220777a6dcb5323be9a4fbc56050,Ascending Technologies GmbH,Merger/Acquisition,2016-01-04,1,2016,Undisclosed,Germany,Bavaria,Krailling
+826d2f3,53ce1f264f0a8e05c7b6e740fe3f134e,Mythic,Private Investment,2017-05-22,2,2017,6000000,United States,Texas,Austin
+a96abd2,53ce1f264f0a8e05c7b6e740fe3f134e,Mythic,Private Investment,2016-11-16,4,2016,6318939,United States,Texas,Austin
+65cfbc0,53ce1f264f0a8e05c7b6e740fe3f134e,Mythic,Private Investment,2016-12-19,4,2016,9000000,United States,Texas,Austin
+98c949b,8217cf5c6de867a2f6b30f609edfc0bd,DroneView Technologies LLC,Private Investment,2015-03-25,1,2015,Undisclosed,United States,New York,New York
+ddeb3b9,fb44b83eb8aef4a63af125503ca4b70c,Propeller Aerobotics Pty Ltd,Private Investment,2015-01-31,1,2015,56807,Australia,New South Wales,Eveleigh
+3ed8e93,fb44b83eb8aef4a63af125503ca4b70c,Propeller Aerobotics Pty Ltd,Private Investment,2016-09-27,3,2016,3062201,Australia,New South Wales,Eveleigh
+7a8c719,bd60f66721c946629cf5f3da84d5fd85,Cape Productions Inc.,Private Investment,2015-10-13,4,2015,Undisclosed,United States,California,Redwood City
+5107988,1358afe4-4ed8-f268-f38c-cb6abcdc0346,Gago,Private Investment,2017-01-01,1,2017,Undisclosed,China,,Beijing
+7438fd8,09e41214b0b9bb1b1c0f7175d857628f,"HUVRData, LLC",Private Investment,2015-07-27,3,2015,2000000,United States,Texas,Austin
+6ea0014,aa14ae00663b9dd3b251fdc79b4eed54,Airwood Aerostructures Pvt. Ltd.,Private Investment,2016-05-02,2,2016,Undisclosed,India,Tamil Nadu,Chennai
+e1b6c41,a6f5acc54e357c8702566533def7ce8a,"Volans-I, Inc",Private Investment,2017-01-31,1,2017,120000,United States,California,San Francisco
+9fdc10b,392924f754dea60ff78496a9b7f3a09c,"Fuse Science, Inc.",Private Investment,2013-03-04,1,2013,Undisclosed,United States,New York,Massapequa
+9d1a0e3,392924f754dea60ff78496a9b7f3a09c,"Fuse Science, Inc.",Private Investment,2014-01-03,1,2014,Undisclosed,United States,New York,Massapequa
+bb5b65b,392924f754dea60ff78496a9b7f3a09c,"Fuse Science, Inc.",Private Investment,2013-11-07,4,2013,Undisclosed,United States,New York,Massapequa
+8e39c8a,392924f754dea60ff78496a9b7f3a09c,"Fuse Science, Inc.",Private Investment,2014-08-25,3,2014,Undisclosed,United States,New York,Massapequa
+c2896ad,66c787119910dd42aeffd7ff97e663dd,Hoversurf inc.,Private Investment,2016-10-07,4,2016,210000,Russia,,Moscow
+032672d,20f7be98448df374a83073a7d62450a9,Flying Eye SARL,Merger/Acquisition,2017-02-08,1,2017,Undisclosed,France,Provence-Alpes-Côte d'Azur,Vallauris
+16e918a,0303815f9fe637cbc2cff483a90a9c9f,"TraceAir Technologies, Inc.",Private Investment,2016-05-16,2,2016,125000,United States,California,Mountain View
+824ec35,0a76299816e649077e6aeff558ae4822,Kineto Drive Technology Inc.,Private Investment,2017-01-23,1,2017,Undisclosed,Taiwan,,Kaohsiung
+a18c130,378014b3afd9d70ddb545770a54d265a,"Skyward IO, Inc.",Private Investment,2014-06-10,2,2014,4100000,United States,Oregon,Portland
+0b57894,378014b3afd9d70ddb545770a54d265a,"Skyward IO, Inc.",Merger/Acquisition,2017-02-16,1,2017,Undisclosed,United States,Oregon,Portland
+3909b36,378014b3afd9d70ddb545770a54d265a,"Skyward IO, Inc.",Private Investment,2016-05-25,2,2016,2378049,United States,Oregon,Portland
+d23f7fe,378014b3afd9d70ddb545770a54d265a,"Skyward IO, Inc.",Private Investment,2013-12-17,4,2013,140000,United States,Oregon,Portland
+fa5a341,06101a23d135c3b1a0d547c642936ef9,Drogen Inc,Private Investment,2016-02-15,1,2016,4131720,South Korea,,
+078cec5,be078dbc-3e3e-8020-05d3-06bc4e3b7e00,USDrobotics Inc,Private Investment,2015-10-01,4,2015,100000,United States,Florida,Winter Garden
+bad4556,f91140de0c3dc60b9a103744ea287a25,OOO OKB Aviareshenia,Private Investment,2017-02-17,1,2017,1062361,Russia,Chuvashiya,Cheboksary
+48252c8,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2014-05-08,2,2014,3170000,United States,California,San Francisco
+d6eed8a,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2014-02-26,1,2014,Undisclosed,United States,California,San Francisco
+55a84dd,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2014-12-12,4,2014,5000000,United States,California,San Francisco
+077bece,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2015-09-30,3,2015,Undisclosed,United States,California,San Francisco
+bf3d91d,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2014-05-09,2,2014,13230000,United States,California,San Francisco
+1eef432,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2015-08-04,3,2015,26406954,United States,California,San Francisco
+ea32ed3,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2013-05-31,2,2013,Undisclosed,United States,California,San Francisco
+06ec70d,18da7cb688a371e61951c234520e97a2,"Skycatch, Inc.",Private Investment,2013-11-06,4,2013,Undisclosed,United States,California,San Francisco
+543623e,fa8454fde17ac461be92ece464d0413c,"Duke Robotics, Inc.",Private Investment,2017-02-15,1,2017,Undisclosed,United States,Florida,Gulf Breeze
+1160006,f1ca1c5b69dd88c0a6732c3959c30e7a,Verifly Holdings Ltd.,Private Investment,2016-08-14,3,2016,2700000,United Kingdom,,
+38e493c,f1ca1c5b69dd88c0a6732c3959c30e7a,Verifly Holdings Ltd.,Private Investment,2015-04-13,2,2015,2051477,United Kingdom,,
+c723c39,f52876d8f405288790ab7ee9ab2d5352,Hawk SAS,Private Investment,2016-06-27,2,2016,Undisclosed,France,Aquitaine,Bordeaux
+5f8085f,bc7dadc2c4d2e6d251c3102fb7e906d6,"BluHaptics, Inc.",Private Investment,2015-05-29,2,2015,50000,United States,Washington,Seattle
+70a87a1,bc7dadc2c4d2e6d251c3102fb7e906d6,"BluHaptics, Inc.",Private Investment,2016-08-12,3,2016,1352590,United States,Washington,Seattle
+d2706c0,ded2ccf76b39f1974bcaf1a8f759fce5,"Drone Aviation Holding Corp., Prior to Reverse Merger with Drone Aviation Corp.",Merger/Acquisition,2014-06-03,2,2014,Undisclosed,United States,Oklahoma,Tulsa
+4a759c9,ded2ccf76b39f1974bcaf1a8f759fce5,"Drone Aviation Holding Corp., Prior to Reverse Merger with Drone Aviation Corp.",Private Investment,2014-04-29,2,2014,Undisclosed,United States,Oklahoma,Tulsa
+10a9430,4e0a4b0d2ac1ad6c45c6cd2081a7ff26,"Neurala, Inc.",Private Investment,2016-04-15,2,2016,1200000,United States,Massachusetts,Boston
+21411b2,4e0a4b0d2ac1ad6c45c6cd2081a7ff26,"Neurala, Inc.",Private Investment,2016-12-14,4,2016,14000000,United States,Massachusetts,Boston
+5b17064,4e0a4b0d2ac1ad6c45c6cd2081a7ff26,"Neurala, Inc.",Private Investment,2013-02-25,1,2013,20000,United States,Massachusetts,Boston
+38453fa,4e0a4b0d2ac1ad6c45c6cd2081a7ff26,"Neurala, Inc.",Private Investment,2014-11-21,4,2014,926274,United States,Massachusetts,Boston
+917fd2a,fa768ae0b6c655cacdfd380dae689ba1,Vinveli LLC,Private Investment,2014-07-07,3,2014,23620,United States,Texas,Austin
+3c71bb9,fa768ae0b6c655cacdfd380dae689ba1,Vinveli LLC,Private Investment,2014-08-04,3,2014,20000,United States,Texas,Austin
+9afc0ec,25ccfc0ae5da7e25c8e5c28ad501999a,Delair-Tech SAS,Private Investment,2016-02-29,1,2016,14572051,France,Midi-Pyrénées,Toulouse
+5b3e45f,25ccfc0ae5da7e25c8e5c28ad501999a,Delair-Tech SAS,Private Investment,2013-11-06,4,2013,4056521,France,Midi-Pyrénées,Toulouse
+b1f4610,7d4e80e0972dd3d7b786fbb3b6c55592,Lighter Than Air Systems Corporation,Merger/Acquisition,2013-03-28,1,2013,922500,United States,Florida,Jacksonville
+1b65b4f,7d4e80e0972dd3d7b786fbb3b6c55592,Lighter Than Air Systems Corporation,Merger/Acquisition,2014-05-05,2,2014,Undisclosed,United States,Florida,Jacksonville
+d06aab4,48da062474d65dbadf5374ba7352c723,Hélicéo SAS,Private Investment,2016-04-19,2,2016,1706582,France,Pays de la Loire,Nantes
+afd16e4,22f8ab897e188c7eeb2c1aed692bfb6e,Airmada Inc.,Private Investment,2016-01-31,1,2016,120000,United States,Massachusetts,Boston
+dbaffdd,a4dadfb9cb59953d179056a3bc8daf5b,Striking Inc.,Private Investment,2015-09-03,3,2015,3523927,United States,California,San Francisco
+4a24c49,a4dadfb9cb59953d179056a3bc8daf5b,Striking Inc.,Private Investment,2013-06-30,2,2013,Undisclosed,United States,California,San Francisco
+f80ccba,d29f583c6bf0807caa7c9375efb9e6d6,PrecisionHawk Inc.,Private Investment,2014-09-18,3,2014,20000000,United States,North Carolina,Raleigh
+26cdcd3,d29f583c6bf0807caa7c9375efb9e6d6,PrecisionHawk Inc.,Private Investment,2016-04-20,2,2016,18000000,United States,North Carolina,Raleigh
+7adb815,d29f583c6bf0807caa7c9375efb9e6d6,PrecisionHawk Inc.,Private Investment,2013-08-14,3,2013,1000000,United States,North Carolina,Raleigh
+0b95ab1,c773b9b38fd45b845ac95599e0bfdd7e,Airstoc Limited,Private Investment,2016-04-27,2,2016,700000,United Kingdom,South Yorkshire,Sheffield
+a841558,70af9977ab9308506fda81a0d931dd18,Flirtey Technology Pty Ltd,Private Investment,2015-06-30,2,2015,120000,United States,Nevada,Reno
+7f6d8cd,70af9977ab9308506fda81a0d931dd18,Flirtey Technology Pty Ltd,Private Investment,2017-01-18,1,2017,16000000,United States,Nevada,Reno
+e5b7299,70af9977ab9308506fda81a0d931dd18,Flirtey Technology Pty Ltd,Private Investment,2015-03-06,1,2015,Undisclosed,United States,Nevada,Reno
+198f343,8f935224824ceb382535d05abe4cfd65,"Hangar Technology, Inc",Private Investment,2016-09-07,3,2016,6500000,United States,Texas,Lakeway
+dd089c5,9d4e45a6-2387-054b-6c07-b2cba8cf7c77,NJ Sky Camera,Merger/Acquisition,2016-11-29,4,2016,Undisclosed,United States,New Jersey,Morristown
+04fd4ad,6b53b9ed6327cf77ef4b17e1b88399d6,SolidEnergy Systems Corp.,Private Investment,2017-05-02,2,2017,Undisclosed,United States,Massachusetts,Woburn
+78f1a73,6b53b9ed6327cf77ef4b17e1b88399d6,SolidEnergy Systems Corp.,Private Investment,2013-09-20,3,2013,4500000,United States,Massachusetts,Woburn
+88abc13,6b53b9ed6327cf77ef4b17e1b88399d6,SolidEnergy Systems Corp.,Private Investment,2015-07-24,3,2015,12000000,United States,Massachusetts,Woburn
+06407a7,fe657ab9bc3e02a1136f5693fa308049,Helm.AI Inc.,Private Investment,2017-08-30,3,2017,Undisclosed,United States,California,Menlo Park
+cb999b2,8a039d7d898c33c11e91fa6fd2dfd958,Infinium Robotics Pte Ltd,Private Investment,2016-12-12,4,2016,5000000,Singapore,,Singapore
+d9905b5,c35473ad5bc69c581d66519479be4feb,SkySquirrel Technologies Inc.,Private Investment,2016-03-31,1,2016,1000000,Canada,Nova Scotia,Hammonds Plains
+afd52ea,52a0e1e074892826bf3becc63d32f3f9,Airinov SAS,Private Investment,2015-05-29,2,2015,8231356,France,Ile-de-France,Paris
+db6adf8,51ed115c1e0832983cf221feace127f0,SLAMcore Limited,Private Investment,2017-07-11,3,2017,Undisclosed,United Kingdom,Greater London,London
+3b41048,9057c9291d5f1205a84297c9ab214adc,Directed Sensing Inc.,Private Investment,2016-07-01,3,2016,2000000,United States,Tennessee,Knoxville
+a7ee286,0a4f6272440a4a9616289eb31040dd7c,Pixmap SAS,Private Investment,2016-04-19,2,2016,1365265,France,Provence-Alpes-Côte d'Azur,Sophia Antipolis
+ecf1cf2,7169d8a693dc60caa195408fab46b487,Asher Resources Corporation,Private Investment,2013-04-18,2,2013,Undisclosed,Canada,Ontario,Toronto
+84eb319,7169d8a693dc60caa195408fab46b487,Asher Resources Corporation,Private Investment,2016-04-11,2,2016,Undisclosed,Canada,Ontario,Toronto
+b7059bc,7169d8a693dc60caa195408fab46b487,Asher Resources Corporation,Private Investment,2014-10-17,4,2014,Undisclosed,Canada,Ontario,Toronto
+dd4244e,7169d8a693dc60caa195408fab46b487,Asher Resources Corporation,Private Investment,2013-11-07,4,2013,Undisclosed,Canada,Ontario,Toronto
+0c886f1,7169d8a693dc60caa195408fab46b487,Asher Resources Corporation,Merger/Acquisition,2016-06-06,2,2016,Undisclosed,Canada,Ontario,Toronto
+766d950,7169d8a693dc60caa195408fab46b487,Asher Resources Corporation,Private Investment,2012-12-21,4,2012,Undisclosed,Canada,Ontario,Toronto
+c91550d,808bf6c66c46542e8efd199ef0eab753,"Drone USA, Inc.",Private Investment,2017-10-05,4,2017,Undisclosed,United States,New York,New York
+66d66c3,42a7579a525ed5cb89075ef1cf3ab35d,"Advanced Aerial Services, LLC",Private Investment,2016-10-14,4,2016,175000,United States,Oklahoma,Woodward
+fccd9bf,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2013-11-01,4,2013,Undisclosed,United States,California,Los Gatos
+bc893db,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2013-04-30,2,2013,Undisclosed,United States,California,Los Gatos
+07a2aef,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2013-09-18,3,2013,Undisclosed,United States,California,Los Gatos
+c709c49,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2015-02-02,1,2015,Undisclosed,United States,California,Los Gatos
+567f149,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2014-06-13,2,2014,Undisclosed,United States,California,Los Gatos
+abf01e9,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2015-07-16,3,2015,Undisclosed,United States,California,Los Gatos
+5db1a06,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2015-02-27,1,2015,Undisclosed,United States,California,Los Gatos
+95c7fe3,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2015-07-02,3,2015,Undisclosed,United States,California,Los Gatos
+983743e,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2017-09-28,3,2017,Undisclosed,United States,California,Los Gatos
+d9f8662,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2016-08-11,3,2016,Undisclosed,United States,California,Los Gatos
+43238ae,82dd41651a2290d6c5f873d9ca4162b0,Connected IO Limited,Private Investment,2013-04-29,2,2013,Undisclosed,United States,California,Los Gatos
+cd215fb,f84ddb2d-c7f2-4490-8ab0-29ba0cd4389b,Staaker,Private Investment,2016-10-01,4,2016,1000000,Norway,,Oslo
+1e2fdb8,cf3ca375-5e02-978a-8c6f-19d8d6bc5dce,Unmanned Services,Private Investment,2015-08-15,3,2015,Undisclosed,United States,Kentucky,Lexington
+7eeff99,6a049b893e90246b0dbaf806f47ec25e,"Ctrl Me Robotics, Inc.",Private Investment,2015-01-16,1,2015,200000,United States,California,Venice
+8ed1e24,6a049b893e90246b0dbaf806f47ec25e,"Ctrl Me Robotics, Inc.",Merger/Acquisition,2017-05-28,2,2017,Undisclosed,United States,California,Venice
+694000e,d838c25ac7252afea06ea169748ec364,XXL ASA,Public Offering,2014-10-03,4,2014,406004627,Norway,Oslo,Oslo
+44f4906,a6b50b9f7bb23580cd084ecc5c339cf6,"Skycision, Inc.",Private Investment,2016-01-31,1,2016,50000,United States,Pennsylvania,Pittsburgh
+8593ec9,d8cbd1e6892f26f5d1d6e86e50cecffb,"Unmanned Safety Institute, LLC",Merger/Acquisition,2016-04-22,2,2016,Undisclosed,United States,Florida,Daytona Beach
+bfabe6b,f8762b5462ffb75b6143cfc776c01535,US Nuclear Corp,Private Investment,2016-06-28,2,2016,Undisclosed,United States,California,Canoga Park
+96ec743,f8762b5462ffb75b6143cfc776c01535,US Nuclear Corp,Private Investment,2014-04-16,2,2014,13000,United States,California,Canoga Park
+0bd3826,e07bfcb57c765af52216cadc784e6b62,Intelligent Energy Holdings Plc,Public Offering,2014-07-04,3,2014,96051536,United Kingdom,Leicestershire,Loughborough
+a0af910,67d549f4b6ceadd818834af80987ca7e,Inova Drone,Private Investment,2015-05-26,2,2015,20000,United States,California,San Diego
+a8c085c,48d125e873a39cd2fd072460d7918a74,"Aerial MOB, LLC",Merger/Acquisition,2016-04-27,2,2016,Undisclosed,United States,California,Carlsbad
+533e9f0,b2c2248ec933ef703593100cfcdb6cb4,Hi-Level Technology Holdings Limited,Public Offering,2016-01-06,1,2016,5998158,Hong Kong,Kowloon,Hung Hom
+dcd34df,1fb99fe8101d9fb788961a33ee81f79e,Redbird SAS,Private Investment,2015-04-01,2,2015,2154128,France,Ile-de-France,Paris
+da40f69,1fb99fe8101d9fb788961a33ee81f79e,Redbird SAS,Private Investment,2015-05-27,2,2015,Undisclosed,France,Ile-de-France,Paris
+3727dd0,1fb99fe8101d9fb788961a33ee81f79e,Redbird SAS,Merger/Acquisition,2016-09-22,3,2016,Undisclosed,France,Ile-de-France,Paris
+3d9c6c5,135265ad05695de752d3563449e87810,"EvoStream, Inc.",Private Investment,2014-10-22,4,2014,700000,United States,California,San Diego
+ccbf1a1,41d5cb5d05a39d72018ef8c0bd83155f,RocketMine,Merger/Acquisition,2017-02-01,1,2017,Undisclosed,South Africa,Gauteng,Boskruin
+1f3c855,8eeb3f1b87d5725865ddb855989edc64,Equinox Innovative Systems LLC,Private Investment,2017-03-18,1,2017,200000,United States,Maryland,Annapolis
+ce28cdb,8eeb3f1b87d5725865ddb855989edc64,Equinox Innovative Systems LLC,Private Investment,2017-01-09,1,2017,25000,United States,Maryland,Annapolis
+ebfdb60,08cef4bb1482803f814c1c4f14f26734,"Boya Gongdao (Beijing) Technology Co., Ltd.",Private Investment,2017-03-28,1,2017,1744845,China,,
+c372a38,86d5b614281edbc74e5404093894e321,Politaimo,Private Investment,2013-10-02,4,2013,30000,United Arab Emirates,,
+68ea97d,095f249486500c90bfde2e8c56ca62dc,Jay Mart Public Company Limited,Private Investment,2014-02-25,1,2014,Undisclosed,Thailand,,Bangkok
+a07a153,32bc43e5d690db5ad53990dc5367e8f6,"SplitSage, Inc.",Private Investment,2015-06-18,2,2015,110000,United States,Massachusetts,Cambridge
+286bee5,e8441497-fa14-8132-1ba7-e8f0dd8d52ac,The Kansas City Drone Company,Private Investment,2015-09-14,3,2015,141000,United States,Missouri,Kansas City
+bad3f36,53db08a68ab8e873d3d8ee31b12fcad4,Thrust-UAV LLC,Merger/Acquisition,2016-02-18,1,2016,109000,United States,Idaho,Boise
+99d9078,9ecf146f62a3faf1913badcfd7087fba,HoneyComb Corporation,Private Investment,2015-12-31,4,2015,Undisclosed,United States,Oregon,Wilsonville
+0b71123,9ecf146f62a3faf1913badcfd7087fba,HoneyComb Corporation,Private Investment,2014-03-24,1,2014,125000,United States,Oregon,Wilsonville
+4d9ca30,9ecf146f62a3faf1913badcfd7087fba,HoneyComb Corporation,Private Investment,2014-09-08,3,2014,290870,United States,Oregon,Wilsonville
+2a1167b,114f90feba3ddd512b59ff25f0e7fc7c,Dronefence GmbH,Private Investment,2017-06-05,2,2017,Undisclosed,Germany,North Rhine-Westphalia,Aachen
+ca3271c,9641aad889cb2204cee5e6a42af3e5df,"ShareGrid, Inc.",Private Investment,2016-06-28,2,2016,1000000,United States,Washington,Seattle
+9b0d1b3,38b505ac4b5e6efee6a4958dafc7c2d1,Pilatus Unmanned,Merger/Acquisition,2017-08-02,3,2017,Undisclosed,United States,California,Santa Ana
+74926aa,1a5877baab7d92fe70a617aadc2a3cf3,"Shapeways, Inc.",Private Investment,2013-04-22,2,2013,30100000,United States,New York,New York
+d9634f2,1a5877baab7d92fe70a617aadc2a3cf3,"Shapeways, Inc.",Private Investment,2015-06-12,2,2015,34500010,United States,New York,New York
+b0c0534,021933df7274df6d045da5a50c768bba,HexAirbot,Private Investment,2013-05-13,2,2013,30000,United States,,
+c2c34be,9c794825e4188aef781a77064e7cd4db,"Tickle Labs, Inc.",Private Investment,2014-09-01,3,2014,20000,Taiwan,,Taipei
+198ba82,4c2a459995862b5ebfdd80487021d78c,Arch Aerial LLC,Private Investment,2015-11-09,4,2015,100000,United States,Texas,Houston
+bffd3ac,4c2a459995862b5ebfdd80487021d78c,Arch Aerial LLC,Private Investment,2014-12-12,4,2014,100000,United States,Texas,Houston
+86e3e00,4ce0085b4f2e50f6c662fd9134dfa411,Sky-Futures Ltd.,Private Investment,2016-02-09,1,2016,5700000,United Kingdom,Middlesex,Hayes
+370833b,4ce0085b4f2e50f6c662fd9134dfa411,Sky-Futures Ltd.,Private Investment,2015-05-27,2,2015,Undisclosed,United Kingdom,Middlesex,Hayes
+d7e9045,4ce0085b4f2e50f6c662fd9134dfa411,Sky-Futures Ltd.,Private Investment,2017-08-31,3,2017,4000000,United Kingdom,Middlesex,Hayes
+5cda2c7,4ce0085b4f2e50f6c662fd9134dfa411,Sky-Futures Ltd.,Private Investment,2015-05-10,2,2015,3861004,United Kingdom,Middlesex,Hayes
+1c80928,b00ae80ad9407ab581a9e13a263547f5,Aarav Unmanned Systems Private Limited,Private Investment,2016-03-22,1,2016,Undisclosed,India,Uttar Pradesh,Varanasi
+9ee3519,b00ae80ad9407ab581a9e13a263547f5,Aarav Unmanned Systems Private Limited,Private Investment,2016-02-23,1,2016,Undisclosed,India,Uttar Pradesh,Varanasi
+eb3d629,0ff1cf022cb20612cca027bd9f36b229,MAVinci GmbH,Merger/Acquisition,2016-11-01,4,2016,Undisclosed,Germany,Baden-Württemberg,Sankt Leon-Rot
+b9d58e3,9ed2119c76a52e4f79a45d3e70627f39,Zero Zero Robotics Inc.,Private Investment,2016-04-26,2,2016,23000000,China,Guangdong Province,Shenzhen
+48cb0f9,9ed2119c76a52e4f79a45d3e70627f39,Zero Zero Robotics Inc.,Private Investment,2014-03-31,1,2014,1700000,China,Guangdong Province,Shenzhen
+cbfaa83,bf5f05bd-5148-d7a2-77f4-4831aff9a5b5,D & B Risk Management,Private Investment,2015-02-11,1,2015,110860,United States,Washington,Seattle
+4c6fca2,bf5f05bd-5148-d7a2-77f4-4831aff9a5b5,D & B Risk Management,Private Investment,2015-02-11,1,2015,71312,United States,Washington,Seattle
+e3005e7,48897ada91d8f8b8f50ff03c1eb7cb13,HUS Unmanned Systems Pte. Ltd.,Private Investment,2016-03-12,1,2016,5000000,Singapore,,Singapore
+f5ef076,71cddcc503fd84f881676c8739ba06e9,Edgybees Ltd.,Private Investment,2017-05-22,2,2017,120000,United States,California,Palo Alto
+5c44c31,a1d8f4af76e7152efa8ef2ebfd4ec181,"KSI Data Sciences, LLC",Private Investment,2014-01-13,1,2014,2500000,United States,Virginia,Danville
+99b6262,2b77b9e686cffc03a16b7ea602510f29,KT High-Tech Marketing Inc.,Private Investment,2014-08-22,3,2014,1000000,United States,California,Campbell
+d4e504d,2b77b9e686cffc03a16b7ea602510f29,KT High-Tech Marketing Inc.,Private Investment,2017-03-31,1,2017,300000,United States,California,Campbell
+404f820,4a67d7e97862c1cc0fde4391542434cf,Chal-Tec GmbH,Private Investment,2015-06-15,2,2015,Undisclosed,Germany,Berlin,Berlin
+73ee518,5ea9f791ed4594fe248cc37bcf3ec83c,Squadrone System SAS,Private Investment,2017-03-30,1,2017,536423,France,Rhône-Alpes,Grenoble
+588db7c,5ea9f791ed4594fe248cc37bcf3ec83c,Squadrone System SAS,Private Investment,2015-06-23,2,2015,3000000,France,Rhône-Alpes,Grenoble
+3ab10d1,ae69e97f8875c96c74a29d9653c330d5,SmartPlanes AB,Private Investment,2014-09-03,3,2014,578149,Sweden,Västerbotten County,Skellefteå
+7d1c2f3,881fa0cf0628160437323730bce3046c,SAS CT2MC,Private Investment,2014-06-10,2,2014,280607,France,Rhône-Alpes,Le Bourget-du-Lac
+09e9506,7ff1863428b1f377961942fa14cdadc7,Aerial Group B.V.,Merger/Acquisition,2017-09-19,3,2017,958822,Netherlands,Zuid-Holland,The Hague
+eefb757,ad40c5744016a55b1f59a87f6534b50e,"AgEagle Aerial Systems, Inc.",Private Investment,2015-05-11,2,2015,500000,United States,Kansas,Neodesha
+cd554ee,ad40c5744016a55b1f59a87f6534b50e,"AgEagle Aerial Systems, Inc.",Private Investment,2016-06-08,2,2016,300000,United States,Kansas,Neodesha
+12837de,edac2669ea6931753bde720f9c4b17ba,"AEye, Inc.",Private Investment,2017-06-13,2,2017,16000000,United States,California,Pleasanton
+f65fe47,46c2e260039b232c9c943f57b4f9e54e,NOMAN Ventures Limited,Private Investment,2016-08-30,3,2016,196357,United Kingdom,Kent,Westerham
+3c0a63a,fbed8add61bbe4cda457476889d99ef4,"Azimuth Systems, Inc.",Merger/Acquisition,2016-09-29,3,2016,Undisclosed,United States,Massachusetts,Acton
+659a3b1,ce6c7038-5eb0-c55a-6595-90aeda0754bb,Caspian Robotics (Caspian GmbH),Private Investment,2015-03-01,1,2015,Undisclosed,Germany,,Berlin
+18726e5,37fe79d3464154a4c087de84d6fd0919,Enevate Corporation,Private Investment,2012-12-12,4,2012,30000000,United States,California,Irvine
+d53116e,3d14ea7f16fe47f1b2c3a24edf183b8b,Nano-Nouvelle Pty Ltd,Private Investment,2015-06-24,2,2015,3700000,Australia,Queensland,Forest Glen
+96c425a,41dc524e239617d55a97828b170351ac,"PulsedLight, Inc.",Merger/Acquisition,2016-01-13,1,2016,Undisclosed,United States,Oregon,Bend
+97f4231,41dc524e239617d55a97828b170351ac,"PulsedLight, Inc.",Private Investment,2015-07-22,3,2015,50000,United States,Oregon,Bend
+4ff9395,41dc524e239617d55a97828b170351ac,"PulsedLight, Inc.",Private Investment,2014-10-30,4,2014,280000,United States,Oregon,Bend
+28dcfc3,2f234e12a2f9407c00db3ab02eac0385,Aerial Photography Specialist,Merger/Acquisition,2016-01-21,1,2016,Undisclosed,Australia,,
+bdb4f1d,a3e24e1e-97ed-0c16-569f-b9fdb6de4791,YI Technology,Private Investment,2016-08-31,3,2016,90000000,United States,Washington,Seattle
+4ea2210,88f64b7c14891391ce987ac89eb36cb8,Magik Eye Inc.,Private Investment,2015-09-01,3,2015,500000,United States,New York,New York
+681ea49,5ba5bf3a-6e9f-9a6a-7edb-14760ca8ab12,Aerob,Private Investment,2012-12-18,4,2012,159000,Russia,,Moscow
+ecfd4ea,ae5859686b7317dabe2ce74ec61eab5d,Mapbox Inc.,Private Investment,2013-09-30,3,2013,10000000,United States,District Of Columbia,Washington
+ddf91da,ae5859686b7317dabe2ce74ec61eab5d,Mapbox Inc.,Private Investment,2017-10-10,4,2017,164000000,United States,District Of Columbia,Washington
+afb8e01,ae5859686b7317dabe2ce74ec61eab5d,Mapbox Inc.,Private Investment,2015-04-29,2,2015,52549918,United States,District Of Columbia,Washington
+984be69,bdeead2152671a6ea516452e0bf8f694,"PC TREASURES, LLC",Private Investment,2015-01-07,1,2015,Undisclosed,United States,Michigan,Auburn Hills
+9c5183f,3eeff3e6817a10bdd7c23de13d411687,Cambricon Technologies Corporation Limited,Private Investment,2016-08-31,3,2016,Undisclosed,China,,Beijing
+047bb47,3eeff3e6817a10bdd7c23de13d411687,Cambricon Technologies Corporation Limited,Private Investment,2017-08-18,3,2017,100000000,China,,Beijing
+e046b39,3eeff3e6817a10bdd7c23de13d411687,Cambricon Technologies Corporation Limited,Private Investment,2016-04-30,2,2016,Undisclosed,China,,Beijing
+0ced91b,35ca5b70673ce94b17fdd082517891e6,"AirMap, Inc.",Private Investment,2016-04-07,2,2016,15000000,United States,California,Santa Monica
+0a09274,35ca5b70673ce94b17fdd082517891e6,"AirMap, Inc.",Private Investment,2017-02-23,1,2017,26000000,United States,California,Santa Monica
+759825a,35ca5b70673ce94b17fdd082517891e6,"AirMap, Inc.",Private Investment,2015-06-30,2,2015,2600000,United States,California,Santa Monica
+7f4a5bb,6521a627-01e5-f5b8-895f-8d52c3e65ca4,KvadroKir,Private Investment,2015-06-20,2,2015,1000,Russia,,Novokuznetsk
+abf8161,8012498f0455a4e1b8e77204ba098bcd,xPerception Technology Inc.,Merger/Acquisition,2017-04-13,2,2017,Undisclosed,United States,California,Mountain View
+de0fbd5,8fbda561-25be-3486-9897-4ece0216f93f,Unearth,Private Investment,2016-12-02,4,2016,1300000,United States,Washington,Seattle
+d37a36e,2de0e526b2fdf79281cf63c0c5ad39b8,SARL INOVADYS,Merger/Acquisition,2014-04-30,2,2014,Undisclosed,France,Brittany,Plouzané
+ec0f0da,56ed0ce52d334a5eafcfc72366b56f5a,Shutta,Private Investment,2015-12-15,4,2015,260000,United States,New York,New York
+4a2429e,4ada100c8396e29fd51339e0823270b5,"Beijing Nongtian Guanjia Technology Co., Ltd.",Private Investment,2017-06-08,2,2017,7352941,China,,Beijing
+d3a5972,4ada100c8396e29fd51339e0823270b5,"Beijing Nongtian Guanjia Technology Co., Ltd.",Private Investment,2016-03-31,1,2016,1000000,China,,Beijing
+6d1246c,4ada100c8396e29fd51339e0823270b5,"Beijing Nongtian Guanjia Technology Co., Ltd.",Private Investment,2016-07-31,3,2016,3000000,China,,Beijing
+cc72744,c1c26f11-f889-e769-f2ef-bcefe2e80a41,"Intelligent Flying Machines, Inc.",Private Investment,2017-07-07,3,2017,Undisclosed,United States,Illinois,Chicago
+aa3a8c0,c1c26f11-f889-e769-f2ef-bcefe2e80a41,"Intelligent Flying Machines, Inc.",Private Investment,2017-01-01,1,2017,Undisclosed,United States,Illinois,Chicago
+3d1ab28,e15842ebfaea11f90b359d6ef7519c55,"Sunshine Aerial Systems, Inc.",Private Investment,2017-10-01,4,2017,Undisclosed,United States,North Dakota,Grand Forks
+be6819e,e15842ebfaea11f90b359d6ef7519c55,"Sunshine Aerial Systems, Inc.",Private Investment,2017-09-12,3,2017,10000,United States,North Dakota,Grand Forks
+0e86379,e677982fbea798e1f83b1fec504dfe13,"TerraGo Technologies, Inc.",Private Investment,2013-09-30,3,2013,1000000,United States,Virginia,Sterling
+761fdec,e677982fbea798e1f83b1fec504dfe13,"TerraGo Technologies, Inc.",Private Investment,2013-02-15,1,2013,5500000,United States,Virginia,Sterling
+4b2559d,842c2e9c10a5598aaa101c7b486e5431,ideaForge Technology Pvt. Ltd.,Private Investment,2016-12-14,4,2016,10000000,India,Maharashtra,Mumbai
+ec72d5d,83f66c66128e9348417f0ceeebd34c2b,Skycap Netherlands B.V.,Merger/Acquisition,2016-07-15,3,2016,Undisclosed,Netherlands,Zuid-Holland,Rotterdam
+7ef6af5,8f388e9dff62fd19645f0b2c9d3a389a,"Safeflight Copters, LLC",Private Investment,2013-03-14,1,2013,90000,United States,California,Napa
+be5ce09,4278bbd39f78e6a4a8675ca2af4448de,Agrieye,Private Investment,2016-05-25,2,2016,150000,Ukraine,Kyyivska obl.,Kyiv
+3196873,4278bbd39f78e6a4a8675ca2af4448de,Agrieye,Private Investment,2017-07-31,3,2017,100000,Ukraine,Kyyivska obl.,Kyiv
+8c50900,55c93e5608973b0f0c419c0b50f30a37,"AVISION, INC.",Private Investment,2017-05-01,2,2017,150000,United States,California,Mountain View
+59b544f,6afa51131789c739a669df05e6390956,Donecle SAS,Private Investment,2016-10-11,4,2016,Undisclosed,France,Midi-Pyrénées,Toulouse
+6cc6f11,6221bcbb72c65e1a04fc1c2136b00be4,MEMS Drive Inc.,Private Investment,2016-10-18,4,2016,11000000,United States,California,Pasadena
+55bc25a,c5c974dc0449dcdcc859cacce35c2fc5,IntelliVision Corp.,Private Investment,2017-08-23,3,2017,Undisclosed,United States,California,San Jose
+eb716ff,c5c974dc0449dcdcc859cacce35c2fc5,IntelliVision Corp.,Private Investment,2016-02-17,1,2016,Undisclosed,United States,California,San Jose
+87b9917,d45c9e9d30edde9418ec61207c0c7710,MiniGroup SA,Private Investment,2013-08-31,3,2013,Undisclosed,France,Pays de la Loire,Treillieres
+8dd49ba,dcbbaec6b45d150875f21ba1ea9f9fdc,Oculii Corp.,Private Investment,2017-03-31,1,2017,10903220,United States,Ohio,Beavercreek
+e78e26e,6af66a74961ab4700f4cc1dfc20c4687,FALCONVIZ LLC,Private Investment,2016-01-28,1,2016,205000,Saudi Arabia,,Thuwal
+0b8239b,d27d202ca793bd598d648652d6c8e71d,Skybotix AG,Merger/Acquisition,2015-09-30,3,2015,Undisclosed,Switzerland,Zurich,Zurich
+15adecb,3e9b822076753cdd9002a6288d663e15,O-Robotix Inc.,Private Investment,2015-11-05,4,2015,125000,United States,Nevada,Las Vegas
+7e82c19,772158e90549c245d372a54f754ee5c0,Uncanny Vision Solutions Private Limited,Private Investment,2017-05-09,2,2017,Undisclosed,India,Karnataka,Bengaluru
+17e1fac,8a4525864157227b8aa9ec279878df66,"QinetiQ North America, Inc.",Merger/Acquisition,2014-05-23,2,2014,215000000,United States,Virginia,McLean
+e2ccaa2,a283b585eb05d4e24aafb47e87b8f0b7,Auravant,Private Investment,2017-05-29,2,2017,Undisclosed,Argentina,Capital Federal,Buenos Aires
+ead8609,7f4acd05e1903c6b118666aafd24a8dd,Aeroxo,Private Investment,2015-06-16,2,2015,1000000,Russia,,Moscow
+e39fe9f,46f65f036dfadc2abcf26f6714095db0,"Ambient Intelligence Technologies Lab., Co. Ltd.",Private Investment,2017-08-21,3,2017,1745361,Japan,Ibaraki,Tsukuba
+ecfceba,f386bd1e423a9d80378bb182134d0812,"DroneBase, Inc.",Private Investment,2015-07-30,3,2015,Undisclosed,United States,California,Los Angeles
+f7125a9,f386bd1e423a9d80378bb182134d0812,"DroneBase, Inc.",Private Investment,2015-01-31,1,2015,120000,United States,California,Los Angeles
+70b2b34,f386bd1e423a9d80378bb182134d0812,"DroneBase, Inc.",Private Investment,2016-06-07,2,2016,3000000,United States,California,Los Angeles
+8790bca,1e15bc896634268143c7f752f35c963c,PinPtr,Private Investment,2014-05-07,2,2014,20000,United States,Tennessee,Nashville
+8771e9f,8c0c48700a8af68cc95773c3f60f357d,"Firmatek, L.L.C.",Merger/Acquisition,2014-09-30,3,2014,Undisclosed,United States,Texas,Selma
+8ae8105,36710fac-37ae-a776-253b-0455d8929012,Workbench Platform,Private Investment,2017-10-02,4,2017,1700000,United States,Maryland,Baltimore
+ce14f8d,36710fac-37ae-a776-253b-0455d8929012,Workbench Platform,Private Investment,2016-02-02,1,2016,1250000,United States,Maryland,Baltimore
+08a747f,0a2ef76591f3a6746404a2b4eae41eca,Grow Rich Technologies Incorporated,Private Investment,2014-10-15,4,2014,1000000,United States,California,Los Angeles
+67c9939,0a2ef76591f3a6746404a2b4eae41eca,Grow Rich Technologies Incorporated,Private Investment,2014-07-04,3,2014,120000,United States,California,Los Angeles
+5f66781,b5dc253b6faaa1cd964939763b9f4fa3,Flyability SA,Private Investment,2015-11-13,4,2015,Undisclosed,Switzerland,Vaud,Lausanne
+d3d40b3,b5dc253b6faaa1cd964939763b9f4fa3,Flyability SA,Private Investment,2015-02-02,1,2015,Undisclosed,Switzerland,Vaud,Lausanne
+25d56f5,b5dc253b6faaa1cd964939763b9f4fa3,Flyability SA,Private Investment,2016-07-01,3,2016,4300000,Switzerland,Vaud,Lausanne
+196fa56,009ba98e-0032-8771-1390-f8732fe71f44,Hawkeye Innovations Inc.,Private Investment,2016-01-20,1,2016,15000,United States,California,Santa Clara
+1461f2a,952852da3b43fd14b62ab1ccdafa77d8,Sosyal Aglar Elektronik Ticaret A.S.,Private Investment,2015-12-24,4,2015,4000000,Turkey,,Istanbul
+9557df6,952852da3b43fd14b62ab1ccdafa77d8,Sosyal Aglar Elektronik Ticaret A.S.,Private Investment,2014-12-31,4,2014,Undisclosed,Turkey,,Istanbul
+cd9c938,c51af39482bae95ba9af15c40137c67c,Omniradar BV,Private Investment,2014-08-27,3,2014,3430305,Netherlands,Noord-Brabant,Eindhoven
+484eecb,44bcc82ae9fb65bfe9204e9d094131a6,"Storyhunter, Inc",Private Investment,2017-03-29,1,2017,1300000,United States,New York,Brooklyn
+29fcfdc,44bcc82ae9fb65bfe9204e9d094131a6,"Storyhunter, Inc",Private Investment,2015-12-01,4,2015,120000,United States,New York,Brooklyn
+f1f87e0,fa87fee663396f2d3470d92ee14f30de,Animal Dynamics Limited,Private Investment,2017-03-25,1,2017,1874274,United Kingdom,Greater London,London
+ad9dbe6,fa87fee663396f2d3470d92ee14f30de,Animal Dynamics Limited,Private Investment,2015-06-29,2,2015,118343,United Kingdom,Greater London,London
+d5c6819,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2014-12-08,4,2014,135000,United States,Utah,Salt Lake City
+358760c,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2016-04-06,2,2016,500000,United States,Utah,Salt Lake City
+a1bfef2,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2015-12-18,4,2015,1020515,United States,Utah,Salt Lake City
+a2de3b2,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2014-02-18,1,2014,95000,United States,Utah,Salt Lake City
+03c276a,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2015-07-14,3,2015,600000,United States,Utah,Salt Lake City
+e20a175,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2017-03-01,1,2017,Undisclosed,United States,Utah,Salt Lake City
+3d6d633,c06d9b30402a567791809688ea8eaeb1,"OrthoGrid Systems, Inc.",Private Investment,2016-09-13,3,2016,1000000,United States,Utah,Salt Lake City
+d08edcd,2ea89e39e79f9a1e4bea32df8db04789,"Hoverfly Technologies, Inc.",Private Investment,2016-12-20,4,2016,Undisclosed,United States,Florida,Orlando
+7d7cb24,2ea89e39e79f9a1e4bea32df8db04789,"Hoverfly Technologies, Inc.",Private Investment,2015-11-02,4,2015,2000000,United States,Florida,Orlando
+70d540d,18041c52dc8ccb16f4de8fa1068f2d97,Oy FENNOSCANDIAN Resources Ab,Merger/Acquisition,2016-01-11,1,2016,797819,Finland,Finland Proper,Naantali
+74f41a7,86d7852d62ab803cf783ce5f958f3e97,R&Drone SAS,Private Investment,2015-04-13,2,2015,634887,France,Aquitaine,Blanquefort
+ca6bc85,ca463dcec9db8cafd94ce5c775acda84,"Cicayda, LLC",Private Investment,2013-09-25,3,2013,1450000,United States,Tennessee,Nashville
+4932fe7,ca463dcec9db8cafd94ce5c775acda84,"Cicayda, LLC",Private Investment,2013-07-01,3,2013,1000000,United States,Tennessee,Nashville
+25cad22,ca463dcec9db8cafd94ce5c775acda84,"Cicayda, LLC",Private Investment,2013-12-19,4,2013,3800000,United States,Tennessee,Nashville
+7cde97a,a362b1ace191b8e0851f220cbbf7b39b,"Evasyst, Inc.",Private Investment,2016-09-30,3,2016,652500,United States,California,Irvine
+1413d7c,1bc73c7407e9210277bc50129d3039fa,Sculpteo SAS,Private Investment,2012-12-11,4,2012,2597909,France,Ile-de-France,Villejuif
+343cdb6,1bc73c7407e9210277bc50129d3039fa,Sculpteo SAS,Private Investment,2015-04-02,2,2015,5438625,France,Ile-de-France,Villejuif
+df61da6,da9e940a725551eda2586028d58ffd42,Marine Robotics Inc.,Merger/Acquisition,2015-11-17,4,2015,Undisclosed,Canada,Newfoundland and Labrador,Saint John's
+5370f83,a5ef3bbb8f1f356d746d4f0d4906aed0,Aeromao Inc.,Merger/Acquisition,2016-07-11,3,2016,1481400,Canada,Ontario,Mississauga
+0269fc4,6c551cd5aa08c442f18768f9e7539bdb,"Reality Analytics, Inc.",Private Investment,2016-09-30,3,2016,1000000,United States,New York,New York
+dd9cda8,6c551cd5aa08c442f18768f9e7539bdb,"Reality Analytics, Inc.",Private Investment,2017-08-23,3,2017,Undisclosed,United States,New York,New York
+03084ce,a7e16e77c2a8078ef517bc29d747ddd9,Scalian,Merger/Acquisition,2015-03-10,1,2015,Undisclosed,France,Midi-Pyrénées,Labege
+ec92983,06300a964bfe0fba47b4246a2ee06f21,"RightHook, Inc.",Private Investment,2017-04-26,2,2017,1910000,United States,California,Palo Alto
+176e0b7,6fba0607940152eefbb1ecf69b785384,"Nod, Inc.",Private Investment,2015-06-16,2,2015,13500000,United States,California,Mountain View
+5960576,6fba0607940152eefbb1ecf69b785384,"Nod, Inc.",Private Investment,2013-08-31,3,2013,2500000,United States,California,Mountain View
+343d950,3329893f0d74d59afd3941733325ad7f,Blue Vigil,Private Investment,2015-09-02,3,2015,250000,United States,Virginia,Harrisonburg
+79a2602,385a6380fd4eae00a237d0ef119ff0e6,Avular b.v.,Private Investment,2015-02-06,1,2015,510060,Netherlands,Noord-Brabant,Eindhoven
+890b618,01f2c04f08772b9426917e2287252f66,"Raptor Maps, Inc.",Private Investment,2016-06-30,2,2016,120000,United States,Massachusetts,Somerville
+0fd5be7,01f2c04f08772b9426917e2287252f66,"Raptor Maps, Inc.",Private Investment,2016-12-06,4,2016,Undisclosed,United States,Massachusetts,Somerville
+7f193f9,01f2c04f08772b9426917e2287252f66,"Raptor Maps, Inc.",Private Investment,2017-07-26,3,2017,Undisclosed,United States,Massachusetts,Somerville
+76b1f8b,01f2c04f08772b9426917e2287252f66,"Raptor Maps, Inc.",Private Investment,2016-05-10,2,2016,400000,United States,Massachusetts,Somerville
+8eab5de,3e1382ab-f7cc-0395-80be-80a761af128f,"Skylift Global, Inc.",Private Investment,2016-01-30,1,2016,50000,United States,California,San Diego
+7dbd3d2,3e1382ab-f7cc-0395-80be-80a761af128f,"Skylift Global, Inc.",Private Investment,2015-07-15,3,2015,100000,United States,California,San Diego
+38e6d02,10f770fef1fb5974033933fd049f5015,"Swift Navigation, Inc.",Private Investment,2017-06-28,2,2017,34000000,United States,California,San Francisco
+a9f8c51,10f770fef1fb5974033933fd049f5015,"Swift Navigation, Inc.",Private Investment,2014-08-21,3,2014,2600000,United States,California,San Francisco
+e7d4628,10f770fef1fb5974033933fd049f5015,"Swift Navigation, Inc.",Private Investment,2015-12-08,4,2015,11000000,United States,California,San Francisco
+c04fd5a,87476fdbb07ef5017cdc5cfa5aca48d2,"DeepWater Desal, LLC",Private Investment,2016-05-14,2,2016,5000000,United States,California,Moss Landing
+e1028d0,d8abf8656a3f8fd5694a26695637e176,"Ascent Vision Technologies, LLC",Private Investment,2016-08-12,3,2016,Undisclosed,United States,Montana,Belgrade
+778e883,fd781e057c40bd1996d28f4af1bbae17,DeTect Technologies Private Limited,Private Investment,2017-10-13,4,2017,Undisclosed,India,Tamil Nadu,Chennai
+04cc89f,fd781e057c40bd1996d28f4af1bbae17,DeTect Technologies Private Limited,Private Investment,2017-08-16,3,2017,Undisclosed,India,Tamil Nadu,Chennai
+837272b,1096ed6e5fcce09fa59cc3be0403dd14,Resson Inc.,Private Investment,2014-11-12,4,2014,2682888,Canada,New Brunswick,Fredericton
+2629117,1096ed6e5fcce09fa59cc3be0403dd14,Resson Inc.,Private Investment,2016-06-22,2,2016,10919074,Canada,New Brunswick,Fredericton
+00a446a,2f13f33523fe64fd78a000e3927cb18b,Xacti Corporation,Merger/Acquisition,2013-03-31,1,2013,Undisclosed,Japan,,Osaka
+0573feb,1a1710cb75c594d01b8989dc34d371be,"Pilot AI Labs, Inc.",Private Investment,2016-09-15,3,2016,Undisclosed,United States,California,San Francisco
+d704a81,cf4967b7701d69af5f1ed0344f8c646d,"American Aerospace Technologies, Inc.",Private Investment,2015-07-01,3,2015,Undisclosed,United States,Pennsylvania,Bridgeport
+380cad3,22a4f113c330b9a6f0b86dec7f715d13,"cwist, Inc.",Private Investment,2015-11-30,4,2015,1500000,United States,Maryland,Annapolis
+698cca5,22a4f113c330b9a6f0b86dec7f715d13,"cwist, Inc.",Private Investment,2017-10-02,4,2017,2000000,United States,Maryland,Annapolis
+debaa31,88bfa34c599650290ec52617657609ee,The Sky Guys Ltd.,Private Investment,2016-06-27,2,2016,267421,Canada,Ontario,Oakville
+bba83ec,88bfa34c599650290ec52617657609ee,The Sky Guys Ltd.,Private Investment,2017-01-04,1,2017,903030,Canada,Ontario,Oakville
+31480e1,88bfa34c599650290ec52617657609ee,The Sky Guys Ltd.,Private Investment,2016-08-22,3,2016,385999,Canada,Ontario,Oakville
+82880ef,2f8992dbbcff133803828f86b69ee9dd,FarmShots LLC,Private Investment,2016-08-25,3,2016,1111000,United States,North Carolina,Raleigh
+dd1409f,c18fa24e851d4d4f3f8eaf7a27759448,Industrial Skyworks Inc.,Private Investment,2016-10-13,4,2016,Undisclosed,Canada,Ontario,Toronto
+a71f473,a06b08f34a8b082d907be91111c24b4b,SatixFy Israel Ltd.,Private Investment,2016-11-01,4,2016,25000000,Israel,,Rehovot
+a70ccb4,77dec714fb7a80e11273c56a49910145,SkyX Systems Corp.,Private Investment,2017-05-22,2,2017,5000000,Canada,Ontario,Markham
+61ac4e6,a486a19545933e4006bffbf89ea7a12c,"EagleEye Intelligence, LLC",Private Investment,2015-08-06,3,2015,4500000,United States,Florida,Boca Raton
+c26a7d0,5136fac36a65cc92e4e37e218a780b74,"Shanghai Incake E-commerce Corp.,Ltd",Private Investment,2015-06-30,2,2015,Undisclosed,China,,Shanghai
+8e566ba,70a81406c313f9cec44847253e11fe82,"Little Arms Studios, LLC",Private Investment,2017-03-15,1,2017,Undisclosed,United States,Virginia,Manassas
+3d11d9c,7d7ca217b05cd1217d1bc85b0a8db59f,ITD Lab Corporation,Private Investment,2017-04-28,2,2017,448752,Japan,Kanagawa,Yokohama
+e711f76,a644ecd62a20f5339d6e296e3ab8545b,Hover Inc.,Private Investment,2016-10-14,4,2016,Undisclosed,United States,California,San Francisco
+caa3338,a644ecd62a20f5339d6e296e3ab8545b,Hover Inc.,Private Investment,2013-11-11,4,2013,5200000,United States,California,San Francisco
+ef0021e,a644ecd62a20f5339d6e296e3ab8545b,Hover Inc.,Private Investment,2013-02-08,1,2013,4000000,United States,California,San Francisco
+d0feba4,a644ecd62a20f5339d6e296e3ab8545b,Hover Inc.,Private Investment,2015-11-19,4,2015,6000000,United States,California,San Francisco
+d09bf02,29d7b1b0-93d8-dbd0-6760-818d67a0e1e9,SmartC2 Inc,Private Investment,2015-04-01,2,2015,Undisclosed,United States,North Dakota,Grand Forks
+2f37135,5f307631ec1a4baf9d10068e91851c26,Endurance LLC,Private Investment,2016-05-16,2,2016,20020,Russia,,Moscow
+28d374c,5f307631ec1a4baf9d10068e91851c26,Endurance LLC,Private Investment,2015-06-30,2,2015,6299,Russia,,Moscow
+fa40991,5f307631ec1a4baf9d10068e91851c26,Endurance LLC,Private Investment,2015-11-30,4,2015,32479,Russia,,Moscow
+3ecee36,086c7eee-eab5-2c3c-10c0-fac8391469e9,GeoInteractive,Private Investment,2017-02-09,1,2017,60000,Australia,,Sydney
+0c5a653,afb164ea-ef45-fc47-d194-a5d1e49be6a6,sitebots GmbH,Private Investment,2013-09-01,3,2013,198261,Germany,,Velten
+b5a3dbc,afb164ea-ef45-fc47-d194-a5d1e49be6a6,sitebots GmbH,Private Investment,2015-11-01,4,2015,231363,Germany,,Velten
+6ca9bdc,afb164ea-ef45-fc47-d194-a5d1e49be6a6,sitebots GmbH,Private Investment,2014-05-01,2,2014,830971,Germany,,Velten
+5ca7b6b,afb164ea-ef45-fc47-d194-a5d1e49be6a6,sitebots GmbH,Private Investment,2012-12-01,4,2012,285698,Germany,,Velten
+00e095f,9f6c72590c683e5591377a5798f4910f,Fly-n-Sense SAS,Merger/Acquisition,2015-12-01,4,2015,Undisclosed,France,Poitou-Charentes,Mérignac
+92da1e8,9f6c72590c683e5591377a5798f4910f,Fly-n-Sense SAS,Private Investment,2013-03-01,1,2013,1168300,France,Poitou-Charentes,Mérignac
+ea9333f,9f6c72590c683e5591377a5798f4910f,Fly-n-Sense SAS,Merger/Acquisition,2014-04-08,2,2014,Undisclosed,France,Poitou-Charentes,Mérignac
+18dcf51,6a2849e42317c253602144709d00880a,"TeraLogics, LLC",Merger/Acquisition,2015-12-18,4,2015,39000000,United States,Virginia,Ashburn
+449aefd,bd444cbd9135982f446e49d13ec8ccab,Autonomous Control Systems Laboratory Ltd.,Private Investment,2016-03-28,1,2016,6357335,Japan,Chiba,Chiba
+c72ae97,7d48b5e955cf04ff27d45ad1416a9bdc,"Vigilant Aerospace Systems, Inc.",Private Investment,2016-04-21,2,2016,850000,United States,Oklahoma,Oklahoma City
+80dfcf8,77bde0581b348772942f9ca7f0ef3c2e,AIRMOTE,Private Investment,2014-10-13,4,2014,30000,United Arab Emirates,,Dubai
+47e2a5e,5a03b7c52e798ed83317dccb0cb785a8,"Pulse Aerospace, Inc.",Private Investment,2014-12-22,4,2014,21220000,United States,Kansas,Lawrence
+024adbe,7801e05367bb908cace91f1c7bfec306,OpenROV Inc.,Private Investment,2016-10-11,4,2016,750000,United States,California,Berkeley
+d637086,7801e05367bb908cace91f1c7bfec306,OpenROV Inc.,Private Investment,2013-06-19,2,2013,Undisclosed,United States,California,Berkeley
+6554e04,8334e287bce15ee5bfa30deaef4e8f27,"S4 Worldwide, LLC",Private Investment,2016-02-08,1,2016,Undisclosed,United States,Pennsylvania,Doylestown
+bf726f7,8b2f8f77-ca9f-47b5-7e1c-cd4e1ed01136,Luxelare,Private Investment,2016-12-21,4,2016,43750,Mexico,,Los Mochis
+da4519d,e9de2a7eb4f9c4019dc29e6ab18e2f17,Rebellion Photonics Inc.,Private Investment,2014-01-08,1,2014,10400000,United States,Texas,Houston
+179d350,a76ba96719c206db7159d473704ea957,"HouseLens, Inc.",Private Investment,2017-05-23,2,2017,1014290,United States,Tennessee,Nashville
+216c998,a76ba96719c206db7159d473704ea957,"HouseLens, Inc.",Private Investment,2013-08-01,3,2013,500000,United States,Tennessee,Nashville
+0731fe6,a76ba96719c206db7159d473704ea957,"HouseLens, Inc.",Private Investment,2016-06-28,2,2016,250000,United States,Tennessee,Nashville
+1477365,a76ba96719c206db7159d473704ea957,"HouseLens, Inc.",Private Investment,2015-09-30,3,2015,1000000,United States,Tennessee,Nashville
+7e4684a,a76ba96719c206db7159d473704ea957,"HouseLens, Inc.",Private Investment,2014-08-27,3,2014,2000000,United States,Tennessee,Nashville
+6cb91a1,cd313e54111a3435e54199b16583117f,Advanced Technology and Engineering Company (Pty) Ltd,Merger/Acquisition,2013-06-10,2,2013,Undisclosed,South Africa,Gauteng,Johannesburg
+0418292,4bb6447cea22c2a26d04fbc23503be18,Crooked Lane Brewing Company,Private Investment,2016-08-10,3,2016,55000,United States,California,Auburn
+b583ef8,4bb6447cea22c2a26d04fbc23503be18,Crooked Lane Brewing Company,Private Investment,2015-10-01,4,2015,217000,United States,California,Auburn
+916f82a,4bb6447cea22c2a26d04fbc23503be18,Crooked Lane Brewing Company,Private Investment,2016-05-04,2,2016,87400,United States,California,Auburn
+b99328d,4bb6447cea22c2a26d04fbc23503be18,Crooked Lane Brewing Company,Private Investment,2016-09-14,3,2016,Undisclosed,United States,California,Auburn
+16b5da5,4bb6447cea22c2a26d04fbc23503be18,Crooked Lane Brewing Company,Private Investment,2015-11-30,4,2015,160000,United States,California,Auburn
+4c24490,4bb6447cea22c2a26d04fbc23503be18,Crooked Lane Brewing Company,Private Investment,2016-08-26,3,2016,45600,United States,California,Auburn
+ee4f630,7253730334ef1f34614ef31fe79ae836,Kairos Aerospace Inc.,Private Investment,2015-06-30,2,2015,1610083,United States,California,Mountain View
+8dbc575,7253730334ef1f34614ef31fe79ae836,Kairos Aerospace Inc.,Private Investment,2015-02-25,1,2015,100000,United States,California,Mountain View
+8245279,7253730334ef1f34614ef31fe79ae836,Kairos Aerospace Inc.,Private Investment,2014-07-15,3,2014,500000,United States,California,Mountain View
+15f71b2,7253730334ef1f34614ef31fe79ae836,Kairos Aerospace Inc.,Private Investment,2016-05-20,2,2016,2500000,United States,California,Mountain View
+56d7a44,3fd0729c5d1af2f1062144b40ad98ade,Ion Power Group LLC,Private Investment,2016-08-25,3,2016,500000,United States,Florida,Navarre
+8983b40,a41c854f09cfb2ba3b0ebc6f3586c4ee,Simplon.co SAS,Private Investment,2014-09-05,3,2014,453632,France,Nord-Pas-de-Calais,Montreuil
+eda0bfd,2e92a47754dab9f7e87d0625fff4f20a,AT Energy,Private Investment,2014-10-13,4,2014,1900000,Russia,,Moscow
+aa51e52,c5209b85-83dd-f4b3-4d9b-b42d5e6fb087,SiteSee,Private Investment,2016-09-22,3,2016,60000,Australia,,Brisbane
+e81420e,c5209b85-83dd-f4b3-4d9b-b42d5e6fb087,SiteSee,Private Investment,2017-07-01,3,2017,Undisclosed,Australia,,Brisbane
+8e56274,5ba0ef57c6b6695dd8ccfbefaac18cfb,Bioti,Merger/Acquisition,2014-06-10,2,2014,Undisclosed,Brazil,São Paulo,Ribeirão Preto
+3dabcdb,4c0edd24f82327a7d34050b8cabababb,Cape Analytics Inc.,Private Investment,2015-12-31,4,2015,Undisclosed,United States,California,San Francisco
+c8bf70d,4c0edd24f82327a7d34050b8cabababb,Cape Analytics Inc.,Private Investment,2016-11-10,4,2016,14000000,United States,California,San Francisco
+cbc8fc6,bdaf1bf0ade98751a957e8e8a36abcd1,krtkl inc.,Private Investment,2015-04-12,2,2015,150000,United States,California,San Francisco
+9c6e81e,1b0de66e2c5c7800c1e88d946afb1b19,Smart Skin Technologies Inc.,Private Investment,2013-12-27,4,2013,55885,Canada,New Brunswick,Fredericton
+4e24c58,1b0de66e2c5c7800c1e88d946afb1b19,Smart Skin Technologies Inc.,Private Investment,2015-05-19,2,2015,12730,Canada,New Brunswick,Fredericton
+3b9650c,1b0de66e2c5c7800c1e88d946afb1b19,Smart Skin Technologies Inc.,Private Investment,2014-01-15,1,2014,3570578,Canada,New Brunswick,Fredericton
+85cf1fb,2743301187f3e84d933619328de9df8a,Aibotix GmbH,Merger/Acquisition,2014-02-18,1,2014,Undisclosed,Germany,Hessen,Kassel
+719b070,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2013-01-31,1,2013,Undisclosed,United States,California,San Francisco
+ee75b25,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2014-11-19,4,2014,Undisclosed,United States,California,San Francisco
+191d6ff,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2013-05-13,2,2013,15000000,United States,California,San Francisco
+2d5cec2,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2012-11-16,4,2012,100000,United States,California,San Francisco
+a101a67,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2017-08-30,3,2017,Undisclosed,United States,California,San Francisco
+1feccb7,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2014-07-15,3,2014,25000000,United States,California,San Francisco
+3e780a6,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2015-04-16,2,2015,Undisclosed,United States,California,San Francisco
+f532506,63dd28158c3d5cd3afd4d46bff5ac15f,"Airware, Inc",Private Investment,2016-03-29,1,2016,Undisclosed,United States,California,San Francisco
+c1d2cbc,9a255125664e002378333d38442cc466,Binocular Inc,Merger/Acquisition,2015-10-29,4,2015,Undisclosed,United States,Texas,Austin
+3d94a92,415459c609bbfe69443d85c3873a6fb1,"Sense Photonics, Inc.",Private Investment,2017-08-09,3,2017,Undisclosed,United States,North Carolina,Durham
+6a6ae49,a7a7c961b5b3d242ad160dd00a02cf74,service-drone.de GmbH,Private Investment,2015-11-05,4,2015,Undisclosed,Germany,Berlin,Berlin
+c56688a,47c16bdfd25df3efca003aa066de8ed6,"Photojojo, Inc.",Merger/Acquisition,2014-08-27,3,2014,Undisclosed,United States,California,San Francisco
+473d378,b66badb55b70503d9fafb8c203e6fb46,"Nanjing Changfeng Aerospace Electronic Technology Co., Ltd.",Merger/Acquisition,2015-06-18,2,2015,1691841947,China,Jiangsu Province,Nanjing
+de11324,ba34ded99d0f3cbd196a9534e9421da7,Ibetor S.L.,Private Investment,2013-06-30,2,2013,Undisclosed,Spain,Madrid,Las Rozas
+96de310,ba34ded99d0f3cbd196a9534e9421da7,Ibetor S.L.,Private Investment,2013-03-05,1,2013,Undisclosed,Spain,Madrid,Las Rozas
+36e3d40,835c3896c9d980074a31201a7ef0ce0c,"WellRight, LLC",Private Investment,2013-11-05,4,2013,4000000,United States,Illinois,Chicago
+fe377ae,24c564a3ad157e7b4ed3a0d6b7ed7b8f,Autonomous Marine Systems Inc.,Private Investment,2016-02-16,1,2016,3973073,United States,Massachusetts,Somerville
+f577ca9,24c564a3ad157e7b4ed3a0d6b7ed7b8f,Autonomous Marine Systems Inc.,Private Investment,2014-07-09,3,2014,400000,United States,Massachusetts,Somerville
+d779a5a,24c564a3ad157e7b4ed3a0d6b7ed7b8f,Autonomous Marine Systems Inc.,Private Investment,2014-02-17,1,2014,30000,United States,Massachusetts,Somerville
+7e2498a,c97cce6e41f9c2cd4828f4d97b311cd4,"Adaptive Flight, Inc.",Merger/Acquisition,2015-07-20,3,2015,1430000,United States,Georgia,Marietta
+4fde259,93ca1351e4dbaf903b7cdf7accf981fe,"Airdog, Inc.",Private Investment,2015-02-23,1,2015,2499329,United States,California,Palo Alto
+d0852f5,93ca1351e4dbaf903b7cdf7accf981fe,"Airdog, Inc.",Private Investment,2016-07-01,3,2016,4190402,United States,California,Palo Alto
+afb6599,f8bf72ce43c3f12adc3ea63cefe98031,"Leading Edge Technologies, Inc.",Private Investment,2015-12-22,4,2015,1200000,United States,Minnesota,Winnebago
+c44b86f,74be1b6724c067753083960823e9197d,"SkySpecs, LLC",Private Investment,2015-11-08,4,2015,3669523,United States,Michigan,Ann Arbor
+0316862,74be1b6724c067753083960823e9197d,"SkySpecs, LLC",Private Investment,2013-07-31,3,2013,480000,United States,Michigan,Ann Arbor
+d16c2e3,74be1b6724c067753083960823e9197d,"SkySpecs, LLC",Private Investment,2013-01-14,1,2013,30000,United States,Michigan,Ann Arbor
+0f85400,74be1b6724c067753083960823e9197d,"SkySpecs, LLC",Private Investment,2014-12-17,4,2014,100000,United States,Michigan,Ann Arbor
+b4c3b49,74be1b6724c067753083960823e9197d,"SkySpecs, LLC",Private Investment,2014-10-20,4,2014,20000,United States,Michigan,Ann Arbor
+80a731e,74be1b6724c067753083960823e9197d,"SkySpecs, LLC",Private Investment,2017-06-30,2,2017,Undisclosed,United States,Michigan,Ann Arbor
+734c6f5,0fb006295d25969724e72803c5816e31,"DeePhi Technology Co., Ltd.",Private Investment,2017-05-18,2,2017,Undisclosed,China,,Beijing
+b4c4413,0fb006295d25969724e72803c5816e31,"DeePhi Technology Co., Ltd.",Private Investment,2017-10-22,4,2017,40000000,China,,Beijing
+68f79b5,aa755a623808770fa694e533002f630b,"MicaSense, Inc.",Private Investment,2014-11-24,4,2014,2000000,United States,Washington,Seattle
+b8f8afc,aa755a623808770fa694e533002f630b,"MicaSense, Inc.",Private Investment,2015-10-02,4,2015,7400000,United States,Washington,Seattle
+7686dc3,fbd65aa5efd97b4b35436ffcdcabff91,Modeldirect Sarl,Merger/Acquisition,2015-03-18,1,2015,Undisclosed,France,Rhône-Alpes,Allevard
+67c8c82,b375632914e3d32f69ab72cc4718805a,Dronamics Ltd.,Private Investment,2013-12-31,4,2013,Undisclosed,Bulgaria,,Sofia
+c60e810,c82a0a49e5e113d8497522f4d1ee35e4,"Poundit, Inc.",Private Investment,2017-09-14,3,2017,629763,Philippines,,Pasig City
+c66b928,c0fa22a858f705c7c4581aab539109dc,"Airphrame, Inc.",Private Investment,2014-07-11,3,2014,4249998,United States,California,San Francisco
+1d51c81,3f37368622220891483729927d3997a8,Eonite Perception Inc.,Private Investment,2016-05-05,2,2016,5250000,United States,California,Palo Alto
+5f68fca,29179fed0715a5af1cc2ca46802d8a37,"IntelinAir, Inc.",Private Investment,2015-01-14,1,2015,1515993,United States,California,San Jose
+35229c7,29179fed0715a5af1cc2ca46802d8a37,"IntelinAir, Inc.",Private Investment,2016-09-14,3,2016,3500000,United States,California,San Jose
+eb43a10,d5429d9f20732441c3879d94476f6a68,Chronocam SAS,Private Investment,2016-10-24,4,2016,15000000,France,Ile-de-France,Paris
+41383fc,d5429d9f20732441c3879d94476f6a68,Chronocam SAS,Private Investment,2015-09-16,3,2015,847506,France,Ile-de-France,Paris
+73d5d9b,d5429d9f20732441c3879d94476f6a68,Chronocam SAS,Private Investment,2015-03-31,1,2015,Undisclosed,France,Ile-de-France,Paris
+b23b796,15d61bbeecf17b219da3a081068baba6,"Indonesia Feifan Telecommunications Co., Ltd.",Private Investment,2014-12-31,4,2014,Undisclosed,Indonesia,,
+0333ccc,866fa362d1bbf025948993e0456c6afa,Sunflower Labs Inc.,Private Investment,2016-11-04,4,2016,2100000,United States,California,Palo Alto
+d5939cf,ea00ce2aa975f0d85df7a53447d64067,"Quest Aircraft Company, LLC",Merger/Acquisition,2015-02-17,1,2015,Undisclosed,United States,Idaho,Sandpoint
+3a1cd97,ea00ce2aa975f0d85df7a53447d64067,"Quest Aircraft Company, LLC",Private Investment,2016-01-13,1,2016,10000000,United States,Idaho,Sandpoint
+fab5cb0,fcc5ac103e7e7f8ffdac765d2551c7e6,"Cognitive Operational Systems, LLC",Private Investment,2016-05-16,2,2016,125000,United States,Pennsylvania,Philadelphia
+0452348,fcc5ac103e7e7f8ffdac765d2551c7e6,"Cognitive Operational Systems, LLC",Private Investment,2016-12-30,4,2016,2350000,United States,Pennsylvania,Philadelphia
+adc6d8b,7d01dae1785b20be88192a70c11da8ae,"Movidius, Inc.",Private Investment,2014-03-31,1,2014,2480193,United States,California,San Mateo
+df26be7,7d01dae1785b20be88192a70c11da8ae,"Movidius, Inc.",Merger/Acquisition,2016-09-05,3,2016,355000000,United States,California,San Mateo
+61aba32,7d01dae1785b20be88192a70c11da8ae,"Movidius, Inc.",Private Investment,2013-07-10,3,2013,16000000,United States,California,San Mateo
+7ddcaf9,7d01dae1785b20be88192a70c11da8ae,"Movidius, Inc.",Private Investment,2015-04-14,2,2015,40000000,United States,California,San Mateo
+f9742c7,78fd8916b6687d53b8d0f7a0148ef131,A-Volute S.A,Private Investment,2015-05-29,2,2015,1865774,France,Nord-Pas-de-Calais,Roubaix
+bfd08b9,78fd8916b6687d53b8d0f7a0148ef131,A-Volute S.A,Private Investment,2017-06-21,2,2017,2228412,France,Nord-Pas-de-Calais,Roubaix
+9bc044a,8aed456b740d424148b81f77bca63401,Kepler Communications Inc.,Private Investment,2016-08-09,3,2016,3810482,Canada,Ontario,Toronto
+ff156b3,8aed456b740d424148b81f77bca63401,Kepler Communications Inc.,Private Investment,2016-02-22,1,2016,20000,Canada,Ontario,Toronto
+3046ae0,c51be94750200085f2931f1ca1797898,YOST Labs Inc.,Private Investment,2016-03-18,1,2016,1340778,United States,Ohio,Portsmouth
+44fa188,c51be94750200085f2931f1ca1797898,YOST Labs Inc.,Private Investment,2016-02-04,1,2016,1000000,United States,Ohio,Portsmouth
+b01ddf0,31f6b0aa5e27788e7c84bba3982cb520,Automation Engineering Inc.,Private Investment,2015-05-05,2,2015,1150000,United States,Massachusetts,Wilmington
+dad5f29,31f6b0aa5e27788e7c84bba3982cb520,Automation Engineering Inc.,Merger/Acquisition,2016-11-21,4,2016,62000000,United States,Massachusetts,Wilmington
+f3897c5,622debb1464d8fe5daa04d31d09e8ed8,Acconeer AB,Private Investment,2016-08-15,3,2016,7096821,Sweden,Skåne County,Lund
+a8eaa22,622debb1464d8fe5daa04d31d09e8ed8,Acconeer AB,Private Investment,2015-05-21,2,2015,2404459,Sweden,Skåne County,Lund
+034e96b,0dfda98646ed72913ecb9c0f7daba45f,"Tindie, Inc.",Merger/Acquisition,2015-08-05,3,2015,Undisclosed,United States,Oregon,Portland
+38914e0,0dfda98646ed72913ecb9c0f7daba45f,"Tindie, Inc.",Private Investment,2012-12-17,4,2012,500000,United States,Oregon,Portland
+a74858e,77acc0d6480e59ae77c7891210419cf4,LocoRobo Inc.,Private Investment,2015-01-27,1,2015,25000,United States,Pennsylvania,Philadelphia
+96fe6fe,e836476f5e4d9a59a8f6aa577c23b09f,"Shred Video, Inc.",Private Investment,2015-06-30,2,2015,120000,United States,California,San Francisco
+158b3d3,e333d64f02e8cf27d637c07e060d45d1,MotionDSP Inc.,Private Investment,2014-06-02,2,2014,1790000,United States,California,Burlingame
+823a5c3,3b7da5183d6ef127b9d745d8259eebf2,Janson Computers PLC,Merger/Acquisition,2015-05-19,2,2015,37232400,United Kingdom,Greater London,London
+596d363,90501025bc66d35714139a5a45a08011,PINC Solutions Corp.,Private Investment,2013-04-08,2,2013,13672197,United States,California,Union City
+baa785c,6e57c69f41fca9f8b6f26be2b84d94bd,"Neuron Fuel, Inc.",Private Investment,2016-05-31,2,2016,7100000,United States,California,Mountain View
+204f30e,6e57c69f41fca9f8b6f26be2b84d94bd,"Neuron Fuel, Inc.",Private Investment,2013-04-11,2,2013,3250000,United States,California,Mountain View
+616301c,bdc40cdf446cf93072caae6b5815a09a,Advanced Aircraft Company,Private Investment,2017-08-23,3,2017,Undisclosed,United States,Virginia,Hampton
+5ff57f5,d2859f6d0a6214f984b8754ae3e8cb4f,LeapMind Inc.,Private Investment,2016-08-24,3,2016,3381570,Japan,,Tokyo
+37a7f4a,d2859f6d0a6214f984b8754ae3e8cb4f,LeapMind Inc.,Private Investment,2017-10-19,4,2017,10000000,Japan,,Tokyo
+c94f7da,2f5144a1716813f8d5bc45c437e453c0,"Pointivo, Inc.",Private Investment,2016-01-12,1,2016,600000,United States,Georgia,Atlanta
+8f10ecd,2f5144a1716813f8d5bc45c437e453c0,"Pointivo, Inc.",Private Investment,2015-06-30,2,2015,777000,United States,Georgia,Atlanta
+62b27dc,b68e9e1a4af942e781573e2c831fa692,Arjun Technology Ventures Ltd.,Private Investment,2016-07-04,3,2016,1000000,United Kingdom,Cambridgeshire,Cambridge
+06519ba,10951c3b333cda40856f01e496e0a953,"Research Enhanced Design + Development, Inc.",Private Investment,2017-04-11,2,2017,2099999,United States,Maine,Brunswick
+edc376b,10951c3b333cda40856f01e496e0a953,"Research Enhanced Design + Development, Inc.",Private Investment,2016-05-17,2,2016,1000000,United States,Maine,Brunswick
+13486bc,632e1c56b232e4fe487b8fdae6ddbb27,SnapEDA Inc.,Private Investment,2016-01-31,1,2016,120000,United States,California,San Francisco
+bad7f32,c8e5e70c47c7462976e663c9a97f8724,"GeoFrenzy, Inc.",Private Investment,2016-05-03,2,2016,Undisclosed,United States,California,Tiburon
+7404877,d8eced28fd2a3e0e6a792c294327d41c,"Upverter, Inc.",Private Investment,2013-02-20,1,2013,650000,Canada,Ontario,Toronto
+7929858,d8eced28fd2a3e0e6a792c294327d41c,"Upverter, Inc.",Merger/Acquisition,2017-08-25,3,2017,5610416,Canada,Ontario,Toronto
+14ce14b,d8eced28fd2a3e0e6a792c294327d41c,"Upverter, Inc.",Private Investment,2014-03-20,1,2014,2300000,Canada,Ontario,Toronto
+cce0218,d8eced28fd2a3e0e6a792c294327d41c,"Upverter, Inc.",Private Investment,2013-07-11,3,2013,Undisclosed,Canada,Ontario,Toronto
+99855e5,b1d005928a421ce1310a747b18114cd5,"Pixobot, LLC",Private Investment,2017-09-28,3,2017,Undisclosed,United States,Nebraska,Lincoln
+2a1ed68,b1d005928a421ce1310a747b18114cd5,"Pixobot, LLC",Private Investment,2015-09-10,3,2015,300000,United States,Nebraska,Lincoln
+9ddf5a7,b1d005928a421ce1310a747b18114cd5,"Pixobot, LLC",Private Investment,2014-04-18,2,2014,20000,United States,Nebraska,Lincoln
+5b5cbbf,c512cf01a31bf78e69859f3bcafd4a61,"NaturalPoint, Inc.",Merger/Acquisition,2017-01-27,1,2017,125000000,United States,Oregon,Corvallis
+8d8b218,4ca397d1ac4451178b8ab1a82c8fd0b5,Xaircraft PTY Ltd,Private Investment,2014-09-01,3,2014,20000000,Australia,New South Wales,Alexandria
+04dff50,40c3cc2e165e9702dd3660385258fb82,uTrack,Private Investment,2015-01-27,1,2015,100000,Bahrain,,
+08efb1d,6c0081a4dbba105256cc46e9b65f2a51,Cloud Constellation Corporation,Private Investment,2016-03-08,1,2016,Undisclosed,United States,California,Los Angeles
+8632e68,2921be80216c2dc9f034e9cc2488573f,"HyperVerge, Inc.",Private Investment,2015-08-17,3,2015,1000000,United States,California,Palo Alto
+175024e,ea0e4062afc6374ea56580b529fb7da0,"Addvocate, Inc.",Private Investment,2014-11-24,4,2014,10000000,United States,California,San Francisco
+26e1b57,ea0e4062afc6374ea56580b529fb7da0,"Addvocate, Inc.",Private Investment,2013-06-30,2,2013,Undisclosed,United States,California,San Francisco
+f73c347,ea0e4062afc6374ea56580b529fb7da0,"Addvocate, Inc.",Private Investment,2013-07-24,3,2013,2390000,United States,California,San Francisco
+4533ce5,95d398b97d72caebfd4850a35dfbaf18,Cyberhawk Innovations Limited,Private Investment,2013-06-24,2,2013,1924409,United Kingdom,West Lothian,Livingston
+f7e0e52,cef55e6092a76ae11944ccb1afb02322,Datumate Ltd.,Private Investment,2014-04-10,2,2014,5000000,Israel,,Nazareth
+bee4595,f885580b-eb55-608c-0082-ffbf5bb2303d,Corpnet,Private Investment,2014-12-31,4,2014,Undisclosed,United States,Nevada,Las Vegas
+9ffc194,91252a3b7c2daba983ad4890229afb03,"Legacy Center, LLC",Private Investment,2013-07-31,3,2013,3000000,United States,Michigan,Hamburg
+4a2fe46,a9cbbad63681b09d3e2a98740c4a37c8,H4 Engineering Inc.,Private Investment,2014-04-04,2,2014,3999269,United States,California,San Mateo
+830e54e,a9cbbad63681b09d3e2a98740c4a37c8,H4 Engineering Inc.,Private Investment,2016-06-09,2,2016,3000000,United States,California,San Mateo
+41e8ac5,f660708c4a4c7a70b55138e83f312b66,Clear Flight Solutions B.V.,Private Investment,2015-03-16,1,2015,1693928,Netherlands,Overijssel,Enschede
+ec4337a,5ba0fd682c9dec9f11985fdd4c1c09f2,"Drone Department Co., Ltd.",Private Investment,2017-02-08,1,2017,Undisclosed,Japan,,Tokyo
+1240d11,a4e710f11de8bc2905fffc656862b7f8,"Neo Career Co., LTD.",Private Investment,2014-12-12,4,2014,6763612,Japan,,Tokyo
+9120a82,c7ca671c-b508-6387-fdd5-6c0c230488d2,HexAirbot,Private Investment,2013-05-12,2,2013,25000,,,
+820c7b6,5bf52496121d0fa30bfa7a6703964428,"PlaySwell, Inc.",Private Investment,2015-01-13,1,2015,1000000,United States,California,San Diego
+35e6e21,5bf52496121d0fa30bfa7a6703964428,"PlaySwell, Inc.",Private Investment,2015-11-18,4,2015,2499998,United States,California,San Diego
+6a59af9,9c3b27b8725f69dd97a92ee5d5c95f84,Bull Société Anonyme,Merger/Acquisition,2014-10-02,4,2014,848519568,France,Ile-de-France,Les Clayes-sous-Bois
+803765f,0b0a00fdee494905e2586775c7456cde,"ThreatGrid, Inc.",Merger/Acquisition,2014-06-13,2,2014,Undisclosed,United States,New York,New York
+a3a3532,eecda026beaadd58b5d92fe527bec5a1,SA RAFAUT,Merger/Acquisition,2015-06-17,2,2015,Undisclosed,France,Ile-de-France,Villeneuve la Garenne
+a3839bc,8a82f3f22246a6e0577dfcd3d2252d29,CDL Systems Ltd.,Merger/Acquisition,2012-12-21,4,2012,Undisclosed,Canada,Alberta,Calgary
+c9c94dd,fefe63463fe74cf6b94136e557a73f5f,"A-T Solutions, Inc.",Merger/Acquisition,2015-06-01,2,2015,Undisclosed,United States,Virginia,Vienna
+d9d64ad,f18fa9ec-b250-9dd1-03e1-f5f7c218c53a,Revuelo Inc.,Private Investment,2016-05-01,2,2016,40000,,,
+650d13d,244244352f5b0106e3bc79e5b12db8f8,"Shanghai Huiyi Information Technology Co., Ltd.",Private Investment,2013-03-31,1,2013,Undisclosed,China,,
+4a26c9b,244244352f5b0106e3bc79e5b12db8f8,"Shanghai Huiyi Information Technology Co., Ltd.",Private Investment,2015-09-22,3,2015,12000000,China,,
+6aa4811,244244352f5b0106e3bc79e5b12db8f8,"Shanghai Huiyi Information Technology Co., Ltd.",Private Investment,2016-08-19,3,2016,Undisclosed,China,,
+b13ba30,244244352f5b0106e3bc79e5b12db8f8,"Shanghai Huiyi Information Technology Co., Ltd.",Private Investment,2014-12-04,4,2014,5000000,China,,
+e29e788,d6074c4370db6b4d5da2be7b2310c711,Blue River Technology Inc.,Private Investment,2015-11-24,4,2015,17110994,United States,California,Sunnyvale
+5e7e553,d6074c4370db6b4d5da2be7b2310c711,Blue River Technology Inc.,Merger/Acquisition,2017-09-12,3,2017,305000000,United States,California,Sunnyvale
+043144b,d6074c4370db6b4d5da2be7b2310c711,Blue River Technology Inc.,Private Investment,2014-03-19,1,2014,10000000,United States,California,Sunnyvale
+0c0ce68,209c98880bdc55fcda1671eec0a00e7d,Xshell Inc.,Private Investment,2015-12-31,4,2015,773283,Japan,,Tokyo
+4eb8300,a6a5e6e3826d35c6c11eedb211da80ac,"Snooz, LLC",Private Investment,2016-08-11,3,2016,500000,United States,Illinois,Urbana
+d0c504b,67948cd18710cd2e2376438f8ca184ac,"Frontline Aerospace, Inc.",Private Investment,2015-10-20,4,2015,2000000,United States,Colorado,Broomfield
+2d1b28b,69e30edf5d44cddecaf9a5a45131322b,NEXEYA,Merger/Acquisition,2017-07-18,3,2017,Undisclosed,France,Ile-de-France,Chatenay-Malabry
+0f18279,69e30edf5d44cddecaf9a5a45131322b,NEXEYA,Merger/Acquisition,2013-09-30,3,2013,53905991,France,Ile-de-France,Chatenay-Malabry
+1fa8198,709f94de697ab7ff5d9fcdf09ca91700,CyPhy Works Inc.,Private Investment,2015-09-21,3,2015,Undisclosed,United States,Massachusetts,Danvers
+6406d1d,709f94de697ab7ff5d9fcdf09ca91700,CyPhy Works Inc.,Private Investment,2015-03-05,1,2015,2500000,United States,Massachusetts,Danvers
+5688e2d,709f94de697ab7ff5d9fcdf09ca91700,CyPhy Works Inc.,Private Investment,2013-10-31,4,2013,7000000,United States,Massachusetts,Danvers
+5120877,709f94de697ab7ff5d9fcdf09ca91700,CyPhy Works Inc.,Private Investment,2015-09-25,3,2015,22366094,United States,Massachusetts,Danvers
+aec0e88,3ae4ab0ecc7d04078e343cbd62a147bf,Avegant Corporation,Private Investment,2014-11-03,4,2014,9370000,United States,Michigan,Ann Arbor
+7261dd3,3ae4ab0ecc7d04078e343cbd62a147bf,Avegant Corporation,Private Investment,2013-10-25,4,2013,4000000,United States,Michigan,Ann Arbor
+94a546f,3ae4ab0ecc7d04078e343cbd62a147bf,Avegant Corporation,Private Investment,2014-11-14,4,2014,4439690,United States,Michigan,Ann Arbor
+0711cff,3ae4ab0ecc7d04078e343cbd62a147bf,Avegant Corporation,Private Investment,2013-08-31,3,2013,1900000,United States,Michigan,Ann Arbor
+44e14c1,3ae4ab0ecc7d04078e343cbd62a147bf,Avegant Corporation,Private Investment,2015-05-28,2,2015,23935081,United States,Michigan,Ann Arbor
+d2cf096,94f8bc9b78e0e629d0314e6292018acc,DroneMetrex Pty Ltd.,Merger/Acquisition,2014-02-19,1,2014,Undisclosed,Australia,South Australia,Findon
+b7c7f68,7cd37aaa41681713f2f293a6c3ca5883,"Bye Aerospace, Inc.",Private Investment,2014-06-02,2,2014,200000,United States,Colorado,Englewood
+4c52e46,a0cb733b71da8a1bae49d665c7c73215,ThincI Inc.,Private Investment,2016-08-31,3,2016,Undisclosed,United States,California,El Dorado Hills
+ed592d4,d67885640244e15d5816c71173762d74,2487473 Ontario Inc.,Merger/Acquisition,2016-07-14,3,2016,417153,Canada,Ontario,Cavan
+c0350fb,448130390211ef942c3506e9a08e8b3d,Bazzar,Private Investment,2016-09-27,3,2016,Undisclosed,Russia,,
+456e6f3,ce4d6cf61a58753bed761a6f2eabaebb,PSYGIG Inc.,Private Investment,2017-01-31,1,2017,Undisclosed,Japan,,Tokyo
+618015d,07ad8e86549f41db9164d8047d9d9bdb,Sagar Defence Engineering Private Limited,Private Investment,2017-02-21,1,2017,15813,India,Maharashtra,Mumbai
+4e2bb8e,91cbfdb7-8464-2a16-0c1a-c6c1d3bab21b,Kraus Aerospace,Private Investment,2016-03-01,1,2016,1500000,United States,Georgia,Peachtree City
+c5b5da6,a85a24da-3567-e2f1-7e3b-73719220bb30,Metron Force,Private Investment,2016-01-27,1,2016,Undisclosed,United States,California,San Jose
+23e31e9,7fc3fefe-3760-54bf-f18e-f3733988bae9,FoodBots,Private Investment,2017-01-25,1,2017,Undisclosed,Canada,Ontario,Toronto
+79305b8,bb1dcc39-d2c4-068a-ede5-02876b984553,AirBoard,Private Investment,2015-07-30,3,2015,54966,United States,California,San Mateo
+896d433,70d75645bf2eb477b8e6cdd9615f79c7,IRON DRONE Inc.,Private Investment,2013-05-30,2,2013,40000,Mexico,,
+f48071e,bf593ace-4ea4-a3af-be76-1437bb8b5738,Lily,Private Investment,2015-12-17,4,2015,14000000,United States,California,San Francisco
+faea137,bf593ace-4ea4-a3af-be76-1437bb8b5738,Lily,Private Investment,2014-03-01,1,2014,Undisclosed,United States,California,San Francisco
+ed92362,bf593ace-4ea4-a3af-be76-1437bb8b5738,Lily,Private Investment,2014-04-01,2,2014,1000000,United States,California,San Francisco
+91e0212,10f01663-78e0-6300-5171-698a9768a4fb,Sensilize,Private Investment,2013-10-20,4,2013,500000,Israel,,Haifa
+9d46a5b,10f01663-78e0-6300-5171-698a9768a4fb,Sensilize,Private Investment,2014-08-25,3,2014,1000000,Israel,,Haifa
+e9f26a2,aada856963ae7314850120bec5fcc025,General Wireless Operations Inc.,Merger/Acquisition,2017-07-21,3,2017,15000000,United States,Texas,Fort Worth
+5a7c657,61b3097d362112b07b869240fd6b4bee,"KT High-Tech Marketing Inc., Prior to Reverse Merger with KULR Technology Corp",Merger/Acquisition,2017-06-19,2,2017,Undisclosed,United States,California,Saratoga
+daa54f9,621ac97fb9d3abcc6db7e20dd7a8caad,"Jinfeng Agricultural Services Co., Ltd",Private Investment,2017-06-21,2,2017,4393737,China,,
+d5489b7,621ac97fb9d3abcc6db7e20dd7a8caad,"Jinfeng Agricultural Services Co., Ltd",Private Investment,2017-06-24,2,2017,311581165,China,,
+ff1cb10,acf5bdf4-8965-ab86-14f9-d690a0addc0f,Perceptiv Labs,Private Investment,2015-04-01,2,2015,Undisclosed,Canada,Ontario,Kitchener
+9633827,acf5bdf4-8965-ab86-14f9-d690a0addc0f,Perceptiv Labs,Private Investment,2014-12-01,4,2014,120000,Canada,Ontario,Kitchener
+56dd6e4,acf5bdf4-8965-ab86-14f9-d690a0addc0f,Perceptiv Labs,Private Investment,2014-11-01,4,2014,22262,Canada,Ontario,Kitchener
+e9233cc,acf5bdf4-8965-ab86-14f9-d690a0addc0f,Perceptiv Labs,Private Investment,2014-07-10,3,2014,Undisclosed,Canada,Ontario,Kitchener
+46f3dc6,716b98523d11a99d3aa8a725a06ef38b,AirZaar Inc.,Private Investment,2017-02-15,1,2017,350000,United States,Missouri,Wildwood
+0f090c5,596f23624235f9a2fb4f1c4ff918de14,Open Joint Stock Company Production Association Strela,Private Investment,2013-09-30,3,2013,193600,Russia,Orenburgskaya obl.,Orenburg
+f2610ff,596f23624235f9a2fb4f1c4ff918de14,Open Joint Stock Company Production Association Strela,Private Investment,2013-04-01,2,2013,2857218,Russia,Orenburgskaya obl.,Orenburg
+4d159b6,43a4662d-cef5-cb6b-e92c-a4dc6cdf9f7d,Ground Drone Ltd,Private Investment,2016-03-31,1,2016,564959,United Kingdom,,London
+5fe05a4,4d1af82e1876fe334c877c40d0ccf280,Fathom Inc.,Private Investment,2017-07-17,3,2017,120000,United States,Michigan,Grand Rapids
+14773e4,855d18c15626376e8af85965950e57bb,Global Energy Transmission Corporation,Private Investment,2017-05-31,2,2017,2500000,United States,Washington,Woodland
+f95e5da,957e7152f1848bb8ee27c42fc88e6a59,vHive Tech Ltd,Private Investment,2017-04-24,2,2017,2000000,Israel,,Herzliya
+5b0e8be,ed8f67c82a3fb4b497a9091bbf6c1839,Falcon Drone Services,Merger/Acquisition,2016-11-21,4,2016,Undisclosed,United States,New Jersey,Bridgewater
+a565e78,4347a12e-86fa-b299-af6e-bfd1177299c5,KapetAIR,Private Investment,2017-02-28,1,2017,Undisclosed,Denmark,,Odense
+6adf3c2,a64b1ac65b7fb94bd059e5e8ae703a55,MCAI SAS,Private Investment,2016-12-18,4,2016,1567562,France,Pays de la Loire,Cholet
+b1c4be1,a64b1ac65b7fb94bd059e5e8ae703a55,MCAI SAS,Private Investment,2017-03-14,1,2017,1596084,France,Pays de la Loire,Cholet
+ff2be2c,b08eff893ccd21c0cb65289dd1e86503,Droneo SARL,Merger/Acquisition,2015-06-25,2,2015,Undisclosed,France,Midi-Pyrénées,Tarbes
+8dbfb45,46e1f58fb9b62b3bf3234ba2c6a48f9d,NOVAerial Robotics Inc.,Merger/Acquisition,2017-08-09,3,2017,526760,Canada,Ontario,Brighton
+fe4dd5f,2a9aa17d434382a9175dd501d614abbe,DroneMapp,Private Investment,2016-05-20,2,2016,Undisclosed,Brazil,Paraná,Curitiba
+def7518,fe88baebf85354767ee384e16ecc8059,"Aerlyper, SA",Private Investment,2016-09-15,3,2016,3496653,Spain,Madrid,Madrid
+54dc335,7939de30-6980-a534-0d14-1f601616c715,DreamQii,Private Investment,2014-11-06,4,2014,2500000,Canada,Ontario,Toronto
+da539bc,20f97802-f843-f975-836d-49617aedb347,"Vayu, Inc.",Private Investment,2014-05-06,2,2014,1100000,United States,Michigan,Ypsilanti
+61267c3,20f97802-f843-f975-836d-49617aedb347,"Vayu, Inc.",Private Investment,2015-01-27,1,2015,Undisclosed,United States,Michigan,Ypsilanti
+0f05ebe,20f97802-f843-f975-836d-49617aedb347,"Vayu, Inc.",Private Investment,2016-02-01,1,2016,25000,United States,Michigan,Ypsilanti
+d0f5788,b304a2a6-832a-69ce-957d-fb70a320a141,Flygildi ehf,Private Investment,2013-03-01,1,2013,79565,Iceland,,Reykjavík
+5765120,b304a2a6-832a-69ce-957d-fb70a320a141,Flygildi ehf,Private Investment,2014-03-01,1,2014,88483,Iceland,,Reykjavík
+684bb44,517c1dee5a7b32a38a2e0a5f02856e01,Hydrogeosphere,Merger/Acquisition,2013-10-31,4,2013,Undisclosed,France,Languedoc-Roussillon,Axat
+0e2d717,2a37b5f473f20adc5c51666ad7e48cfb,Australian Geographic Retail Group,Merger/Acquisition,2016-08-26,3,2016,Undisclosed,Australia,New South Wales,Surry Hills
+8917155,6773a98369b0827c50926d42bde315e1,"Digital Direct IR, Inc.",Private Investment,2017-09-14,3,2017,450000,United States,New York,Fresh Meadows
+d2ab15f,d572537681ae1294db70ad55f9cd2ba1,"Unmanned Applications Institute, International Inc.",Merger/Acquisition,2017-08-26,3,2017,Undisclosed,United States,North Dakota,Grand Forks
+c0690ba,aa6eaf3830c0154c498579e4f123e4ff,Aurora Group Danmark A/S,Merger/Acquisition,2013-04-24,2,2013,22080999,Denmark,Capital Region of Denmark,Ballerup
+daf0c6f,a62b1161b01760c7ee3169be04d2ad87,Belgibo NV,Merger/Acquisition,2017-08-31,3,2017,Undisclosed,Belgium,Antwerp,Antwerp
+0aa9ac5,7c223eff0828adfc11ed272457548ccf,ETAK Systems Inc.,Merger/Acquisition,2015-01-21,1,2015,Undisclosed,United States,North Carolina,Charlotte
+31756aa,2aa8bde8fef052122967da48b4fd3e9c,Stribog Media LLC,Merger/Acquisition,2017-03-16,1,2017,Undisclosed,United States,Connecticut,Canton
+4308d58,c9fce8825e2725c9d8857214fc4cc178,Fluidity Technologies Inc.,Private Investment,2017-06-30,2,2017,Undisclosed,United States,Texas,Houston
+6f784e9,745900f4faad05cdb1e655119065f741,Notilo Plus SAS,Private Investment,2017-09-11,3,2017,958313,France,Rhône-Alpes,Grenoble
+31f68a1,45c229c03d6e3a3ddb937c7907a4d32d,"Summit Products, LLC",Merger/Acquisition,2014-05-19,2,2014,3050000,United States,Alabama,Trussville
+77ca8f6,0462abca22b3df9c7eb0e9073ecb8f41,Howco Distributing Co. Inc.,Merger/Acquisition,2016-09-20,3,2016,3500000,United States,Washington,Vancouver
+8c732c0,72e31cc37197daa899d4ecd305b10caa,Watt & Co Property Management Ltd.,Merger/Acquisition,2015-09-17,3,2015,Undisclosed,United Kingdom,Aberdeenshire,Aberdeen
+9a03b56,9af04559-c456-4874-858d-313c87fd5bb5,Emelody Worldwide,Private Investment,2014-07-09,3,2014,Undisclosed,United States,Georgia,Atlanta

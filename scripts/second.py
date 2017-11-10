@@ -29,7 +29,7 @@ workbook = xlsxwriter.Workbook(output_file, {'constant_memory':True})
 worksheet = workbook.add_worksheet("Raw data")
 higest_col = None
 people_name = set()
-with open(input_file,'rt', encoding='utf-8') as csvfile:
+with open(input_file,'rt') as csvfile:
     reader = csv.reader(csvfile)
     for r, row in enumerate(reader):
         for c, col in enumerate(row):
