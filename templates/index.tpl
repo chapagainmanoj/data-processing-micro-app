@@ -212,42 +212,48 @@ input[type=radio]:checked ~ label{
         <div id="Mast" class="clearfix">
           <h1>QUID LABS</h1>
           <hr>
-            <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
-                <h3>Step 1: Choose Script</h3>
+                <!--h3>Step 1: Choose Script</h3 !-->
                 %for item in menu:
+                <form class="" action="/" method="post" enctype="multipart/form-data">
                 <div class="quid-item">
                     <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
                       <p>{{!item['description']}}</p>
-                      %for ip in item
-                      <p><strong>Input:</strong> {{!item['input_description']}}</p>
+                      <p><strong>Input:</strong></p>
+                      %for ip in item['input']:
+                      <ul style="list-style: none;">
+                        <li>
+                        <div class="file-upload">
+                          <label> {{ip['name']}} </label>
+                         <p>
+                           <em>
+                             {{ip['description']}}
+                           </em>
+                           <input type="file" name={{ip['name']}} id={{ip['name']}} class="inputfile" placeholder="Input 1" /></p>
+                        </div>
+                        </li>
+                      </ul>
+                      %end
                       <!--<p><strong>Upload: </strong></p>-->
                       <p><strong>Output:</strong> {{item['output_description']}}</p>
                       <!--<p><strong>Sample: </strong></p>-->
                     </label>
                     <div class="check"></div>
+                    <input class="process-btn" type="submit" value="Process">
                 </div>
+              </form>
                 %end
-                <div class="second-option">
+                <!--div class="second-option">
                   <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
                     <label> default Input
                     <input type="file" name="data" id="file1" class="inputfile" placeholder="Input 1" required="" />
                   </label>
-                    <label> Input 1
-                    <input type="file" name="data" id="file2" class="inputfile" />
-                    </label>
-                    <!--
-                    <input type="file" id="files" class="hidden"/><label for="files">Select Input File 1</label>
-                                        <input type="file" id="files" class="hidden"/><label for="files">Select Input File 2</label>
-                    !-->
                   </div>
-                </div>
-              <input class="process-btn" type="submit" value="Process">
+                </div-->
 
-            </form>
         </div> <!-- #Mast -->
     </div> <!-- .header-container -->
     <script type="text/javascript">
