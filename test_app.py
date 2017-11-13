@@ -31,6 +31,7 @@ def get_info(filename):
 @auth_basic(check_auth)
 def index():
     drop_down = get_info(INFO_PATH)
+    print(drop_down)
     return template('templates/index', menu=drop_down)
 
 
@@ -70,7 +71,7 @@ def process():
 
                     st = os.stat(script_path)
                     os.chmod(script_path, st.st_mode | stat.S_IEXEC)
-                    
+
                     # subprocess.run([script_path, input_filename, output_filename,
                     #                 "{}/{}".format(OUTPUT_TEMPLATES,script['output_template'])],
                     #                stdout=subprocess.PIPE)

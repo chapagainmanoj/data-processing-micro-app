@@ -221,6 +221,7 @@ input[type=radio]:checked ~ label{
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
                       <p>{{!item['description']}}</p>
+                      %for ip in item
                       <p><strong>Input:</strong> {{!item['input_description']}}</p>
                       <!--<p><strong>Upload: </strong></p>-->
                       <p><strong>Output:</strong> {{item['output_description']}}</p>
@@ -232,7 +233,7 @@ input[type=radio]:checked ~ label{
                 <div class="second-option">
                   <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
-                    <label> Input 2
+                    <label> default Input
                     <input type="file" name="data" id="file1" class="inputfile" placeholder="Input 1" required="" />
                   </label>
                     <label> Input 1

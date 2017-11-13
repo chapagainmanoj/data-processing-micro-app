@@ -18,6 +18,11 @@ template_file = 'template.xlsx'
 # output_file = argv[2]
 # template_file = argv[3]
 
+template_floor = 6460
+Y_formula = """=IF($C{0}="x",$A{1}&", ","")"""
+Z_formula = "=_xlfn.CONCAT(Z{0},Y{1})"
+AA_formula = """=IF($D{0}="x",$A{1}&", ","")"""
+AB_formula = "=_xlfn.CONCAT(AB{0},AA{1})"
 
 # for OverflowError
 decrement = True
@@ -55,7 +60,7 @@ with open(input_file,encoding='utf-8') as csvFile:
                 raw_sheet.cell(row=raw_ceil,column=2).value = word
             raw_ceil+=1
 
-    for key,freq in counts.items():
+    for key,freq in counts.most_common():
         try:
             magic_sheet.cell(row=magic_ceil,column=1).value = key
         except IllegalCharacterError:
@@ -63,6 +68,28 @@ with open(input_file,encoding='utf-8') as csvFile:
             raw_sheet.cell(row=raw_ceil,column=1).value = key
         magic_sheet.cell(row=magic_ceil,column=2).value = freq
         magic_ceil+=1
+
+        # manual write
+    magic_sheet['B1'].value = '=Z{0}&" "&G1'.format(str(magic_ceil))
+    magic_sheet['B2'].value = '=AB{0}&" "&G2'.format(str(magic_ceil))
+    for r,row in enumerate(magic_sheet['Y{0}:Y{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+        for cell in row:
+            cell.value = Y_formula.format(str(r),str(r))
+    for r,row in enumerate(magic_sheet['AA{0}:AA{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+        for cell in row:
+            cell.value = AA_formula.format(str(r),str(r))
+
+    for r,row in enumerate(magic_sheet['AB{0}:AB{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+        for cell in row:
+            cell.value = AB_formula.format(str(r-1),str(r))
+
+    for r,row in enumerate(magic_sheet['Z{0}:Z{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+        for cell in row:
+            cell.value = Z_formula.format(str(r-1),str(r))
+
+        # manual write
+
+
     magic_sheet.cell(row=magic_ceil,column=1).value = "Total Result"
     magic_sheet.cell(row=magic_ceil,column=2).value = sum(counts.values())
 book.save(output_file)
