@@ -5,46 +5,52 @@
         "description":"Rank most influential researchers & opinion leaders in the scientific community",
         "input":[
           {
-            "name":"quid_KOL_webofscience_input.csv",
-            "description":"CSV export from Quid Opus network of Web of Science data"
+            "name":"quid_KOL_webofscience_input",
+            "description":"CSV export from Quid Opus network of Web of Science data",
+            "extension":".csv"
           }
         ],
         "output":[
           {
-            "name": "quid_webofscience_output.xlsx",
-            "description": "CSV export from Quid Opus network of Web of Science data"
+            "name": "quid_webofscience_output",
+            "description": "Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence",
+            "extension": ".xlsx"
           }
         ],
-        "input_description":"CSV export from Quid Opus network of Web of Science data",
-        "output_description":"Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence",
-        "input_example": "quid_KOL_webofscience_input.csv",
-        "output_template": "quid_KOL_webofscience_output_UPDATE.xlsx",
-        "output_filename": "quid_webofscience_output.xlsx",
+        "template":[
+          {
+            "name":"quid_KOL_webofscience_output_UPDATE.xlsx"
+          }
+        ],
+        "dir":"scripts/webOfScience/",
         "script": "first.py",
-        "input_ext":"csv",
-        "download_option":"yes"
+        "download":"yes"
     },
     {   "id":2,
         "title": "KOL Ranking for News & Blogs",
         "description":"Rank most influential opinion leaders mentioned in the media",
         "input":[
           {
-            "name":"Companies.csv",
-            "description": "CSV​​ export ​​from​​ Quid​​ network"
-          },
-          {
-            "name":"xyz.json",
-            "description": "JSON file from Quid network"
+            "name":"quid_KOL_news_input",
+            "description": "CSV​​ export ​​from​​ Quid​​ news and blogs network",
+            "extension":".csv"
           }
         ],
-        "input_description":"CSV export from a Quid news & blogs network",
-        "output_description":"Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence",
-        "input_example": "quid_KOL_news_input.csv",
-        "output_template": "template.xlsx",
-        "output_filename": "quid_KOL_rankings_news_output.xlsx",
-        "script": "second.py",
-        "input_ext":"csv",
-        "download_option":"yes"
+        "output":[
+          {
+            "name": "quid_KOL_rankings_news_output",
+            "description": "Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence",
+            "extension": ".xlsx"
+          }
+        ],
+        "template":[
+          {
+            "name":"template.xlsx"
+          }
+        ],
+        "dir":"scripts/KOL/",
+        "script": "kol.py",
+        "download":"yes"
     },
     {   "id":3,
         "title": "Regeneration Wizard",
@@ -52,43 +58,52 @@
         "input_description":"CSV​​ export ​​from​​ Quid​​ network",
         "input":[
           {
-            "name":"Companies.csv",
-            "description": "CSV​​ export ​​from​​ Quid​​ network"
-          },
-          {
-            "name":"xyz.json",
-            "description": "JSON file from Quid network"
+            "name":"companies",
+            "description": "CSV​​ export ​​from​​ Quid​​ network",
+            "extension":".csv"
           }
         ],
-        "output_description":"Regeneration​ ​Wizard​​ Excel",
-        "input_example": "quid_KOL_news_input.csv",
-        "output_template": "template.xlsx",
-        "output_filename": "quid_KOL_rankings_news_output.xlsx",
-        "script": "second.py",
-        "input_ext":"csv",
-        "download_option":"yes"
+        "output":[
+          {
+            "name":"regeneration_wizard_output",
+            "description":"Regeneration Wizard Excel",
+            "extension":".xlsx"
+          }
+        ],
+        "template":[
+          {
+            "name":"template.xlsx"
+          }
+        ],
+        "dir":"scripts/regenWiz/",
+        "script": "regenwiz.py",
+        "download":"yes"
     },
     {   "id":4,
         "title": "Cluster​​ Tightness​​ &​​ Cluster​​ Adjacency​​ Scores",
-        "description":"​​​<b>‘Cluster​​ Tightness’</b> ​​​calculates ​​how​​ ‘tight’​​ (focused ​​on​​ one​​ topic)​ ​or ‘dispersed’​​ (focused​​ on​ ​multiple​​ topics) ​​a​​ cluster ​​is.<br>‘Tightness’​​ score​​ =​​# ​​of ​​intra-cluster​​ links ​​/​​# ​​of​​ nodes​ ​in ​​that ​​cluster​​​ <br><b>‘Cluster​​ Adjacency’​​​</b> calculates​​ the ​​strength​​ of​ ​similarity ​​across​​ all​​ combinations of ​​cluster ​​pairs‘<br> Adjacency’​​ score ​​=​​#​​ of ​​actual​​ inter-cluster  ​​links​​/​​#​​of ​​possible​​ inter-cluster ​​links",
+        "description":"​​​Cluster​​ Tightness’ ​​​calculates ​​how​​ ‘tight’​​ (focused ​​on​​ one​​ topic)​ ​or ‘dispersed’​​ (focused​​ on​ ​multiple​​ topics) ​​a​​ cluster ​​is. ‘Tightness’​​ score​​ =​​# ​​of ​​intra-cluster​​ links ​​/​​# ​​of​​ nodes​ ​in ​​that ​​cluster​​​ ‘Cluster​​ Adjacency’​​​ calculates​​ the ​​strength​​ of​ ​similarity ​​across​​ all​​ combinations of ​​cluster ​​pairs‘ Adjacency’​​ score ​​=​​#​​ of ​​actual​​ inter-cluster  ​​links​​/​​# ​​of ​​possible​​ inter-cluster ​​links",
         "input":[
           {
-            "name":"Companies.csv",
-            "description": "CSV​​ export ​​from​​ Quid​​ network"
+            "name":"Companies",
+            "description": "CSV​​ export ​​from​​ Quid​​ network",
+            "extension":".csv"
           },
           {
-            "name":"xyz.json",
-            "description": "JSON file from Quid network"
+            "name":"network_json",
+            "description": "JSON file from Quid network",
+            "extension":".json"
           }
         ],
-        "input_description":"<b>Input 1</b>: CSV​​ export ​​from​​ Quid​​ network <br> <b>Input 2</b>: JSON file from Quid network",
-        "output_description":"Zip file containing up to 6 CSVs",
-        "input_example": "quid_KOL_news_input.csv",
-        "output_template": "template.xlsx",
-        "output_filename": "quid_cluster_tightness_and_adjacency_output.xlsx",
-        "script": "second.py",
-        "input_ext":"csv",
-        "download_option":"no"
+        "output":[
+          {
+            "name":"cluster_adjacency_tightness_score",
+            "description":"Zip file containing up to 6 CSVs",
+            "extension":".zip"
+          }
+        ],
+        "dir":"scripts/cluster/",
+        "script": "cluster_metrics_grepsr.py",
+        "download":"yes"
     },
     {   "id":5,
         "title": "Ranking​​ Hot ​​Startups ​​& ​​Clusters",
@@ -96,20 +111,30 @@
         "input_description":"<b>Input 1</b>: CSV​​ export ​​from​​ Quid​​ companies network <br> <b>Input 2</b>: Target Event Report",
         "input":[
           {
-            "name":"Companies.csv",
-            "description": "CSV​​ export ​​from​​ Quid​​ network"
+            "name":"Companies",
+            "description": "CSV​​ export ​​from​​ Quid​​ companies network",
+            "extension":".csv"
           },
           {
-            "name":"xyz.json",
-            "description": "JSON file from Quid network"
+            "name":"target_event_report",
+            "description":"Target Event Report",
+            "extension":".csv"
           }
         ],
-        "output_description":"Regeneration​ ​Wizard​​ Excel",
-        "input_example": "quid_KOL_news_input.csv",
-        "output_template": "template.xlsx",
-        "output_filename": "quid_hot_startup_cluster_rankings_news_output.xlsx",
-        "script": "second.py",
-        "input_ext":"csv",
-        "download_option":"no"
+        "output":[
+          {
+            "name":"HotRanking",
+            "description":"Ranked ​​list​​ of​​ top​​ companies ​​and​​ clusters ​​based​​ on​​ metrics​​ such​​ as funding​​ details,​​ uniqueness,​​ spread ​​across​​ clusters,​​ etc.",
+            "extension":".xlsx"
+          }
+        ],
+        "template":[
+          {
+            "name":"template.xlsx"
+          }
+        ],
+        "dir":"scripts/hotRanking/",
+        "script":"hotranking.py",
+        "download":"yes"
     }
 ]

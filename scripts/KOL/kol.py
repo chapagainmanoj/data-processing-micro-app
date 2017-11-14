@@ -9,9 +9,6 @@ from sys import argv, maxsize
 # input_file = 'Sample News CSV.csv'
 # output_file = 'NewsKol.xlsx'
 # template_file = 'template.xlsx'
-print("current DIR")
-print(os.getcwd())
-print(argv)
 
 input_file = argv[1]
 output_file = argv[2]

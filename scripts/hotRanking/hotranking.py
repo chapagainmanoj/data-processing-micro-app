@@ -9,14 +9,15 @@ from openpyxl.utils.exceptions import IllegalCharacterError
 
 ILLEGAL_CHARACTERS_RE = re.compile(r'[\000-\010]|[\013-\014]|[\016-\037]')
 
-input_file = 'Drones - 3034 Companies.csv'
-another_input_file = 'Test - drones - target event report.csv'
-output_file = 'HotRanking.xlsx'
-template_file = 'template.xlsx'
+# input_file = 'Drones - 3034 Companies.csv'
+# another_input_file = 'Test - drones - target event report.csv'
+# output_file = 'HotRanking.xlsx'
+# template_file = 'template.xlsx'
 
-# input_file = argv[1]
-# output_file = argv[2]
-# template_file = argv[3]
+input_file = argv[1]
+another_input_file = argv[2]
+output_file = argv[3]
+template_file = argv[4]
 
 def copy_formulae(ws, r_index, t_index):
     row = []
@@ -81,8 +82,8 @@ for r,row in enumerate(op_company_ranking['A500:R{}'.format(str(ip_companies_lis
 for src,dst in zip(ip_companies_list['B{0}:B{1}'.format(str(ip_companies_list_ceil),str(ip_companies_list_floor))], op_company_ranking['B{0}:B{1}'.format(str(ip_target_report_ceil),str(ip_target_report_floor))]):
     dst[0].value = src[0].value
 
-clusters.remove('Clusters 0')
-Clusters.remove('')
+clusters.discard('Clusters 0')
+clusters.discard('')
 for r,row in enumerate(op_cluster_ranking['A3:M{}'.format(str(op_cluster_ranking_ceil+len(clusters)))],start=3):
     for cell, new in zip(row, copy_formulae(op_cluster_ranking,14,r)):
         cell.value = new

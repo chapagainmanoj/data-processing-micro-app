@@ -10,13 +10,13 @@ from openpyxl.utils.exceptions import IllegalCharacterError
 
 ILLEGAL_CHARACTERS_RE = re.compile(r'[\000-\010]|[\013-\014]|[\016-\037]')
 
-input_file = 'Drones - 3034 Companies.csv'
-output_file = 'RegenWiz.xlsx'
-template_file = 'template.xlsx'
+# input_file = 'Drones - 3034 Companies.csv'
+# output_file = 'RegenWiz.xlsx'
+# template_file = 'template.xlsx'
 
-# input_file = argv[1]
-# output_file = argv[2]
-# template_file = argv[3]
+input_file = argv[1]
+output_file = argv[2]
+template_file = argv[3]
 
 template_floor = 6460
 Y_formula = """=IF($C{0}="x",$A{1}&", ","")"""

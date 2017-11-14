@@ -217,7 +217,7 @@ input[type=radio]:checked ~ label{
                 %for item in menu:
                 <form class="" action="/" method="post" enctype="multipart/form-data">
                 <div class="quid-item">
-                    <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
+                    <input type="radio" id={{item['id']}} name="script_id" value={{item['id']}} required />
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
                       <p>{{!item['description']}}</p>
@@ -236,9 +236,9 @@ input[type=radio]:checked ~ label{
                         </li>
                       </ul>
                       %end
-                      <!--<p><strong>Upload: </strong></p>-->
-                      <p><strong>Output:</strong> {{item['output_description']}}</p>
-                      <!--<p><strong>Sample: </strong></p>-->
+                      %for op in item['output']:
+                      <p><strong>Output description:</strong> {{op['description']}}</p>
+                      %end
                     </label>
                     <div class="check"></div>
                     <input class="process-btn" type="submit" value="Process">
