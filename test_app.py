@@ -21,11 +21,6 @@ def check_auth(user, pw):
     return False
 
 
-def get_info(filename):
-    with open(filename) as data_file:
-        data = json.load(data_file)
-    return data
-
 def save_to_temp(upload):
     name, ext = os.path.splitext(upload.filename)
     tmp = tempfile.NamedTemporaryFile(suffix=ext)
@@ -40,8 +35,9 @@ def save_to_temp(upload):
 @route('/', method='GET')
 @auth_basic(check_auth)
 def index():
-    drop_down = get_info(INFO_PATH)
-    return template('templates/index', menu=drop_down)
+    with open(INFO_PATH) as data_file:
+        data = json.load(data_file)
+    return template('templates/index', menu=data)
 
 
 @route('/', method='POST')

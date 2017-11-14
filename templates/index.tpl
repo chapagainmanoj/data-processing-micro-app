@@ -214,8 +214,8 @@ input[type=radio]:checked ~ label{
           <hr>
               <div class="quid-wrap">
                 <!--h3>Step 1: Choose Script</h3 !-->
-                %for item in menu:
                 <form class="" action="/" method="post" enctype="multipart/form-data">
+                  %for item in menu:
                 <div class="quid-item">
                     <input type="radio" id={{item['id']}} name="script_id" value={{item['id']}} required />
                     <label for={{item['id']}}>
@@ -241,10 +241,10 @@ input[type=radio]:checked ~ label{
                       %end
                     </label>
                     <div class="check"></div>
-                    <input class="process-btn" type="submit" value="Process">
                 </div>
-              </form>
                 %end
+                <input class="process-btn" type="submit" value="Process">
+              </form>
                 <!--div class="second-option">
                   <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
