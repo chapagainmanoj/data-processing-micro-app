@@ -4,7 +4,9 @@ import subprocess
 import stat
 import bottle
 import tempfile
-from bottle import route, run, template, auth_basic, request, response
+from bottle import route, run, template, auth_basic, request, HTTPResponse
+
+from mail import send_mail
 
 
 INFO_PATH = 'data.json'
@@ -76,77 +78,35 @@ def process():
         os.chmod(script_path, st.st_mode | stat.S_IEXEC)
 
         print(command)
-        subprocess.run(command,stdout=subprocess.PIPE)
-        for input_filename in inputs:
-            try:
-                os.remove(input_filename)
-            except OSError:
-                pass
+        if download:
+            subprocess.run(command,stdout=subprocess.PIPE)
+            res = HTTPResponse()
+            res.headers['Content-Type'] \
+            = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+            res.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
+            format(output_filename)
 
-        for output_filename in output:
             with open(output_filename, 'rb') as fp:
-                contents = fp.read()
+                res.body = fp.read()
+            for input_filename in inputs:
+                try:
+                    os.remove(input_filename)
+                except OSError:
+                    pass
 
             try:
                 os.remove(output_filename)
             except OSError:
                 pass
-
-            response.headers['Content-Type'] \
-                = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            response.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
-                format(output_filename)
-
-            return contents
-
-
+                return res
+        # for output_filename in output:
+        else:
+            subprocess.Popen(command)
+            send_mail(output[0],"Test")
+            return HTTPResponse(status = 201)
 
     else:
         return "Error processing request"
-    # if script_id:
-    #     with open(INFO_PATH) as data_file:
-    #         data = json.load(data_file)
-    #         for script in data:
-    #             if int(script['id']) == int(script_id):
-    #                 # filename, file_extension = os.path.splitext(script["script"])
-    #
-    #                 script_path = "{}/{}".format(DIR_SCRIPTS, script['script'])
-    #                 script_path = 'scripts/KOL/kol.py'
-    #                 template_file = 'scripts/KOL/template.xlsx'
-    #
-    #                 # script_path = 'scripts/second.py'
-    #
-    #                 st = os.stat(script_path)
-    #                 os.chmod(script_path, st.st_mode | stat.S_IEXEC)
-    #
-    #                 # subprocess.run([script_path, input_filename, output_filename,
-    #                 #                 "{}/{}".format(OUTPUT_TEMPLATES,script['output_template'])],
-    #                 #                stdout=subprocess.PIPE)
-    #
-    #                 print("process started")
-    #                 subprocess.run([script_path, input_filename, output_filename,
-    #                                 template_file],
-    #                                stdout=subprocess.PIPE)
-    #                 print("process Ended")
-    #
-    #                 with open(output_filename, 'rb') as fp:
-    #                     contents = fp.read()
-    #
-    #                 try:
-    #                     os.remove(output_filename)
-    #                 except OSError:
-    #                     pass
-    #
-    #                 response.headers['Content-Type'] \
-    #                     = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-    #                 response.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
-    #                     format(script['output_filename'])
-    #
-    #                 return contents
-    # else:
-    #     return "Error processing request"
-
-    print("ok")
 
 
 if __name__ == '__main__':

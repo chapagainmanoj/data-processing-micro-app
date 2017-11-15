@@ -77,7 +77,7 @@
         ],
         "dir":"scripts/regenWiz/",
         "script": "regenwiz.py",
-        "download":"yes"
+        "download":"no"
     },
     {   "id":4,
         "title": "Cluster​​ Tightness​​ &​​ Cluster​​ Adjacency​​ Scores",
@@ -135,6 +135,6 @@
         ],
         "dir":"scripts/hotRanking/",
         "script":"hotranking.py",
-        "download":"yes"
+        "download":"no"
     }
 ]

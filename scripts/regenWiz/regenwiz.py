@@ -68,7 +68,6 @@ with open(input_file,encoding='utf-8') as csvFile:
             raw_sheet.cell(row=raw_ceil,column=1).value = key
         magic_sheet.cell(row=magic_ceil,column=2).value = freq
         magic_ceil+=1
-
         # manual write
     magic_sheet['B1'].value = '=Z{0}&" "&G1'.format(str(magic_ceil))
     magic_sheet['B2'].value = '=AB{0}&" "&G2'.format(str(magic_ceil))
