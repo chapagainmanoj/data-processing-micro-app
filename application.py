@@ -1,15 +1,18 @@
 import os
 import json
 import subprocess
-import sys
-import io
+import stat
 import bottle
-from bottle import route, run, template, auth_basic,request, response
+import tempfile
+from bottle import route, run, template, auth_basic, request, response
+
 
 INFO_PATH = 'data.json'
+DIR_SCRIPTS = 'scripts'
+OUTPUT_TEMPLATES = 'output_templates'
 
 
-def check_auth(user,pw):
+def check_auth(user, pw):
     username = 'quid'
     password = 'Labs@Quid'
 
@@ -17,40 +20,75 @@ def check_auth(user,pw):
         return True
     return False
 
-def get_dropdown(filename):
-    dropdown = []
+
+def get_info(filename):
     with open(filename) as data_file:
         data = json.load(data_file)
-        for script in data:
-            dropdown.append({'id':script['id'],'title':script['title']})
-    return dropdown
+    return data
+
 
 @route('/', method='GET')
 @auth_basic(check_auth)
 def index():
-    dropdown = get_dropdown(INFO_PATH)
-    return template('templates/index', menu=dropdown)
+    drop_down = get_info(INFO_PATH)
+    return template('templates/index', menu=drop_down)
+
 
 @route('/', method='POST')
 def process():
-    # response = None
-    response.headers['Content-Type'] = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-    response.headers['Content-Disposition'] = 'attachment; filename="out1.xlsx"'
-    script_id = request.forms.get('scripts')
+    script_id = request.forms.selector
+    upload = request.files.get('data')
+
+    # random files
+    tmp = tempfile.NamedTemporaryFile(suffix='.csv')
+    input_filename = tmp.name
+    tmp.close()
+
+    tmp = tempfile.NamedTemporaryFile(suffix='.xlsx')
+    output_filename = tmp.name
+    tmp.close()
+
+    try:
+        upload.save(input_filename)
+    except:
+        return "Error saving uploaded file"
+
     if script_id:
         with open(INFO_PATH) as data_file:
             data = json.load(data_file)
             for script in data:
                 if int(script['id']) == int(script_id):
-                    filename, file_extension = os.path.splitext(script["cmd"])
-                    if file_extension=='.sh':
-                        result = subprocess.run(['./'+'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
-                        # response = result.stdout.decode('utf-8')
-                    elif file_extension=='.py':
-                        result = subprocess.run(['python', 'scripts/'+ script['cmd'],script['params']],stdout=subprocess.PIPE)
-                        # response = result.stdout.decode('utf-8')
-                        return open('output/out1.xlsx', 'rb').read()
+                    # filename, file_extension = os.path.splitext(script["script"])
 
+                    script_path = "{}/{}".format(DIR_SCRIPTS, script['script'])
+
+                    st = os.stat(script_path)
+                    os.chmod(script_path, st.st_mode | stat.S_IEXEC)
+                    subprocess.run([script_path, input_filename, output_filename,
+                                    "{}/{}".format(OUTPUT_TEMPLATES,script['output_template'])],
+                                   stdout=subprocess.PIPE)
+
+                    with open(output_filename, 'rb') as fp:
+                        contents = fp.read()
+
+                    try:
+                        os.remove(input_filename)
+                    except OSError:
+                        pass
+
+                    try:
+                        os.remove(output_filename)
+                    except OSError:
+                        pass
+
+                    response.headers['Content-Type'] \
+                        = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                    response.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
+                        format(script['output_filename'])
+
+                    return contents
+    else:
+        return "Error processing request"
 
 
 if __name__ == '__main__':

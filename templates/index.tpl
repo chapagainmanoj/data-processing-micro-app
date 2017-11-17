@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Quid">
     <meta name="description" content="">
-    <title>Task Runner</title>
+    <title>Quid Labs</title>
     <link rel="shortcut icon" href="http://go.quid.com/hubfs/Favicon-1.png?t=1505946174087">
 
     <script src="//static.hsstatic.net/jquery-libs/static-1.4/jquery/jquery-1.11.2.js"></script>
@@ -65,6 +65,128 @@
   height: 48px;
   right: 10px;
 }
+.quid-wrap{
+  color: white;
+  font-family: 'Roboto', sans-serif !important;
+}
+.quid-wrap h3{
+  margin: 0px;
+  padding: 10px 0px;
+}
+.quid-wrap .quid-item{
+  background: #333;
+  padding: 15px 15px 10px;
+  margin-bottom: 10px;
+}
+.quid-wrap .quid-item:hover{
+  background: #444;
+  cursor: pointer;
+}
+.quid-wrap .quid-item.active{
+  background: #222;
+  cursor: default;
+  border: solid 1px #444;
+}
+.quid-wrap .quid-item h4{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+.quid-wrap .quid-item p{
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 18px !important;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.quid-wrap .quid-item p a{
+  color: white;
+}
+
+/*Check*/
+
+.quid-item{
+  color: #AAAAAA;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.quid-item input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.quid-item label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  padding: 0px 0px 0px 50px;
+  margin: 10px auto;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+.quid-item:hover label{
+  color: #FFFFFF;
+}
+
+.quid-item .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+}
+
+.quid-item:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+.quid-item .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  top: 3px;
+  left: 3px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+.file-upload{
+  background: #444;
+  display: inline-block;
+  width: 100%;
+}
+.inputfile{
+  display: inline-block;
+  width: 100%;
+  padding: 20px 30px;
+  border: dotted 2px #666;
+}
 </style>
 
 
@@ -88,17 +210,33 @@
         </div> <!-- #Header -->
 
         <div id="Mast" class="clearfix">
-          <h1>Task Runner</h1>
+          <h1>Quid Labs</h1>
           <hr>
-            <form class="" action="/" method="post" target="_blank">
-              <div class="select-style">
-                <select name="scripts" >
-                  %for item in menu:
-                  <option value={{item['id']}}>{{item['title']}}</option>
-                  %end
-                </select>
-              </div>
+            <form class="" action="/" method="post" enctype="multipart/form-data">
+              <div class="quid-wrap">
+                <h3>Step 1: Choose Script</h3>
+                %for item in menu:
+                <div class="quid-item">
+                    <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
+                    <label for={{item['id']}}>
+                      <h4>{{item['title']}}</h4>
+                      <p>{{item['description']}}</p>
+                      <p><strong>Input:</strong> {{item['input_description']}}</p>
+                      <!--<p><strong>Upload: </strong></p>-->
+                      <p><strong>Output:</strong> {{item['output_description']}}</p>
+                      <!--<p><strong>Sample: </strong></p>-->
+                    </label>
+                    <div class="check"></div>
+                </div>
+                %end
+                <div class="second-option">
+                  <h3>Step 2: Choose Input File</h3>
+                  <div class="file-upload">
+                    <input type="file" name="data" id="file" class="inputfile" required="" />
+                  </div>
+                </div>
               <input class="process-btn" type="submit" value="Process">
+
             </form>
         </div> <!-- #Mast -->
     </div> <!-- .header-container -->
@@ -174,8 +312,8 @@
 </li>
 </ul>
 </div>
-<p class="footer__copy-right">© 2016 Quid All Rights Reserved.</p>
-<p class="footer__trademark">© 2016 Quid is a registered trademark of Quid, Inc.</p>
+<p class="footer__copy-right">&copy; 2017 Quid All Rights Reserved.</p>
+<p class="footer__trademark">&copy; 2017 Quid is a registered trademark of Quid, Inc.</p>
 </footer>
 <!-- footer end -->
 </div> <!-- .footer-container --></span>

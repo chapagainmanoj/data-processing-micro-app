@@ -1,11 +1,25 @@
-[{
-    "id": 1,
-    "title": "KOL Ranking for Scientific Literature (Web of Science)",
-    "description": "Rank most influential researchers & opinion leaders in the scientific community",
-    "input": "CSV export from a Web of Science network from Quid Opus",
-    "imput_sample_url": "https://quid.box.com/s/sy3piq8pyeeioqkjfkyqzit67tg3jej0",
-    "output": "Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence.",
-    "output_sample_url": "https://quid.box.com/s/jvx6vrgoevpxq1t302gh3ur3vne337gg",
-    "cmd": "first.py"
-    "input_file_ext": "csv"
-}]
+[
+    {
+        "id": 1,
+        "title": "KOL Ranking for Scientific Literature (Web of Science)",
+        "description":"Rank most influential researchers & opinion leaders in the scientific community",
+        "input_description":"CSV export from Quid Opus network of Web of Science data",
+        "output_description":"Ranked list of key opinion leaders based on metrics such as number of publications, frequency of citation, co-authorship, and breadth of influence",
+        "input_example": "quid_KOL_webofscience_input.csv",
+        "output_template": "quid_KOL_webofscience_output_UPDATE.xlsx",
+        "output_filename": "quid_KOL_webofscience_output.xlsx",
+        "script": "first.py",
+        "input_ext":"csv"
+    },
+    {   "id":2,
+        "title": "KOL Ranking for News & Blogs",
+        "description":"Rank most influential opinion leaders mentioned in the media",
+        "input_description":"CSV export from a Quid news & blogs network",
+        "output_description":"Ranked list of key opinion leaders based on metrics such as number of mentions, social engagement, re-publication count, and breadth of influence",
+        "input_example": "quid_KOL_news_input.csv",
+        "output_template": "quid_KOL_news_output_UPDATE.xlsx",
+        "output_filename": "quid_KOL_rankings_news_output.xlsx",
+        "script": "second.py",
+        "input_ext":"csv"
+    }
+]

@@ -1,17 +1,29 @@
+#!/usr/bin/env python
 import xlsxwriter
 import xlrd
-import csv
 import re
+import csv
+from sys import argv
+import sys
 
+input_file = argv[1]
+output_file = argv[2]
+template_file = argv[3]
 
+maxInt = sys.maxsize
+decrement = True
 
+# for OverflowError
+while decrement:
+    decrement = False
+    try:
+        csv.field_size_limit(maxInt)
+    except OverflowError:
+        maxInt = int(maxInt/10)
+        decrement = True
 
-# input file handle
-input_file = './input/quid_KOL_webofscience_input.csv'
-filename = './output/out1.xlsx'
-template_file = './output/template.xlsx'
 # Populate contents of 'Raw data' tab (copy/paste from input file)
-workbook = xlsxwriter.Workbook(filename,{'constant_memory':True})
+workbook = xlsxwriter.Workbook(output_file, {'constant_memory': True})
 worksheet = workbook.add_worksheet("Raw data")
 higest_col = None
 auther_name = set()
@@ -21,9 +33,8 @@ with open(input_file,'rt', encoding='utf-8') as csvfile:
         for c, col in enumerate(row):
             if col.isdigit():
                 col = int(col)
-            else:
-                if re.match('^\-?[0-9]+\.?[0-9]+$', col):
-                    col = float(col)
+            elif re.match('^-?[0-9]+\.[0-9]+$', col):
+                col = float(col)
             worksheet.write(r,c,col)
             higest_col = c
             if(xlsxwriter.utility.xl_col_to_name(c)=='AR'):
@@ -37,6 +48,7 @@ with open(input_file,'rt', encoding='utf-8') as csvfile:
 
 #:
 auther_name.discard('AF')
+auther_name.discard('')
 # Split out all the authors separated by semi colons in column AR of 'Raw data' tab (name of the column is 'AF') into separate rows, and paste that de-duplicated list into column A of 'Output' tab
 
 # Ensure all formulas in columns B through M of 'Output' tab extend all the way to the last row
@@ -46,9 +58,9 @@ def get_formula(header, row, type=None):
         if (header == 'Count of Auther\'s Name'):
             return '=COUNTIF(\'Raw data\'!AR:AR,"*"&Output!A%d&"*")'% (row)
         elif (header == 'Avg. of Betweenness Centrality'):
-            return '=AVERAGEIFS(\'Raw data\'!K:K,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")' %(row)
+            return '=IFERROR(AVERAGEIFS(\'Raw data\'!K:K,\'Raw data\'!AR:AR, "*" & Output!A%d &"*"),0)' %(row)
         elif (header == 'Avg. of Inter-Cluster Connectivity'):
-            return '=AVERAGEIFS(\'Raw data\'!W:W,\'Raw data\'!AR:AR, "*" & Output!A%d &"*")'% (row)
+            return '=IFERROR(AVERAGEIFS(\'Raw data\'!W:W,\'Raw data\'!AR:AR, "*" & Output!A%d &"*"),0)'% (row)
         elif (header == 'Sum of Cited by'):
             return '=SUMIFS(\'Raw data\'!BX:BX,\'Raw data\'!AR:AR,"*" & Output!A%d & "*")'% (row)
         elif (header == 'Sum of Connections'):
