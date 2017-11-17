@@ -3,56 +3,62 @@ import xlsxwriter
 import xlrd
 import re
 import csv
-from sys import argv
-import sys
+from sys import argv, maxsize
 
 input_file = argv[1]
 output_file = argv[2]
 template_file = argv[3]
 
-maxInt = sys.maxsize
 decrement = True
 
 # for OverflowError
 while decrement:
     decrement = False
     try:
-        csv.field_size_limit(maxInt)
+        csv.field_size_limit(maxsize)
     except OverflowError:
         maxInt = int(maxInt/10)
         decrement = True
 
-# Populate contents of 'Raw data' tab (copy/paste from input file)
 workbook = xlsxwriter.Workbook(output_file, {'constant_memory': True})
 worksheet = workbook.add_worksheet("Raw data")
 higest_col = None
 auther_name = set()
+auther_col = 'AR'
+
 with open(input_file,'rt', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile)
     for r, row in enumerate(reader):
-        for c, col in enumerate(row):
-            if col.isdigit():
-                col = int(col)
-            elif re.match('^-?[0-9]+\.[0-9]+$', col):
-                col = float(col)
-            worksheet.write(r,c,col)
-            higest_col = c
-            if(xlsxwriter.utility.xl_col_to_name(c)=='AR'):
-                auther_name |= set([author.strip() for author in col.split(';')])
+        if r == 1:
+            for c,col in enumerate(row):
+                if col == 'AF':
+                    auther_col = xlsxwriter.utility.xl_col_to_name(c)
+                worksheet.write(r,c,col)
+                higest_col = c
+        else:
+            for c, col in enumerate(row):
+                if col.isdigit():
+                    col = int(col)
+                elif re.match('^-?[0-9]+\.[0-9]+$', col):
+                    col = float(col)
+                worksheet.write(r,c,col)
+                higest_col = c
+                if(xlsxwriter.utility.xl_col_to_name(c) == auther_col):
+                    auther_name |= set([author.strip() for author in col.split(';')])
+
         cell = xlsxwriter.utility.xl_rowcol_to_cell(r,higest_col+1)
-# Ensure formula in the last column of 'Raw data' tab extends all the way to the last row
+
         if (r==0):
             worksheet.write(cell,'# of co-authors')
         else:
             worksheet.write_formula(cell,'=LEN(AR%d)-LEN(SUBSTITUTE(AR%d,";",""))'%(r+1,r+1))
 
-#:
+
+
+
 auther_name.discard('AF')
 auther_name.discard('')
-# Split out all the authors separated by semi colons in column AR of 'Raw data' tab (name of the column is 'AF') into separate rows, and paste that de-duplicated list into column A of 'Output' tab
 
-# Ensure all formulas in columns B through M of 'Output' tab extend all the way to the last row
-# That's it - all the formulas that I've built in Excel should auto-populate the ranking stuff in the 'Output' tab
 def get_formula(header, row, type=None):
     if type=='abs':
         if (header == 'Count of Auther\'s Name'):

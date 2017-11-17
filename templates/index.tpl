@@ -210,34 +210,50 @@ input[type=radio]:checked ~ label{
         </div> <!-- #Header -->
 
         <div id="Mast" class="clearfix">
-          <h1>Quid Labs</h1>
+          <h1>QUID LABS</h1>
           <hr>
-            <form class="" action="/" method="post" enctype="multipart/form-data">
               <div class="quid-wrap">
-                <h3>Step 1: Choose Script</h3>
-                %for item in menu:
+                <!--h3>Step 1: Choose Script</h3 !-->
+                <form class="" action="/" method="post" enctype="multipart/form-data">
+                  %for item in menu:
                 <div class="quid-item">
-                    <input type="radio" id={{item['id']}} name="selector" value={{item['id']}} required />
+                    <input type="radio" id={{item['id']}} name="script_id" value={{item['id']}} required />
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
-                      <p>{{item['description']}}</p>
-                      <p><strong>Input:</strong> {{item['input_description']}}</p>
-                      <!--<p><strong>Upload: </strong></p>-->
-                      <p><strong>Output:</strong> {{item['output_description']}}</p>
-                      <!--<p><strong>Sample: </strong></p>-->
+                      <p>{{!item['description']}}</p>
+                      <p><strong>Input:</strong></p>
+                      %for ip in item['input']:
+                      <ul style="list-style: none;">
+                        <li>
+                        <div class="file-upload">
+                          <label> {{ip['name']}} </label>
+                         <p>
+                           <em>
+                             {{ip['description']}}
+                           </em>
+                           <input type="file" name={{ip['name']}} id={{ip['name']}} class="inputfile" placeholder="Input 1" /></p>
+                        </div>
+                        </li>
+                      </ul>
+                      %end
+                      %for op in item['output']:
+                      <p><strong>Output description:</strong> {{op['description']}}</p>
+                      %end
                     </label>
                     <div class="check"></div>
                 </div>
                 %end
-                <div class="second-option">
+                <input class="process-btn" type="submit" value="Process">
+              </form>
+                <!--div class="second-option">
                   <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
-                    <input type="file" name="data" id="file" class="inputfile" required="" />
+                    <label> default Input
+                    <input type="file" name="data" id="file1" class="inputfile" placeholder="Input 1" required="" />
+                  </label>
                   </div>
-                </div>
-              <input class="process-btn" type="submit" value="Process">
+                </div-->
 
-            </form>
         </div> <!-- #Mast -->
     </div> <!-- .header-container -->
     <script type="text/javascript">
