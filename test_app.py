@@ -4,9 +4,10 @@ import subprocess
 import stat
 import bottle
 import tempfile
+from multiprocessing import Pool
 from bottle import route, run, template, auth_basic, request, HTTPResponse
 
-from mail import send_mail
+from mail.mail import send_mail
 
 
 INFO_PATH = 'data.json'
@@ -33,6 +34,11 @@ def save_to_temp(upload):
         return input_filename
     except:
         return "Error saving uploaded file"
+
+def process_mail_wrapper(command, filename, title):
+    subprocess.run(command)
+    print("sending mail")
+    send_mail(filename,title)
 
 @route('/', method='GET')
 @auth_basic(check_auth)
@@ -84,9 +90,9 @@ def process():
             res.headers['Content-Type'] \
             = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
             res.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
-            format(output_filename)
+            format(output[0])
 
-            with open(output_filename, 'rb') as fp:
+            with open(output[0], 'rb') as fp:
                 res.body = fp.read()
             for input_filename in inputs:
                 try:
@@ -101,17 +107,26 @@ def process():
                 return res
         # for output_filename in output:
         else:
-            subprocess.Popen(command)
-            send_mail(output[0],"Test")
-            return HTTPResponse(status = 201)
+            _pool.apply_async(process_mail_wrapper,[command,output[0],"Totally test with multiprocessing"])
+            # p = Process(target = process_mail_wrapper, args=(command,output[0],"Totally test with multiprocessing"))
+            # subprocess.Popen(command)
+            # send_mail(output[0],"Test")
+            # p.start()
+            # p.join()
+            print("mail will be sent")
 
     else:
         return "Error processing request"
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8080))
-    run(host='0.0.0.0', port=port, debug=True)
+    _pool = Pool(processes=4)
+    try:
+        port = int(os.environ.get('PORT', 8080))
+        run(host='0.0.0.0', port=port, debug=True)
+    except KeyboardInterrupt:
+        _pool.close()
+        _pool.join()
 
 
 application = bottle.default_app()

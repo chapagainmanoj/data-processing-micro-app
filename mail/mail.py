@@ -38,7 +38,7 @@ def send_mail(file_path,title):
     encoded = base64.b64encode(data).decode()
     attachment = Attachment()
     attachment.content = encoded
-    attachment.type = guess_type(file_path) or 'application/octet-stream'
+    attachment.type = guess_type(file_path)[0] or 'application/octet-stream'
     attachment.filename = file_path.split('/')[-1]
     attachment.disposition = "attachment"
     attachment.content_id = str(uuid4())
@@ -51,5 +51,6 @@ def send_mail(file_path,title):
             print("Sent Successfully")
         else:
             print("ERROR: %d",response.status_code)
+        print(response.status_code)
     except urllib.HTTPError as e:
         return e.read()

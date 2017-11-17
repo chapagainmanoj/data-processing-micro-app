@@ -10,19 +10,19 @@ from openpyxl.utils.exceptions import IllegalCharacterError
 
 ILLEGAL_CHARACTERS_RE = re.compile(r'[\000-\010]|[\013-\014]|[\016-\037]')
 
-# input_file = 'Drones - 3034 Companies.csv'
-# output_file = 'RegenWiz.xlsx'
-# template_file = 'template.xlsx'
+input_file = 'Drones - 3034 Companies.csv'
+output_file = 'RegenWiz.xlsx'
+template_file = 'template.xlsx'
 
-input_file = argv[1]
-output_file = argv[2]
-template_file = argv[3]
+# input_file = argv[1]
+# output_file = argv[2]
+# template_file = argv[3]
 
 template_floor = 6460
 Y_formula = """=IF($C{0}="x",$A{1}&", ","")"""
-Z_formula = "=_xlfn.CONCAT(Z{0},Y{1})"
+Z_formula = "=CONCATENATE(Z{0},Y{1})"
 AA_formula = """=IF($D{0}="x",$A{1}&", ","")"""
-AB_formula = "=_xlfn.CONCAT(AB{0},AA{1})"
+AB_formula = "=CONCATENATE(AB{0},AA{1})"
 
 # for OverflowError
 decrement = True
@@ -78,11 +78,19 @@ with open(input_file,encoding='utf-8') as csvFile:
         for cell in row:
             cell.value = AA_formula.format(str(r),str(r))
 
-    for r,row in enumerate(magic_sheet['AB{0}:AB{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+    # for r,row in enumerate(magic_sheet['AB{0}:AB{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+    #     for cell in row:
+    #         cell.value = AB_formula.format(str(r-1),str(r))
+    #
+    # for r,row in enumerate(magic_shecpet['Z{0}:Z{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+    #     for cell in row:
+    #         cell.value = Z_formula.format(str(r-1),str(r))
+
+    for r,row in enumerate(magic_sheet['AB5:AB{0}'.format(str(magic_ceil))],start=5):
         for cell in row:
             cell.value = AB_formula.format(str(r-1),str(r))
 
-    for r,row in enumerate(magic_sheet['Z{0}:Z{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
+    for r,row in enumerate(magic_sheet['Z5:Z{0}'.format(str(magic_ceil))],start=5):
         for cell in row:
             cell.value = Z_formula.format(str(r-1),str(r))
 

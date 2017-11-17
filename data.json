@@ -24,7 +24,7 @@
         ],
         "dir":"scripts/webOfScience/",
         "script": "first.py",
-        "download":"yes"
+        "download":"no"
     },
     {   "id":2,
         "title": "KOL Ranking for News & Blogs",
@@ -50,7 +50,7 @@
         ],
         "dir":"scripts/KOL/",
         "script": "kol.py",
-        "download":"yes"
+        "download":"no"
     },
     {   "id":3,
         "title": "Regeneration Wizard",
