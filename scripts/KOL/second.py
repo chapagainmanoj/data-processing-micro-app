@@ -6,9 +6,13 @@ import xlrd
 import sys
 from sys import argv
 
-input_file = argv[1]
-output_file = argv[2]
-template_file = argv[3]
+# input_file = argv[1]
+# output_file = argv[2]
+# template_file = argv[3]
+
+input_file = "quid_KOL_news_input.csv"
+output_file = "v1_out.xlsx"
+template_file = "quid_KOL_news_output_UPDATE.xlsx"
 
 maxInt = sys.maxsize
 decrement = True
@@ -24,7 +28,7 @@ while decrement:
 
 table_names = ['Names','Count of Mentions','Avg. of Flow','Avg. of Inter-Cluster Connectivity',
                'Sum of Social Engagement','Sum of Published Count','Source Rank']
-# Populate contents of 'Raw data' tab (copy/paste from input file)
+# Populate contents of \'Raw data\' tab (copy/paste from input file)
 workbook = xlsxwriter.Workbook(output_file, {'constant_memory':True})
 worksheet = workbook.add_worksheet("Raw data")
 higest_col = None
@@ -52,17 +56,17 @@ people_name.discard('')
 def get_formula(header, row, type=None):
     if  type=='abs':
         if (header == 'Count of Mentions'):
-            return '=COUNTIF(\'Raw data\'!S:S, "*" & A%d & "*")'%(row)
+            return '=COUNTIF(INDEX(\'Raw data\'!$A:$BG,0,MATCH("People (Any Mention)",\'Raw data\'!$A$1:$BG$1,0)),"*"&A%d&"*")'%(row)
         elif (header == 'Avg. of Flow'):
-            return '=IFERROR(AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AT:AT),0)' %(row)
+            return '=IFERROR(AVERAGEIF(INDEX(\'Raw data\'!$A:$BG,0,MATCH("People (Any Mention)",\'Raw data\'!$A$1:$BG$1,0)),"*"&A%d&"*",INDEX(\'Raw data\'!$A:$BG,0,MATCH("Betweenness Centrality",\'Raw data\'!$A$1:$BG$1,0))), 0)' %(row)
         elif (header == 'Avg. of Inter-Cluster Connectivity'):
-            return '=IFERROR(AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AX:AX),0)'%(row)
+            return '=IFERROR(AVERAGEIF(INDEX(\'Raw data\'!$A:$BG,0,MATCH("People (Any Mention)",\'Raw data\'!$A$1:$BG$1,0)),"*"&A%d&"*",INDEX(\'Raw data\'!$A:$BG,0,MATCH("Inter-Cluster Connectivity",\'Raw data\'!$A$1:$BG$1,0))), 0)'%(row)
         elif (header == 'Sum of Social Engagement'):
-            return '=SUMIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!I:I)' %(row)
+            return '=SUMIF(INDEX(\'Raw data\'!$A:$BG,0,MATCH("People (Any Mention)",\'Raw data\'!$A$1:$BG$1,0)),"*"&A%d&"*",INDEX(\'Raw data\'!$A:$BG,0,MATCH("Social Engagement",\'Raw data\'!$A$1:$BG$1,0)))' %(row)
         elif (header == 'Sum of Published Count'):
-            return '=SUMIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!E:E)' %(row)
+            return '=SUMIF(INDEX(\'Raw data\'!$A:$BG,0,MATCH("People (Any Mention)",\'Raw data\'!$A$1:$BG$1,0)),"*"&A%d&"*",INDEX(\'Raw data\'!$A:$BG,0,MATCH("Published Count",\'Raw data\'!$A$1:$BG$1,0)))' %(row)
         elif (header == 'Source Rank'):
-            return '=IFERROR(AVERAGEIF(\'Raw data\'!S:S,"*" & A%d & "*",\'Raw data\'!AL:AL), 0)' %(row)
+            return '=IFERROR(AVERAGEIF(INDEX(\'Raw data\'!$A:$BG,0,MATCH("People (Any Mention)",\'Raw data\'!$A$1:$BG$1,0)),"*"&A%d&"*",INDEX(\'Raw data\'!$A:$BG,0,MATCH("Source Rank",\'Raw data\'!$A$1:$BG$1,0))),0)' %(row)
         else:
             return ''
     elif type =='per':

@@ -21,12 +21,15 @@ Outputs up to 6 files, 2 for each existing granularity:
 import json
 import csv
 import sys
+import os
+import zipfile as Zip
 
 from collections import OrderedDict as OD
 
 
 json_f = sys.argv[1]
 csv_f = sys.argv[2]
+z = Zip.ZipFile("Cluster_Tightness_and_Adjacency.zip","a")
 
 with open(json_f, 'r') as f:
 	data = json.load(f)
@@ -36,7 +39,6 @@ with open(csv_f, 'r') as f:
 
 # Get number of granularities:
 num_gran = len(data['clusteringData'])
-
 for gran in range(num_gran):
 
 	gran_name = data['clusteringData'][gran]['name']
@@ -69,8 +71,8 @@ for gran in range(num_gran):
 				if cnt == 3: break
 
 		if len(new_name) != 1:
-			print "\nNode assignment to clusters not consistent between JSON and CSV."
-			print "Please check that the two files are sourced from the same network. Exiting.\n\n"
+			print("\nNode assignment to clusters not consistent between JSON and CSV.")
+			print("Please check that the two files are sourced from the same network. Exiting.\n\n")
 			sys.exit()
 
 		clust_name[clusters_list[c1]['name']] = list(new_name)[0]
@@ -114,6 +116,11 @@ for gran in range(num_gran):
 		writer = csv.DictWriter(f, keys)
 		writer.writeheader()
 		writer.writerows(interclust_data)
+	z.write('Cluster_Adjacency_Score_gran_%s.csv' % gran_name)
+	try:
+		os.remove('Cluster_Adjacency_Score_gran_%s.csv' % gran_name)
+	except OSError:
+		pass
 
 	clust_data = []
 	clust_tightness = OD(sorted(clust_tightness.items(), key=lambda t:t[1], reverse=True))
@@ -132,3 +139,10 @@ for gran in range(num_gran):
 		writer = csv.DictWriter(f, keys)
 		writer.writeheader()
 		writer.writerows(clust_data)
+	z.write('Cluster_Tightness_%s.csv' % gran_name)
+	try:
+		os.remove('Cluster_Tightness_%s.csv' % gran_name)
+	except OSError:
+		pass
+
+z.close()

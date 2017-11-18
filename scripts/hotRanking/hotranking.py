@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A3 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
+=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A3 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
+
+=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A4 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
+=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A4 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
+
 import re
 import csv
 import openpyxl

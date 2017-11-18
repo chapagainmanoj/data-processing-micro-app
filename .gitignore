@@ -7,3 +7,5 @@ test.xlsx
 env/
 .idea/*
 virtualenvs/*
+*.csv
+*.xlsx
