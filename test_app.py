@@ -43,6 +43,12 @@ def index():
 @route('/', method='POST')
 def process():
     script_id = request.forms.script_id
+    print(request.__dict__)
+    print('file',request.files)
+    print('query',request.query)
+    print('params',request.params)
+    print('GET',request.GET)
+    print('POST',request.POST)
 
     if script_id:
         input_files = None

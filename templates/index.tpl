@@ -214,8 +214,8 @@ input[type=radio]:checked ~ label{
           <hr>
               <div class="quid-wrap">
                 <!--h3>Step 1: Choose Script</h3 !-->
-                <form class="" action="/" method="post" enctype="multipart/form-data">
-                  %for item in menu:
+                %for item in menu:
+                <form class="" id={{item["id"]}} action="/" method="post" enctype="multipart/form-data">
                 <div class="quid-item">
                     <input type="radio" id={{item['id']}} name="script_id" value={{item['id']}} required />
                     <label for={{item['id']}}>
@@ -225,14 +225,14 @@ input[type=radio]:checked ~ label{
                       %for ip in item['input']:
                       <ul style="list-style: none;">
                         <li>
-                        <div class="file-upload">
+                        <!--div class="file-upload"-->
                           <label> {{ip['name']}} </label>
                          <p>
                            <em>
                              {{ip['description']}}
                            </em>
                            <input type="file" name={{ip['name']}} id={{ip['name']}} class="inputfile" placeholder="Input 1" /></p>
-                        </div>
+                        <!--/div-->
                         </li>
                       </ul>
                       %end
@@ -240,11 +240,11 @@ input[type=radio]:checked ~ label{
                       <p><strong>Output description:</strong> {{op['description']}}</p>
                       %end
                     </label>
-                    <div class="check"></div>
+                    <!--div class="check"></div-->
+                    <input class="process-btn" type="button" onclick="submit_run({{item}})" value="Run"/>
                 </div>
-                %end
-                <input class="process-btn" type="submit" value="Process">
               </form>
+              %end
                 <!--div class="second-option">
                   <h3>Step 2: Choose Input File</h3>
                   <div class="file-upload">
@@ -349,6 +349,13 @@ input[type=radio]:checked ~ label{
     $("select").select2({
       minimumResultsForSearch: Infinity
     });
+    function submit_run(item) {
+      alert("submitted");
+      console.log(item.id);
+      var x = document.getElementById(item.id);
+      console.log(x);
+    
+    }
 </script>
 
 
