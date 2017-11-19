@@ -50,13 +50,10 @@ def index():
 
 @route('/', method='POST')
 def process():
-    script_id = request.forms.script_id
-    print(request.__dict__)
-    print('file',request.files)
-    print('query',request.query)
-    print('params',request.params)
-    print('GET',request.GET)
-    print('POST',request.POST)
+    script_id = request.forms.script_id[0]
+    print('request.forms.values')
+    print(request.files.get('quid_KOL_webofscience_input').filename)
+    print(request.forms.__dict__)
 
     if script_id:
         input_files = None
@@ -113,12 +110,7 @@ def process():
                 return res
         # for output_filename in output:
         else:
-            _pool.apply_async(process_mail_wrapper,[command,output[0],"Totally test with multiprocessing"])
-            # p = Process(target = process_mail_wrapper, args=(command,output[0],"Totally test with multiprocessing"))
-            # subprocess.Popen(command)
-            # send_mail(output[0],"Test")
-            # p.start()
-            # p.join()
+            _pool.apply_async(process_mail_wrapper,[command,output[0],"Output for the process: {0}".format(data['title'])])
             print("mail will be sent")
 
     else:
@@ -127,8 +119,8 @@ def process():
 
 if __name__ == '__main__':
     _pool = Pool(processes=4)
+    port = int(os.environ.get('PORT', 8080))
     try:
-        port = int(os.environ.get('PORT', 8080))
         run(host='0.0.0.0', port=port, debug=True)
     except KeyboardInterrupt:
         _pool.close()

@@ -24,7 +24,7 @@
         ],
         "dir":"scripts/webOfScience/",
         "script": "first.py",
-        "download":"no"
+        "download":"yes"
     },
     {   "id":2,
         "title": "KOL Ranking for News & Blogs",
@@ -50,7 +50,7 @@
         ],
         "dir":"scripts/KOL/",
         "script": "kol.py",
-        "download":"no"
+        "download":"yes"
     },
     {   "id":3,
         "title": "Regeneration Wizard",
@@ -77,7 +77,7 @@
         ],
         "dir":"scripts/regenWiz/",
         "script": "regenwiz.py",
-        "download":"no"
+        "download":"yes"
     },
     {   "id":4,
         "title": "Cluster​​ Tightness​​ &​​ Cluster​​ Adjacency​​ Scores",
@@ -135,6 +135,6 @@
         ],
         "dir":"scripts/hotRanking/",
         "script":"hotranking.py",
-        "download":"no"
+        "download":"yes"
     }
 ]

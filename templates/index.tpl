@@ -217,7 +217,7 @@ input[type=radio]:checked ~ label{
                 %for item in menu:
                 <form class="" id={{item["id"]}} action="/" method="post" enctype="multipart/form-data">
                 <div class="quid-item">
-                    <input type="radio" id={{item['id']}} name="script_id" value={{item['id']}} required />
+                    <input type="hidden" id={{item['id']}} name="script_id" value={{item['id']}} required>
                     <label for={{item['id']}}>
                       <h4>{{item['title']}}</h4>
                       <p>{{!item['description']}}</p>
@@ -225,7 +225,7 @@ input[type=radio]:checked ~ label{
                       %for ip in item['input']:
                       <ul style="list-style: none;">
                         <li>
-                        <!--div class="file-upload"-->
+                        <!-- div class="file-upload" -->
                           <label> {{ip['name']}} </label>
                          <p>
                            <em>
@@ -241,7 +241,7 @@ input[type=radio]:checked ~ label{
                       %end
                     </label>
                     <!--div class="check"></div-->
-                    <input class="process-btn" type="button" onclick="submit_run({{item}})" value="Run"/>
+                    <input class="process-btn" type="button" onclick="submit_run({{item['id']}})" value="Run"/>
                 </div>
               </form>
               %end
@@ -349,12 +349,9 @@ input[type=radio]:checked ~ label{
     $("select").select2({
       minimumResultsForSearch: Infinity
     });
-    function submit_run(item) {
-      alert("submitted");
-      console.log(item.id);
-      var x = document.getElementById(item.id);
-      console.log(x);
-    
+    function submit_run(id) {
+      x = document.getElementById(id);
+      x.submit();
     }
 </script>
 
