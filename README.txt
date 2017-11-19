@@ -5,3 +5,4 @@ About data.json:
 input should be in order with inputs to the scripts
 scripts takes input as
 $ python <script> <input_files> <output_files> <template_files>
+and output would be a single file

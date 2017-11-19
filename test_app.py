@@ -51,9 +51,6 @@ def index():
 @route('/', method='POST')
 def process():
     script_id = request.forms.script_id[0]
-    print('request.forms.values')
-    print(request.files.get('quid_KOL_webofscience_input').filename)
-    print(request.forms.__dict__)
 
     if script_id:
         input_files = None
