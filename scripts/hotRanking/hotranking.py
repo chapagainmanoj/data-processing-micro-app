@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 # NOTE: Here is issue with maxif funciton(@index 8 of company_formulae)
 
 import re
@@ -115,11 +114,9 @@ for r in range(3,ip_companies_list_floor):
         else:
             op_company_ranking.cell(row=r,column=(f+1)).set_explicit_value(value=company_formulae[f].format(str(r)),data_type='f')
 
-
 for src,dst in zip(ip_companies_list['B{0}:B{1}'.format(ip_companies_list_ceil,ip_companies_list_floor)],\
 op_company_ranking['B{0}:B{1}'.format(ip_target_report_ceil,ip_target_report_floor)]):
     dst[0].value = src[0].value
-
 
 for r in range(3,ip_companies_list_floor):
     for f in range(len(cluster_formulae)):

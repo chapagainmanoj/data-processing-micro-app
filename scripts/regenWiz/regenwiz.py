@@ -78,14 +78,6 @@ with open(input_file,encoding='utf-8') as csvFile:
         for cell in row:
             cell.value = AA_formula.format(str(r),str(r))
 
-    # for r,row in enumerate(magic_sheet['AB{0}:AB{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
-    #     for cell in row:
-    #         cell.value = AB_formula.format(str(r-1),str(r))
-    #
-    # for r,row in enumerate(magic_shecpet['Z{0}:Z{1}'.format(str(template_floor), str(magic_ceil))],start=template_floor):
-    #     for cell in row:
-    #         cell.value = Z_formula.format(str(r-1),str(r))
-
     for r,row in enumerate(magic_sheet['AB5:AB{0}'.format(str(magic_ceil))],start=5):
         for cell in row:
             cell.value = AB_formula.format(str(r-1),str(r))

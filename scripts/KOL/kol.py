@@ -3,8 +3,8 @@
 # NOTE:  gave a div0 error with AVERAGEIF for the given sample input
 
 import os
-import csv
 import re
+import csv
 import openpyxl
 from sys import argv, maxsize
 

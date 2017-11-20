@@ -4,7 +4,7 @@ import stat
 import bottle
 import tempfile
 import subprocess
-from multiprocessing import Pool
+# from multiprocessing import Pool
 from bottle import route, run, template, auth_basic, request, HTTPResponse
 
 from mail.mail import send_mail
