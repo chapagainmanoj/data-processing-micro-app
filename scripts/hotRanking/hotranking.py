@@ -1,11 +1,7 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
-=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A3 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
-=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A3 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
 
-=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A4 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
-=AVERAGEIF(INDEX($'Raw data'.$A:$BG, 0, MATCH("People (Any Mention)", $'Raw data'.$A$1:$BG$1, 0)),"*" & A4 & "*",INDEX($'Raw data'.$A:$BG, 0, MATCH("Betweenness Centrality", $'Raw data'.$A$1:$BG$1, 0)))
+# NOTE: Here is issue with maxif funciton(@index 8 of company_formulae)
 
 import re
 import csv
@@ -25,15 +21,41 @@ another_input_file = argv[2]
 output_file = argv[3]
 template_file = argv[4]
 
-def copy_formulae(ws, r_index, t_index):
-    row = []
-    r,t= str(r_index),str(t_index)
-    for x in (list(ws.rows)[r_index-1]):
-        if x.value is not None:
-            row.append(x.value.replace(r,t))
-        else:
-            row.append(x.value)
-    return row
+company_formulae = [
+    '=RANK(R{0},R:R)',\
+    None,\
+    '=VLOOKUP(B{0},\'Input - companies list\'!B:L,2,FALSE)',\
+    '=VLOOKUP(B{0},\'Input - companies list\'!B:L,11,FALSE)',\
+    '=VLOOKUP(B{0},\'Input - companies list\'!B:E,4,FALSE)',\
+    '=SUMIFS(\'Input - target event report\'!H:H,\'Input - target event report\'!B:B,B{0},\'Input - target event report\'!D:D, "Private Investment")',\
+    '=IF(I{0}<2, "N/A", (MAXIFS(\'Input - target event report\'!E:E,\'Input - target event report\'!B:B,B:B,\'Input - target event report\'!D:D,"Private Investment")-MINIFS(\'Input - target event report\'!E:E,\'Input - target event report\'!B:B,B:B,\'Input - target event report\'!D:D,"Private Investment"))/(I{0}-1))',\
+    '=IF(MAXIFS(\'Input - target event report\'!E:E,\'Input - target event report\'!B:B,B:B,\'Input - target event report\'!D:D,"Private Investment") = 0, "N/A", TODAY() - MAXIFS(\'Input - target event report\'!E:E,\'Input - target event report\'!B:B,B:B,\'Input - target event report\'!D:D,"Private Investment"))',\
+    '=COUNTIFS(\'Input - target event report\'!B:B,B{0},\'Input - target event report\'!D:D, "Private Investment")',\
+    '=INDEX(\'Input - companies list\'!$1:$10000,MATCH(B{0},\'Input - companies list\'!B:B,0),MATCH("Flow",\'Input - companies list\'!$1:$1,0 ))',\
+    '=INDEX(\'Input - companies list\'!$1:$10000,MATCH(B{0},\'Input - companies list\'!B:B,0),MATCH("Inter-Cluster Connectivity",\'Input - companies list\'!$1:$1,0 ))',\
+    '=IFERROR(PERCENTRANK(F:F,F{0}),0)',\
+    '=IFERROR(1 - PERCENTRANK(G:G,G{0}),0)',\
+    '=IFERROR(1 - PERCENTRANK(H:H,H{0}),0)',\
+    '=IFERROR(PERCENTRANK(I:I,I{0}),0)',\
+    '=IFERROR(1 - PERCENTRANK(J:J,J{0}),0)',\
+    '=IFERROR(PERCENTRANK(K:K,K{0}),0)',\
+    '=L{0}*weight1+M{0}*weight2+N{0}*weight3+O{0}*weight4+P{0}*weight5+Q{0}*weight6'\
+    ]
+cluster_formulae = [
+    '=RANK(M{0},M:M)',\
+    None,\
+    '=SUMIFS(\'Input - target event report\'!H:H,\'Input - target event report\'!L:L,B{0},\'Input - target event report\'!D:D, "Private Investment")',\
+    '=IF(E{0}<2, "N/A", (MAXIFS(\'Input - target event report\'!E:E,\'Input - target event report\'!L:L,B:B,\'Input - target event report\'!D:D,"Private Investment")-MINIFS(\'Input - target event report\'!E:E,\'Input - target event report\'!L:L,B:B,\'Input - target event report\'!D:D,"Private Investment"))/(E{0}-1))',\
+    '=COUNTIFS(\'Input - target event report\'!L:L,B{0},\'Input - target event report\'!D:D, "Private Investment")',\
+    '=AVERAGEIF(INDEX(\'Input - companies list\'!$A:$BG, 0, MATCH("Clusters 0",\'Input - companies list\'!$A$1:$BG$1, 0)),\'Output - Cluster ranking\'!B{0},INDEX(\'Input - companies list\'!$A:$BG, 0, MATCH("Flow",\'Input - companies list\'!$A$1:$BG$1, 0)))',\
+    '=AVERAGEIF(INDEX(\'Input - companies list\'!$A:$BG, 0, MATCH("Clusters 0",\'Input - companies list\'!$A$1:$BG$1, 0)),\'Output - Cluster ranking\'!B{0},INDEX(\'Input - companies list\'!$A:$BG, 0, MATCH("Inter-Cluster Connectivity",\'Input - companies list\'!$A$1:$BG$1, 0)))',\
+    '=IFERROR(PERCENTRANK(C:C,C{0}),0)',\
+    '=IFERROR(1 - PERCENTRANK(D:D,D{0}),0)',\
+    '=IFERROR(PERCENTRANK(E:E,E{0}),0)',\
+    '=IFERROR(1 - PERCENTRANK(F:F,F{0}),0)',\
+    '=IFERROR(PERCENTRANK(G:G,G{0}),0)',\
+    '=H{0}*weightA+I{0}*weightB+J{0}*weightC+K{0}*weightD+L{0}*weightE',\
+]
 
 # for OverflowError
 decrement = True
@@ -75,25 +97,41 @@ with open(another_input_file, encoding='utf-8') as targetFile:
                 cell = ILLEGAL_CHARACTERS_RE.sub('',cell)
                 ip_target_report.cell(row=r,column=c).value = cell
 
+clusters.discard('Clusters 0')
+clusters.discard('')
+
 ip_companies_list_ceil = 2
 ip_companies_list_floor = ip_companies_list.max_row
 ip_target_report_ceil = 3
 ip_target_report_floor = ip_companies_list_floor+(ip_target_report_ceil-ip_companies_list_ceil)
 op_cluster_ranking_ceil = 3
 
-for r,row in enumerate(op_company_ranking['A500:R{}'.format(str(ip_companies_list_floor))],start=500):
-    for cell, new in zip(row, copy_formulae(op_company_ranking,20,r)):
-        cell.value = new
 
-for src,dst in zip(ip_companies_list['B{0}:B{1}'.format(str(ip_companies_list_ceil),str(ip_companies_list_floor))], op_company_ranking['B{0}:B{1}'.format(str(ip_target_report_ceil),str(ip_target_report_floor))]):
+for r in range(3,ip_companies_list_floor):
+    for f in range(len(company_formulae)):
+        if company_formulae[f]==None:
+            pass
+            # op_company_ranking.cell(row=r,column=(f+1)).value = company_formulae[f].format(str(r))
+        else:
+            op_company_ranking.cell(row=r,column=(f+1)).set_explicit_value(value=company_formulae[f].format(str(r)),data_type='f')
+
+
+for src,dst in zip(ip_companies_list['B{0}:B{1}'.format(ip_companies_list_ceil,ip_companies_list_floor)],\
+op_company_ranking['B{0}:B{1}'.format(ip_target_report_ceil,ip_target_report_floor)]):
     dst[0].value = src[0].value
 
-clusters.discard('Clusters 0')
-clusters.discard('')
-for r,row in enumerate(op_cluster_ranking['A3:M{}'.format(str(op_cluster_ranking_ceil+len(clusters)))],start=3):
-    for cell, new in zip(row, copy_formulae(op_cluster_ranking,14,r)):
-        cell.value = new
 
-for src,dst in zip(clusters,op_cluster_ranking['B{0}:B{1}'.format(str(op_cluster_ranking_ceil),str(op_cluster_ranking_ceil+len(clusters)))]):
+for r in range(3,ip_companies_list_floor):
+    for f in range(len(cluster_formulae)):
+        if cluster_formulae[f]==None:
+            pass
+            # op_cluster_ranking.cell(row=r,column=(f+1)).value = cluster_formulae[f].format(str(r))
+        else:
+            op_cluster_ranking.cell(row=r,column=(f+1)).set_explicit_value(value=cluster_formulae[f].format(str(r)),data_type='f')
+
+for src,dst in zip(clusters,op_cluster_ranking['B{0}:B{1}'.format(op_cluster_ranking_ceil,op_cluster_ranking_ceil+len(clusters))]):
     dst[0].value = src
+
+
+
 book.save(output_file)

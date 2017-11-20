@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 from openpyxl.utils import get_column_letter
 import openpyxl
 
@@ -35,13 +36,12 @@ for row in ip_target_report['A3:K326']:
     for cell in row:
         cell.value = None
 
-for row in op_company_ranking['B3:B585']:
+for row in op_company_ranking['A3:R585']:
     for cell in row:
         cell.value = None
 
-for row in op_cluster_ranking['B3:B15']:
+for row in op_cluster_ranking['A3:M15']:
     for cell in row:
         cell.value = None
-
 
 book.save(template_file)
