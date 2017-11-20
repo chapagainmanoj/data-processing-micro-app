@@ -98,7 +98,7 @@ def process():
             try:
                 os.remove(output[0])
             except OSError:
-                pass
+                return "No Output: Recheck the input file/s"
             return res
         else:
             # _pool.apply_async(process_mail,[command,output[0],"Output for the process: {0}".format(data['title'])])
