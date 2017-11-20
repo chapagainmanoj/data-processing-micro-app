@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 
 Author: HB Boosalis
@@ -27,8 +29,8 @@ import zipfile as Zip
 from collections import OrderedDict as OD
 
 
-json_f = sys.argv[1]
-csv_f = sys.argv[2]
+json_f = sys.argv[2]
+csv_f = sys.argv[1]
 z = Zip.ZipFile("Cluster_Tightness_and_Adjacency.zip","a")
 
 with open(json_f, 'r') as f:

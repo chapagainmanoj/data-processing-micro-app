@@ -96,7 +96,7 @@
         ],
         "output":[
           {
-            "name":"cluster_adjacency_tightness_score",
+            "name":"Cluster_Tightness_and_Adjacency",
             "description":"Zip file containing up to 6 CSVs",
             "extension":".zip"
           }

@@ -83,9 +83,8 @@ def process():
         st = os.stat(script_path)
         os.chmod(script_path, st.st_mode | stat.S_IEXEC)
 
-        print(command)
         if download:
-            subprocess.run(command,stdout=subprocess.PIPE)
+            subprocess.run(command)
             res = HTTPResponse()
             res.headers['Content-Type'] \
             = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -101,27 +100,22 @@ def process():
                     pass
 
             try:
-                os.remove(output_filename)
+                os.remove(output[0])
             except OSError:
                 pass
-                return res
-        # for output_filename in output:
+            return res
         else:
-            _pool.apply_async(process_mail_wrapper,[command,output[0],"Output for the process: {0}".format(data['title'])])
-            print("mail will be sent")
+            # _pool.apply_async(process_mail_wrapper,[command,output[0],"Output for the process: {0}".format(data['title'])])
+            # print("mail will be sent")
+            pass
 
     else:
         return "Error processing request"
 
 
 if __name__ == '__main__':
-    _pool = Pool(processes=4)
     port = int(os.environ.get('PORT', 8080))
-    try:
-        run(host='0.0.0.0', port=port, debug=True)
-    except KeyboardInterrupt:
-        _pool.close()
-        _pool.join()
+    run(host='localhost', port=port, debug=True)
 
 
 application = bottle.default_app()
