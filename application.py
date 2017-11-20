@@ -1,16 +1,15 @@
 import os
 import json
-import subprocess
 import stat
 import bottle
 import tempfile
-from bottle import route, run, template, auth_basic, request, response
+import subprocess
+from multiprocessing import Pool
+from bottle import route, run, template, auth_basic, request, HTTPResponse
 
+from mail.mail import send_mail
 
 INFO_PATH = 'data.json'
-DIR_SCRIPTS = 'scripts'
-OUTPUT_TEMPLATES = 'output_templates'
-
 
 def check_auth(user, pw):
     username = 'quid'
@@ -21,79 +20,97 @@ def check_auth(user, pw):
     return False
 
 
-def get_info(filename):
-    with open(filename) as data_file:
-        data = json.load(data_file)
-    return data
+def save_to_temp(upload):
+    name, ext = os.path.splitext(upload.filename)
+    tmp = tempfile.NamedTemporaryFile(suffix=ext)
+    input_filename = tmp.name
+    tmp.close()
+    try:
+        upload.save(input_filename)
+        return input_filename
+    except:
+        return "Error saving uploaded file"
 
+def process_mail(command, filename, title):
+    subprocess.run(command)
+    print("sending mail")
+    send_mail(filename,title)
 
 @route('/', method='GET')
 @auth_basic(check_auth)
 def index():
-    drop_down = get_info(INFO_PATH)
-    return template('templates/index', menu=drop_down)
+    with open(INFO_PATH) as data_file:
+        data = json.load(data_file)
+    return template('templates/index', menu=data)
 
 
 @route('/', method='POST')
 def process():
-    script_id = request.forms.selector
-    upload = request.files.get('data')
-
-    # random files
-    tmp = tempfile.NamedTemporaryFile(suffix='.csv')
-    input_filename = tmp.name
-    tmp.close()
-
-    tmp = tempfile.NamedTemporaryFile(suffix='.xlsx')
-    output_filename = tmp.name
-    tmp.close()
-
-    try:
-        upload.save(input_filename)
-    except:
-        return "Error saving uploaded file"
+    script_id = request.forms.script_id[0]
 
     if script_id:
+        input_files = None
+        script_path =None
+        output = None
+        template = None
+        download = False
         with open(INFO_PATH) as data_file:
             data = json.load(data_file)
             for script in data:
-                if int(script['id']) == int(script_id):
-                    # filename, file_extension = os.path.splitext(script["script"])
-
-                    script_path = "{}/{}".format(DIR_SCRIPTS, script['script'])
-
-                    st = os.stat(script_path)
-                    os.chmod(script_path, st.st_mode | stat.S_IEXEC)
-                    subprocess.run([script_path, input_filename, output_filename,
-                                    "{}/{}".format(OUTPUT_TEMPLATES,script['output_template'])],
-                                   stdout=subprocess.PIPE)
-
-                    with open(output_filename, 'rb') as fp:
-                        contents = fp.read()
-
+                if script.get('id') == int(script_id):
                     try:
-                        os.remove(input_filename)
-                    except OSError:
-                        pass
+                        input_files = [request.files.get(inputs.get('name')) for inputs in script.get('input')]
+                        script_path = '{0}{1}'.format(script.get('dir'),script.get('script'))
+                        output = ['{0}{1}'.format(output.get('name'),output.get('extension')) for output in script.get('output')]
+                        if 'template' in script:
+                            template = ['{0}{1}'.format(script.get('dir'),templ.get('name')) for templ in script.get('template')]
+                        if script.get('download') == 'yes': download = True
+                    except:
+                        return "Error parsing scripts info"
 
-                    try:
-                        os.remove(output_filename)
-                    except OSError:
-                        pass
+        inputs  = list(map(save_to_temp,input_files))
+        command = [script_path]
+        for ip in inputs:
+            command.append(ip)
+        for op in output: command.append(op)
+        if template:
+            for tp in template: command.append(tp)
 
-                    response.headers['Content-Type'] \
-                        = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-                    response.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
-                        format(script['output_filename'])
+        st = os.stat(script_path)
+        os.chmod(script_path, st.st_mode | stat.S_IEXEC)
 
-                    return contents
+        if download:
+            subprocess.run(command)
+            res = HTTPResponse()
+            res.headers['Content-Type'] \
+            = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+            res.headers['Content-Disposition'] = 'attachment; filename="{}"'.\
+            format(output[0])
+
+            with open(output[0], 'rb') as fp:
+                res.body = fp.read()
+            for input_filename in inputs:
+                try:
+                    os.remove(input_filename)
+                except OSError:
+                    pass
+
+            try:
+                os.remove(output[0])
+            except OSError:
+                pass
+            return res
+        else:
+            # _pool.apply_async(process_mail,[command,output[0],"Output for the process: {0}".format(data['title'])])
+            # print("mail will be sent")
+            pass
+
     else:
         return "Error processing request"
 
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
-    run(host='0.0.0.0', port=port, debug=True)
-
+    run(host='localhost', port=port, debug=True)
 
 application = bottle.default_app()
