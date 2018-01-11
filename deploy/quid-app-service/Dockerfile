@@ -1,4 +1,5 @@
-FROM quay.io/grepsr/altos-service-py-base:latest
+FROM nginx:alpine
+FROM ubuntu:latest
 
 ENV BUILD_DEPS="git-core curl openssh-client unzip g++ curl"
 
