@@ -8,8 +8,8 @@ RUN apt-get update -qq && \
 RUN apt-get install -qqy \
     python-virtualenv \
     libpq-dev \
-    python3=3.6.* \
-    python3-dev=3.6.*
+    python3=3.6 \
+    python3-dev=3.6
 
 ENV BUILD_DEPS="git-core build-essential openssh-client unzip g++ curl"
 
