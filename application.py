@@ -37,7 +37,7 @@ def process_mail(command, filename, title):
     send_mail(filename,title)
 
 @route('/', method='GET')
-@auth_basic(check_auth)
+# @auth_basic(check_auth)
 def index():
     with open(INFO_PATH) as data_file:
         data = json.load(data_file)
