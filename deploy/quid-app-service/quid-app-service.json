@@ -2,7 +2,7 @@
   "prd":{
     "container": null,
     "hostname": null,
-    "image": "quay.io/grepsr/quid-app-service",
+    "image": "quay.io/chapagainmanoj/quid-test",
     "dockerParams": {
     },
     "volumes": [
