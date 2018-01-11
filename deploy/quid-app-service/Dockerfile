@@ -1,5 +1,5 @@
 FROM nginx:alpine
-FROM ubuntu:latest
+FROM python:2.7-slim
 
 ENV BUILD_DEPS="git-core curl openssh-client unzip g++ curl"
 
@@ -25,3 +25,12 @@ USER grepsr
 WORKDIR /home/grepsr/$SERVICE_NAME
 
 ENTRYPOINT ["run_webapp.sh"]
+
+# FROM node:7-alpine
+# RUN mkdir -p /src/app
+# WORKDIR /src/app
+# COPY package.json /src/app/package.json
+# RUN npm install
+# COPY . /src/app
+# EXPOSE 3000
+# CMD [ "npm", "start" ]
